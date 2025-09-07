@@ -26,6 +26,10 @@ body {
   @apply bg-neutral-900/70 border-neutral-800;
 }
 
+.sticky-card {
+  @apply sticky top-14 z-10 backdrop-blur bg-white/70 dark:bg-neutral-900/70;
+}
+
 .btn {
   @apply inline-flex items-center gap-2 rounded-xl border px-3 py-2 text-sm border-neutral-300 hover:bg-neutral-100;
 }

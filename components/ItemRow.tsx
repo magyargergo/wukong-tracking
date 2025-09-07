@@ -12,8 +12,8 @@ export function ItemRow({ item }: { item: Item }) {
     <li className="card p-4 flex flex-col gap-3">
       <div className="flex items-center gap-3">
         <label className="flex items-center gap-3 cursor-pointer">
-          <input type="checkbox" className="accent-accent w-5 h-5" checked={done} onChange={()=>toggle(item.id)} />
-          <span className="font-medium">{item.name}</span>
+          <input type="checkbox" className="accent-accent w-6 h-6" checked={done} onChange={()=>toggle(item.id)} />
+          <span className="font-medium text-base sm:text-lg">{item.name}</span>
         </label>
         <div className="flex gap-2 flex-wrap">
           {item.category && <span className="badge">{item.category}</span>}
@@ -22,7 +22,7 @@ export function ItemRow({ item }: { item: Item }) {
           {item.ngPlusOnly && <span className="badge">NG+</span>}
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row sm:items-start gap-3 sm:gap-6">
+      <div className="flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-6">
         {hasDetails && (
           <details className="sm:w-72">
             <summary className="cursor-pointer text-sm text-accent">Guides</summary>
@@ -47,7 +47,7 @@ export function ItemRow({ item }: { item: Item }) {
         )}
         <div className="w-full sm:w-80 sm:ml-auto">
           <input
-            className="input w-full"
+            className="input w-full text-base"
             placeholder="Your note…"
             value={note}
             onChange={e=>setNote(item.id, e.target.value)}

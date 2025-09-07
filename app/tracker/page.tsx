@@ -29,7 +29,7 @@ function TrackerInner() {
 
   return (
     <div className="space-y-4">
-      <div className="card p-4 flex gap-3 flex-wrap items-center">
+      <div className="card sticky-card p-4 flex gap-3 flex-wrap items-center">
         <input className="input w-full sm:w-72" placeholder="Search name or notes..." value={query} onChange={e=>setQuery(e.target.value)} />
         <label className="badge gap-2 cursor-pointer">
           <input type="checkbox" className="accent-accent" checked={onlyIncomplete} onChange={e=>setOnlyIncomplete(e.target.checked)} />
@@ -42,7 +42,7 @@ function TrackerInner() {
         <button className="btn ml-auto" onClick={()=>setCsvOpen(true)}>CSV Paste</button>
       </div>
 
-      <ul className="grid grid-cols-1 gap-2">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2">
         {filtered.map(it => <ItemRow key={it.id} item={it} />)}
         {filtered.length===0 && <div className="text-neutral-400 p-6 text-center">No items match your filters.</div>}
       </ul>
