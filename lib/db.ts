@@ -6,10 +6,6 @@ type SessionRow = { id: number; token: string; user_id: number; created_at: numb
 function sql() {
   const url = process.env.DATABASE_URL;
   if (!url) throw new Error("DATABASE_URL is required for Neon Postgres");
-  // Reuse connections across invocations to cut TLS/setup costs
-  try {
-    neonConfig.fetchConnectionCache = true;
-  } catch {}
   return neon(url);
 }
 
@@ -33,7 +29,6 @@ async function ensureSchema() {
     updated_at integer not null default 0,
     primary key(user_id, item_id)
   )`;
-  await q`alter table progress add column if not exists updated_at integer not null default 0`;
 
   await q`create table if not exists sessions (
     id serial primary key,
