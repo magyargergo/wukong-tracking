@@ -1,156 +1,156 @@
 [
   {
-    "id": "formulas-all-medicine-formulas",
-    "name": "All Medicine Formulas",
+    "id": "formulas-soul-remigration-pill",
+    "name": "Soul Remigration Pill",
     "category": "Formulas",
-    "description": "Soul Remigration Pill: can be bought from Xu Dog only in New Game+.\nSeptenary Heartfire Pill: Chapter 5 > Secret: Bishui Cave > Purge Pit: First, see How to Reach Chapter 5 Secret Area (Bishui Cave). From the shrine, perform a jump and a heavy attack in mid-air to reach the ledge behind it and you'll find this in the chest opposite you.\nAscension Powder: automatically earned after defeating the \"Supreme Inspector\" boss at the start of Chapter 6.\nLoong Aura Amplification Pellets: can be bought from Xu Dog, available from the start of Chapter 5.\nEnhanced Ginseng Pellets: Chapter 4 > Webbed Hollow > The Verdure Bridge: from the Shrine, tread across the vine planks and continue left until you can enter a side room with different chests.\nEnhanced Tiger Subduing Pellets: Chapter 3 > Bitter Lake > Precept Corridor: from the Shrine, continue down the slope, hard to miss.\nMirage Pill: Chapter 4 > Webbed Hollow > The Verdure Bridge: from the Shrine, tread across the vine planks and drop at the cliff ahead, past the spider cocoons and the village up the stairs.\nBody-Fleeting Powder: Chapter 3 > New Thunderclap Temple > Temple Entrance: From this shrine go straight forward, through a wooden temple building, then up the next staircase. After going upstairs, take the left path downstairs, enter the next building straight ahead, go up the stairs in the building. From the top floor go over the wooden bridge, at the end you find this in a golden container, next to the horse NPC.\nLife-Saving Pill: Chapter 4 > Secret Area: Purple Cloud Mountain > Cloudnest Peak: First, see How to Reach Chapter 4 Secret Area. From the shrine, go right to find a small container with this formula.\nEssence Decoction: can be bought from Xu Dog, available from the start of Chapter 4.\nTonifying Decoction: can be bought from Xu Dog, available from the start of Chapter 3.\nLongevity Decoction: can be bought from Xu Dog, available from the start of Chapter 2.\nFortifying Medicament: acquired during Chen Loong questline, as part of the quest you have to talk to Xu Dog and he will give you this formula.\nEvil Repelling Medicament: dropped by boss \"Lang-Li-Guhh-Baw\" in Chapter 2 > Sandgate Village > Village Entrance: To the left of this shrine drop down the ravine and go down the path. At the end of the path you will find a flooded area with this frog miniboss.\nThose are all 14 Formulas, after getting the last one you will unlock the Page Preserver trophy/achievement.\nFor all other collectibles check out Black Myth Wukong 100% Wiki.",
+    "description": "Can be bought from Xu Dog only in New Game+.",
     "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
     ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-ascension-powder",
-    "name": "Ascension Powder",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-body-fleeting-powder",
-    "name": "Body-Fleeting Powder",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-enhanced-ginseng-pellets",
-    "name": "Enhanced Ginseng Pellets",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-enhanced-tiger-subduing-pellets",
-    "name": "Enhanced Tiger Subduing Pellets",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-essence-decoction",
-    "name": "Essence Decoction",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-evil-repelling-medicament",
-    "name": "Evil Repelling Medicament",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-fortifying-medicament",
-    "name": "Fortifying Medicament",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-life-saving-pill",
-    "name": "Life-Saving Pill",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-longevity-decoction",
-    "name": "Longevity Decoction",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-loong-aura-amplification-pellets",
-    "name": "Loong Aura Amplification Pellets",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-mirage-pill",
-    "name": "Mirage Pill",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "formulas-page-preserver",
-    "name": "Page Preserver",
-    "category": "Formulas",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "formulas-septenary-heartfire-pill",
     "name": "Septenary Heartfire Pill",
     "category": "Formulas",
-    "description": "",
+    "description": "Chapter 5 > Secret: Bishui Cave > Purge Pit: First, see How to Reach Chapter 5 Secret Area (Bishui Cave). From the shrine, perform a jump and a heavy attack in mid-air to reach the ledge behind it and you'll find this in the chest opposite you.",
     "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-ascension-powder",
+    "name": "Ascension Powder",
+    "category": "Formulas",
+    "description": "Automatically earned after defeating the \"Supreme Inspector\" boss at the start of Chapter 6.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-loong-aura-amplification-pellets",
+    "name": "Loong Aura Amplification Pellets",
+    "category": "Formulas",
+    "description": "Can be bought from Xu Dog, available from the start of Chapter 5.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-enhanced-ginseng-pellets",
+    "name": "Enhanced Ginseng Pellets",
+    "category": "Formulas",
+    "description": "Chapter 4 > Webbed Hollow > The Verdure Bridge: from the Shrine, tread across the vine planks and continue left until you can enter a side room with different chests.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-enhanced-tiger-subduing-pellets",
+    "name": "Enhanced Tiger Subduing Pellets",
+    "category": "Formulas",
+    "description": "Chapter 3 > Bitter Lake > Precept Corridor: from the Shrine, continue down the slope, hard to miss.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-mirage-pill",
+    "name": "Mirage Pill",
+    "category": "Formulas",
+    "description": "Chapter 4 > Webbed Hollow > The Verdure Bridge: from the Shrine, tread across the vine planks and drop at the cliff ahead, past the spider cocoons and the village up the stairs.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-body-fleeting-powder",
+    "name": "Body-Fleeting Powder",
+    "category": "Formulas",
+    "description": "Chapter 3 > New Thunderclap Temple > Temple Entrance: From this shrine go straight forward, through a wooden temple building, then up the next staircase. After going upstairs, take the left path downstairs, enter the next building straight ahead, go up the stairs in the building. From the top floor go over the wooden bridge, at the end you find this in a golden container, next to the horse NPC.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-life-saving-pill",
+    "name": "Life-Saving Pill",
+    "category": "Formulas",
+    "description": "Chapter 4 > Secret Area: Purple Cloud Mountain > Cloudnest Peak: First, see How to Reach Chapter 4 Secret Area. From the shrine, go right to find a small container with this formula.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-essence-decoction",
+    "name": "Essence Decoction",
+    "category": "Formulas",
+    "description": "Can be bought from Xu Dog, available from the start of Chapter 4.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-tonifying-decoction",
+    "name": "Tonifying Decoction",
+    "category": "Formulas",
+    "description": "Can be bought from Xu Dog, available from the start of Chapter 3.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-longevity-decoction",
+    "name": "Longevity Decoction",
+    "category": "Formulas",
+    "description": "Can be bought from Xu Dog, available from the start of Chapter 2.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-fortifying-medicament",
+    "name": "Fortifying Medicament",
+    "category": "Formulas",
+    "description": "Acquired during Chen Loong questline, as part of the quest you have to talk to Xu Dog and he will give you this formula.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "formulas-evil-repelling-medicament",
+    "name": "Evil Repelling Medicament",
+    "category": "Formulas",
+    "description": "Dropped by boss \"Lang-Li-Guhh-Baw\" in Chapter 2 > Sandgate Village > Village Entrance: To the left of this shrine drop down the ravine and go down the path. At the end of the path you will find a flooded area with this frog miniboss.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-formula-locations-tattered-pages/"
+    ],
+    "confidence": 5.5,
+    "verified": true
   }
 ]

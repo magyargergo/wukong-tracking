@@ -14,10 +14,12 @@
     "id": "spirits-baw-li-guhh-lang",
     "name": "Baw-Li-Guhh-Lang",
     "category": "Spirits",
-    "description": "",
+    "description": "Active: Perform a powerful strike with its tongue. Passive: Reduces stamina cost for jumps and jump attacks.",
+    "notes": "Found in Bamboo Grove near the Snake Trail shrine.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.esports.net/news/gaming/all-black-myth-wukong-spirit-locations-and-effects/"
     ],
     "confidence": 5.5
   },
@@ -157,10 +159,12 @@
     "id": "spirits-earth-wolf",
     "name": "Earth Wolf",
     "category": "Spirits",
-    "description": "",
+    "description": "Active: Ram into and stagger enemies. Passive: Grants focus upon hitting an enemy.",
+    "notes": "Located in Yellow Wind Ridge near the Sandgate Village shrine.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.esports.net/news/gaming/all-black-myth-wukong-spirit-locations-and-effects/"
     ],
     "confidence": 5.5
   },
@@ -278,10 +282,12 @@
     "id": "spirits-guangmou",
     "name": "Guangmou",
     "category": "Spirits",
-    "description": "",
+    "description": "Active: Summon two snakes to fight alongside you. Passive: Increases poison damage and resistance.",
+    "notes": "Located in Bamboo Grove near the Snake Trail shrine.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.esports.net/news/gaming/all-black-myth-wukong-spirit-locations-and-effects/"
     ],
     "confidence": 5.5
   },
@@ -432,10 +438,12 @@
     "id": "spirits-rat-archer",
     "name": "Rat Archer",
     "category": "Spirits",
-    "description": "",
+    "description": "Active: Shoot a volley of flaming arrows at enemies. Passive: Reduces stamina cost of Staff Spin.",
+    "notes": "Found in Yellow Wind Ridge near the Sandgate Village shrine.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.esports.net/news/gaming/all-black-myth-wukong-spirit-locations-and-effects/"
     ],
     "confidence": 5.5
   },
@@ -520,10 +528,12 @@
     "id": "spirits-spearbone",
     "name": "Spearbone",
     "category": "Spirits",
-    "description": "",
+    "description": "Active: Charge with Spearbone's shield. Passive: Increases damage reduction.",
+    "notes": "Found in Yellow Wind Ridge near the Rockrest Flat shrine.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.esports.net/news/gaming/all-black-myth-wukong-spirit-locations-and-effects/"
     ],
     "confidence": 5.5
   },
@@ -531,10 +541,12 @@
     "id": "spirits-swift-bat",
     "name": "Swift Bat",
     "category": "Spirits",
-    "description": "",
+    "description": "Active: Hit enemies with stones wafted up from the ground. Passive: Increases stamina recovery rate.",
+    "notes": "Located in Yellow Wind Ridge.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.esports.net/news/gaming/all-black-myth-wukong-spirit-locations-and-effects/"
     ],
     "confidence": 5.5
   },
@@ -586,10 +598,23 @@
     "id": "spirits-wandering-wight",
     "name": "Wandering Wight",
     "category": "Spirits",
-    "description": "",
+    "description": "Active: Ram into enemies, dealing heavy damage. Passive: Increases defense.",
+    "notes": "Located in the Forest of Wolves near the Outside the Forest shrine.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.esports.net/news/gaming/all-black-myth-wukong-spirit-locations-and-effects/"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-wolf-assassin",
+    "name": "Wolf Assassin",
+    "category": "Spirits",
+    "description": "Active: Throw knives toward enemies. Passive: Increases critical hit chance.",
+    "notes": "Found in Bodhi Peak.",
+    "sources": [
+      "https://www.esports.net/news/gaming/all-black-myth-wukong-spirit-locations-and-effects/"
     ],
     "confidence": 5.5
   }

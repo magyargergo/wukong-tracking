@@ -1,288 +1,305 @@
 [
   {
-    "id": "soaks-brewer-s-bounty",
-    "name": "Brewer’s Bounty",
-    "category": "Soaks",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
-    "id": "soaks-orchid",
-    "name": "Orchid",
-    "category": "Soaks",
-    "description": "",
-    "sources": [
-      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
-    ],
-    "confidence": 5.5
-  },
-  {
     "id": "soaks-soak-1-gall-gem",
-    "name": "Soak #1: Gall Gem",
+    "name": "Gall Gem",
     "category": "Soaks",
-    "description": "",
+    "description": "Moderately increases Poison Resistance for a short duration after using the gourd.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-10-thunderbolt-horn",
-    "name": "Soak #10: Thunderbolt Horn",
+    "name": "Thunderbolt Horn",
     "category": "Soaks",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-11-stranded-loong-s-whisker",
-    "name": "Soak #11: Stranded Loong’s Whisker",
+    "name": "Stranded Loong’s Whisker",
     "category": "Soaks",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-12-breath-of-fire",
-    "name": "Soak #12: Breath Of Fire",
+    "name": "Breath Of Fire",
     "category": "Soaks",
-    "description": "",
+    "description": "Significantly increases attack for the next Unveiling Strike in Cloud Step for a short duration.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-13-turtle-tear",
-    "name": "Soak #13: Turtle Tear",
+    "name": "Turtle Tear",
     "category": "Soaks",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-14-sweet-ice",
-    "name": "Soak #14: Sweet Ice",
+    "name": "Sweet Ice",
     "category": "Soaks",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-15-goji-shoots",
-    "name": "Soak #15: Goji Shoots",
+    "name": "Goji Shoots",
     "category": "Soaks",
-    "description": "",
+    "description": "Moderately extends the duration of the next Ring of Fire for a short duration after using the gourd.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-16-purple-veined-peach-pit",
-    "name": "Soak #16: Purple-Veined Peach Pit",
+    "name": "Purple-Veined Peach Pit",
     "category": "Soaks",
-    "description": "",
+    "description": "Massively increases the Health recovery from using the gourd when at Critical Health.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-17-deathstinger",
-    "name": "Soak #17: Deathstinger",
+    "name": "Deathstinger",
     "category": "Soaks",
-    "description": "",
+    "description": "After using the gourd, inflicts a weak Poisoned State to the Destined One.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-18-bee-mountain-stone",
-    "name": "Soak #18: Bee Mountain Stone",
+    "name": "Bee Mountain Stone",
     "category": "Soaks",
-    "description": "",
+    "description": "Grants a considerable chance to take a sip without consuming gourd uses.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-19-fruit-of-dao",
-    "name": "Soak #19: Fruit Of Dao",
+    "name": "Fruit Of Dao",
     "category": "Soaks",
-    "description": "",
+    "description": "Moderately extends the duration of Invincibility upon executing a Dodge for a short duration after using the gourd.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-2-tender-jade-lotus",
-    "name": "Soak #2: Tender Jade Lotus",
+    "name": "Tender Jade Lotus",
     "category": "Soaks",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-20-undying-vine",
-    "name": "Soak #20: Undying Vine",
+    "name": "Undying Vine",
     "category": "Soaks",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-21-double-combed-rooster-blood",
-    "name": "Soak #21: Double-Combed Rooster Blood",
+    "name": "Double-Combed Rooster Blood",
     "category": "Soaks",
-    "description": "",
+    "description": "Using the gourd while in Poisoned State removes the Poisoned State and moderately increases movement speed and critical hit chance.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-22-mount-lingtai-seedlings",
-    "name": "Soak #22: Mount Lingtai Seedlings",
+    "name": "Mount Lingtai Seedlings",
     "category": "Soaks",
-    "description": "",
+    "description": "Moderately extends the duration of Duplicates for the next A Pluck of Many for a short duration after using the gourd.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-23-slumbering-beetle-husk",
-    "name": "Soak #23: Slumbering Beetle Husk",
+    "name": "Slumbering Beetle Husk",
     "category": "Soaks",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-24-flame-mediator",
-    "name": "Soak #24: Flame Mediator",
+    "name": "Flame Mediator",
     "category": "Soaks",
-    "description": "",
+    "description": "Moderately increases Burn Resistance for a short duration after using the gourd.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-25-flower-primes",
-    "name": "Soak #25: Flower Primes",
+    "name": "Flower Primes",
     "category": "Soaks",
-    "description": "",
+    "description": "Removes all Four Bane States upon using the gourd.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-26-graceful",
-    "name": "Soak #26: Graceful",
+    "name": "Graceful Orchid",
     "category": "Soaks",
-    "description": "",
+    "description": "Slowly recovers a small amount of Health for a short duration after using the gourd.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-27-guanyin-s-willow-leaf",
-    "name": "Soak #27: Guanyin’s Willow Leaf",
+    "name": "Guanyin’s Willow Leaf",
     "category": "Soaks",
-    "description": "",
+    "description": "Upon resurrection in battle, recovers gourd uses.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-3-laurel-buds",
-    "name": "Soak #3: Laurel Buds",
+    "name": "Laurel Buds",
     "category": "Soaks",
-    "description": "",
+    "description": "Moderately increases Damage Reduction for a short duration after using the gourd.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-4-steel-ginseng",
-    "name": "Soak #4: Steel Ginseng",
+    "name": "Steel Ginseng",
     "category": "Soaks",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-5-iron-pellet",
-    "name": "Soak #5: Iron Pellet",
+    "name": "Iron Pellet",
     "category": "Soaks",
-    "description": "",
+    "description": "Using the gourd can no longer be interrupted by incoming attacks and now provides considerable Damage Reduction.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://blackmythwukong.wiki.fextralife.com/Soaks"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "soaks-soak-6-tiger-relic",
-    "name": "Soak #6: Tiger Relic",
+    "name": "Tiger Relic",
     "category": "Soaks",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   }
 ]

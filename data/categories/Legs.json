@@ -1,0 +1,165 @@
+[
+  {
+    "id": "legs-lotus-silk-cloudtreaders-fake",
+    "name": "Lotus Silk Cloudtreaders (Wukong's Fake Armor)",
+    "category": "Legs",
+    "description": "Unmissable, story-related. Automatically earned in Chapter 6.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-bull-kings-greaves",
+    "name": "Bull King's Greaves",
+    "category": "Legs",
+    "description": "Can be crafted after defeating Bishui Golden-Eyed Beast at the end of Chapter 5's secret area. Requires Bull King's Iron Horns dropped by this boss (must beat it again in NG+ to craft full set). Another horn is found in chest in Chapter 5 Secret Area so be sure to grab this too. In order to craft the full set you will need New Game+ to get enough materials.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/", "https://www.digitaltrends.com/gaming/black-myth-wukong-best-armor-sets/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-pilgrims-legwraps",
+    "name": "Pilgrim's Legwraps",
+    "category": "Legs",
+    "description": "Can be crafted upon reaching the \"Guanine Temple Shrine\" in Chapter 1.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-yaksha-greaves-of-outrage",
+    "name": "Yaksha Greaves of Outrage",
+    "category": "Legs",
+    "description": "Can be crafted after reaching the first Shrine in Chapter 6.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-iron-tough-greaves",
+    "name": "Iron-Tough Greaves",
+    "category": "Legs",
+    "description": "Can be crafted after challenging and defeating the Yin Tiger blacksmith in Zodiac Village. Must have done Chen Loong questline to reach Zodiac Village.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-centipede-greaves-of-transcendence",
+    "name": "Centipede Greaves of Transcendence",
+    "category": "Legs",
+    "description": "Can be crafted after reaching the first Shrine in Chapter 5.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-non-pure-greaves",
+    "name": "Non-Pure Greaves",
+    "category": "Legs",
+    "description": "Can be crafted after defeating Zhu Bajie boss in Chapter 4.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-golden-greaves",
+    "name": "Golden Greaves",
+    "category": "Legs",
+    "description": "Can be crafted after reaching the first Shrine in Chapter 4.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-insect-spike-greaves",
+    "name": "Insect Spike Greaves",
+    "category": "Legs",
+    "description": "Can be crafted after defeating Fuban boss in Chapter 2 Secret Area.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-loongscale-greaves",
+    "name": "Loongscale Greaves",
+    "category": "Legs",
+    "description": "Can be crafted after defeating Kang-Jin Star boss in Chapter 3's Turtle Island.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-ochre-greaves",
+    "name": "Ochre Greaves",
+    "category": "Legs",
+    "description": "Can be crafted after reaching the first Shrine in Chapter 3.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-folk-opera-buskins",
+    "name": "Folk Opera Buskins",
+    "category": "Legs",
+    "description": "Exclusive to the Deluxe Edition of the game. If owned, it can be crafted at the first Shrine of the game. Not necessary for the trophy.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true,
+    "notes": "Deluxe Edition Exclusive"
+  },
+  {
+    "id": "legs-galeguard-grevaes",
+    "name": "Galeguard Grevaes",
+    "category": "Legs",
+    "description": "Can be crafted after defeating the Stone Vanguard boss in Chapter 2.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-ebongold-gaiters",
+    "name": "Ebongold Gaiters",
+    "category": "Legs",
+    "description": "Can be crafted when reaching the first Shrine in Chapter 2.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-bronze-buskins",
+    "name": "Bronze Buskins",
+    "category": "Legs",
+    "description": "Can be crafted after defeating Elder Jinchi boss in Chapter 1 Secret area.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-serpentscale-gaiters",
+    "name": "Serpentscale Gaiters",
+    "category": "Legs",
+    "description": "Can be crafted after defeating White Clad Noble in Chapter 1.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-lotus-silk-cloudtreaders-true",
+    "name": "Lotus Silk Cloudtreaders (Wukong's True Armor)",
+    "category": "Legs",
+    "description": "Chapter 6 > Foothills > Verdant Path. From the Shrine, turn left 90° and you'll see a mountain at the end of the path. Fly on the cloud, land on this mountain to find a small golden chest that contains this secret armor set.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "legs-cotton-legwraps",
+    "name": "Cotton Legwraps",
+    "category": "Legs",
+    "description": "You start the game with this armor piece.",
+    "sources": ["https://www.powerpyx.com/black-myth-wukong-all-armor-locations/"],
+    "confidence": 5.5,
+    "verified": true
+  }
+]

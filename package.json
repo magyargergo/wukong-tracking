@@ -15,10 +15,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "split:data": "node scripts/split-data.mjs",
-    "crawl:powerpyx": "node --experimental-fetch scripts/crawl-powerpyx.mjs",
-    "normalize:data": "node scripts/normalize-data.mjs"
+    "lint": "next lint"
   },
   "dependencies": {
     "lucide-react": "^0.479.0",

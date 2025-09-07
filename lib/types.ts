@@ -1,6 +1,6 @@
 export type Category =
   | "Spirits" | "Transformations" | "Spells"
-  | "Weapons" | "Armor" | "Curios" | "Vessels"
+  | "Weapons" | "Arms" | "Body" | "Headgear" | "Legs" | "Curios" | "Vessels"
   | "Gourds" | "Drinks" | "Soaks" | "Seeds"
   | "MeditationSpots" | "Formulas";
 

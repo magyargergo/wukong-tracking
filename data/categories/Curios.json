@@ -1,398 +1,544 @@
 [
   {
     "id": "curios-curio-1-cat-eye-beads-missable",
-    "name": "Curio #1: Cat Eye Beads [MISSABLE]",
+    "name": "Cat Eye Beads",
     "category": "Curios",
     "description": "",
+    "notes": "MISSABLE",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-10-auspicious-lantern-missable",
-    "name": "Curio #10: Auspicious Lantern [MISSABLE]",
+    "name": "Auspicious Lantern",
     "category": "Curios",
     "description": "",
+    "notes": "MISSABLE",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-11-fine-china-tea-bowl",
-    "name": "Curio #11: Fine China Tea Bowl",
+    "name": "Fine China Tea Bowl",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-12-frostsprout-twig",
-    "name": "Curio #12: Frostsprout Twig",
+    "name": "Frostsprout Twig",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-13-maitreya-s-orb",
-    "name": "Curio #13: Maitreya’s Orb",
+    "name": "Maitreya’s Orb",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-14-gold-spikeplate",
-    "name": "Curio #14: Gold Spikeplate",
+    "name": "Gold Spikeplate",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-15-bronze-buddha-pendant",
-    "name": "Curio #15: Bronze Buddha Pendant",
+    "name": "Bronze Buddha Pendant",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-16-snow-fox-brush",
-    "name": "Curio #16: Snow Fox Brush",
+    "name": "Snow Fox Brush",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-17-beast-buddha",
-    "name": "Curio #17: Beast Buddha",
+    "name": "Beast Buddha",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-18-thunderflame-seal",
-    "name": "Curio #18: Thunderflame Seal",
+    "name": "Thunderflame Seal",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-19-thunderstone",
-    "name": "Curio #19: Thunderstone",
+    "name": "Thunderstone",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-2-agate-jar",
-    "name": "Curio #2: Agate Jar",
+    "name": "Agate Jar",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-20-cuo-jin-yin-belt-hook",
-    "name": "Curio #20: Cuo Jin-Yin Belt Hook",
+    "name": "Cuo Jin-Yin Belt Hook",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-21-spine-in-the-sack",
-    "name": "Curio #21: Spine In The Sack",
+    "name": "Spine In The Sack",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-22-golden-carp",
-    "name": "Curio #22: Golden Carp",
+    "name": "Golden Carp",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-23-jade-moon-rabbit",
-    "name": "Curio #23: Jade Moon Rabbit",
+    "name": "Jade Moon Rabbit",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-24-virtuous-bamboo-engraving",
-    "name": "Curio #24: Virtuous Bamboo Engraving",
+    "name": "Virtuous Bamboo Engraving",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-25-tablet-of-the-three-supreme",
-    "name": "Curio #25: Tablet Of The Three Supreme",
+    "name": "Tablet Of The Three Supreme",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-26-tiger-tendon-belt",
-    "name": "Curio #26: Tiger Tendon Belt",
+    "name": "Tiger Tendon Belt",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-27-gold-sun-crow",
-    "name": "Curio #27: Gold Sun Crow",
+    "name": "Gold Sun Crow",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-28-celestial-registry",
-    "name": "Curio #28: Celestial Registry",
+    "name": "Celestial Registry",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-29-preservation-orb",
-    "name": "Curio #29: Preservation Orb",
+    "name": "Preservation Orb",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-3-back-scratcher",
-    "name": "Curio #3: Back Scratcher",
+    "name": "Back Scratcher",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-30-amber-prayer-beads",
-    "name": "Curio #30: Amber Prayer Beads",
+    "name": "Amber Prayer Beads",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-31-white-seashell-waist-chain",
-    "name": "Curio #31: White Seashell Waist Chain",
+    "name": "White Seashell Waist Chain",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-32-gold-button",
-    "name": "Curio #32: Gold Button",
+    "name": "Gold Button",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-33-flame-orb",
-    "name": "Curio #33: Flame Orb",
+    "name": "Flame Orb",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-34-daoist-s-basket-of-fire-and-water",
-    "name": "Curio #34: Daoist’s Basket Of Fire And Water",
+    "name": "Daoist’s Basket Of Fire And Water",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-35-waterward-orb",
-    "name": "Curio #35: Waterward Orb",
+    "name": "Waterward Orb",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-36-celestial-birthstone-fragment",
-    "name": "Curio #36: Celestial Birthstone Fragment",
+    "name": "Celestial Birthstone Fragment",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-37-wind-chime",
-    "name": "Curio #37: Wind Chime",
+    "name": "Wind Chime",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-5-glazed-reliquary",
-    "name": "Curio #5: Glazed Reliquary",
+    "name": "Glazed Reliquary",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-6-goldflora-hairpin",
-    "name": "Curio #6: Goldflora Hairpin",
+    "name": "Goldflora Hairpin",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-7-tricadna-pendant",
-    "name": "Curio #7: Tricadna Pendant",
+    "name": "Tricadna Pendant",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-8-tiger-tally",
-    "name": "Curio #8: Tiger Tally",
+    "name": "Tiger Tally",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   },
   {
     "id": "curios-curio-9-mani-bead",
-    "name": "Curio #9: Mani Bead",
+    "name": "Mani Bead",
     "category": "Curios",
     "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-curios-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://gamerant.com/black-myth-wukong-find-get-all-curios/",
+      "https://gameranx.com/features/id/508094/article/black-myth-wukong-best-curios-where-to-find-them/",
+      "https://itemlevel.net/black-myth-wukong-all-curios-locations/"
     ],
-    "confidence": 5.5
+    "confidence": 5.5,
+    "verified": true
   }
 ]

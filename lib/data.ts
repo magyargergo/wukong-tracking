@@ -5,7 +5,10 @@ import spirits from "@/data/categories/Spirits.json";
 import transformations from "@/data/categories/Transformations.json";
 import spells from "@/data/categories/Spells.json";
 import weapons from "@/data/categories/Weapons.json";
-import armor from "@/data/categories/Armor.json";
+import arms from "@/data/categories/Arms.json";
+import body from "@/data/categories/Body.json";
+import legs from "@/data/categories/Legs.json";
+import headgear from "@/data/categories/Headgear.json";
 import curios from "@/data/categories/Curios.json";
 import vessels from "@/data/categories/Vessels.json";
 import gourds from "@/data/categories/Gourds.json";
@@ -30,7 +33,10 @@ const allItems: Item[] = [
   ...((transformations as Item[]) ?? []),
   ...((spells as Item[]) ?? []),
   ...((weapons as Item[]) ?? []),
-  ...((armor as Item[]) ?? []),
+  ...((arms as Item[]) ?? []),
+  ...((body as Item[]) ?? []),
+  ...((legs as Item[]) ?? []),
+  ...((headgear as Item[]) ?? []),
   ...((curios as Item[]) ?? []),
   ...((vessels as Item[]) ?? []),
   ...((gourds as Item[]) ?? []),
