@@ -5,7 +5,6 @@ import { Suspense, useMemo, useState } from "react";
 import { useData } from "@/lib/data";
 import { useProgressStore } from "@/lib/store";
 import { ItemRow } from "@/components/ItemRow";
-import { CSVModal } from "@/components/modals/CSVModal";
 
 function TrackerInner() {
   const { items } = useData();
@@ -14,7 +13,6 @@ function TrackerInner() {
   const [query, setQuery] = useState("");
   const [onlyIncomplete, setOnlyIncomplete] = useState(false);
   const [onlyNGP, setOnlyNGP] = useState(false);
-  const [csvOpen, setCsvOpen] = useState(false);
   const { collected } = useProgressStore();
 
   const filtered = useMemo(() => {
@@ -39,7 +37,7 @@ function TrackerInner() {
           <input type="checkbox" className="accent-accent" checked={onlyNGP} onChange={e=>setOnlyNGP(e.target.checked)} />
           Only NG+
         </label>
-        <button className="btn ml-auto" onClick={()=>setCsvOpen(true)}>CSV Paste</button>
+        <div className="ml-auto" />
       </div>
 
       <ul className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2">
@@ -47,7 +45,6 @@ function TrackerInner() {
         {filtered.length===0 && <div className="text-neutral-400 p-6 text-center">No items match your filters.</div>}
       </ul>
 
-      <CSVModal open={csvOpen} onClose={()=>setCsvOpen(false)} />
     </div>
   );
 }
