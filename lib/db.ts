@@ -10,10 +10,29 @@ let dbInstance: Database.Database | null = null;
 
 function getDatabaseFilePath() {
   const configured = process.env.SQLITE_FILE?.trim();
-  const file = configured && configured.length > 0 ? configured : path.join(process.cwd(), ".data", "app.db");
-  const dir = path.dirname(file);
-  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-  return file;
+  if (configured && configured.length > 0) {
+    try {
+      const dir = path.dirname(configured);
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    } catch {}
+    return configured;
+  }
+
+  // Try to use a local writable folder relative to the app (works in most Node hosts)
+  try {
+    const localDir = path.join(process.cwd(), ".data");
+    if (!fs.existsSync(localDir)) fs.mkdirSync(localDir, { recursive: true });
+    return path.join(localDir, "app.db");
+  } catch {
+    // Fall through to temp dir
+  }
+
+  // Serverless fallback: use OS temp dir (ephemeral)
+  const tmpBase = process.env.TMPDIR || process.env.TEMP || "/tmp";
+  try {
+    if (!fs.existsSync(tmpBase)) fs.mkdirSync(tmpBase, { recursive: true });
+  } catch {}
+  return path.join(tmpBase, "wukong-tracker.db");
 }
 
 export function getDb() {
