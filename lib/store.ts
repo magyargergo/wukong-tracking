@@ -1,21 +1,22 @@
 "use client";
 
 import { create } from "zustand";
+import { persist } from "zustand/middleware";
 
 type CollectedEntry = { done: boolean; note?: string };
 type CollectedMap = Record<string, CollectedEntry>;
 
 interface ProgressState {
   collected: CollectedMap;
-  toggle: (id: string) => void;
-  setNote: (id: string, note: string) => void;
+  toggle: (_id: string) => void;
+  setNote: (_id: string, _note: string) => void;
   reset: () => void;
-  importProgress: (incoming: Record<string, any>) => void;
-  ensureKnown: (names: string[]) => void;
+  importProgress: (_incoming: Record<string, any>) => void;
+  ensureKnown: (_names: string[]) => void;
   syncFromServer: () => Promise<void>;
 }
 
-export const useProgressStore = create<ProgressState>()((set, get) => ({
+export const useProgressStore = create<ProgressState>()(persist((set) => ({
   collected: {},
   toggle: (id) => set((s) => ({
     collected: { ...s.collected, [id]: { ...s.collected[id], done: !s.collected[id]?.done } }
@@ -48,7 +49,7 @@ export const useProgressStore = create<ProgressState>()((set, get) => ({
       }
     } catch {}
   }
-}));
+}), { name: "wukong-100-tracker-v1" }));
 
 // Client-side background sync for mutations
 let syncTimer: any = null;
@@ -85,8 +86,34 @@ if (typeof window !== "undefined") {
 
   // Watch state changes and push to server
   useProgressStore.subscribe((state) => {
+    // Send only deltas could be implemented here; for now keep full but consider future optimization.
     schedulePush(state.collected);
   });
+
+  // Lightweight background sync to reflect server/other-device changes without full refresh
+  let isSyncing = false;
+  async function backgroundSync() {
+    if (isSyncing) return;
+    isSyncing = true;
+    try {
+      const res = await fetch(`/api/progress?ts=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) return;
+      const data = await res.json();
+      const incoming = data?.collected as Record<string, { done?: boolean; note?: string }> | undefined;
+      if (!incoming) return;
+      const clean: CollectedMap = {};
+      for (const [k, v] of Object.entries(incoming)) clean[k] = { done: !!v?.done, note: typeof v?.note === "string" ? v.note : undefined };
+      useProgressStore.setState({ collected: clean });
+    } catch {}
+    finally { isSyncing = false; }
+  }
+
+  const pollIntervalMs = 20000;
+  setInterval(backgroundSync, pollIntervalMs);
+  window.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") backgroundSync();
+  });
+  window.addEventListener("focus", () => backgroundSync());
 }
 
 

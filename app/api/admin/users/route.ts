@@ -1,16 +1,10 @@
 import { NextResponse } from "next/server";
 import { corsHeaders, isValidCsrf } from "@/lib/security";
 import { cookies } from "next/headers";
-import { deleteUser, getSessionByToken, getUserById, getUserByUsername, listUsers, upsertUser } from "@/lib/db";
+import { deleteUser, getUserById, listUsers, upsertUser } from "@/lib/db";
 import bcrypt from "bcryptjs";
 
-async function ensureAdminBySession(token?: string): Promise<boolean> {
-  if (!token) return false;
-  const s = await getSessionByToken(token);
-  if (!s || !!s.revoked) return false;
-  const u = await getUserById(s.user_id);
-  return false; // no DB admins for now
-}
+// Note: DB admin roles are not used currently; system admin is env-based.
 
 export async function GET(req: Request) {
   const token = cookies().get("session")?.value;

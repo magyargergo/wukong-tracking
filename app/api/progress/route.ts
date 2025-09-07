@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { getUserFromCookies } from "@/lib/auth";
-import { deleteProgress, getOrCreateUser, getProgressMap, upsertProgress } from "@/lib/db";
+import { deleteProgress, getOrCreateUser, getProgressMap, replaceProgress, upsertProgress } from "@/lib/db";
 import { corsHeaders, isValidCsrf, isValidItemId } from "@/lib/security";
 import { cookies } from "next/headers";
 
@@ -48,13 +48,13 @@ export async function PUT(req: Request) {
   if (!collected || typeof collected !== "object") return NextResponse.json({ error: "Missing collected" }, { status: 400 });
 
   // Replace strategy: clear all then insert current state
-  await deleteProgress(u.id);
+  // Batch replacement in one transaction to avoid N round-trips
+  const filtered: Record<string, { done?: boolean; note?: string }> = {};
   for (const [itemId, entry] of Object.entries(collected)) {
     if (!itemId || !isValidItemId(itemId)) continue;
-    const done = !!(entry as any)?.done;
-    const note = typeof (entry as any)?.note === "string" ? (entry as any).note : undefined;
-    await upsertProgress(u.id, itemId, done, note);
+    filtered[itemId] = { done: !!(entry as any)?.done, note: typeof (entry as any)?.note === "string" ? (entry as any).note : undefined };
   }
+  await replaceProgress(u.id, filtered);
   return NextResponse.json({ ok: true }, { headers: { ...corsHeaders(req) } });
 }
 

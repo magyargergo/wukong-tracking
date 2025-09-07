@@ -1,14 +1,17 @@
 "use client";
 
 import { Item } from "@/lib/types";
+import { useProgressStore } from "@/lib/store";
 
-export function ItemRow({ item, done, note, onToggle, onNote }: { item: Item; done: boolean; note: string; onToggle: (id:string)=>void; onNote: (id:string, note:string)=>void; }) {
-  const hasDetails = Boolean((Array.isArray(item.sources) && item.sources.length > 0) || item.description || item.howToGet || item.notes);
+export function ItemRow({ item }: { item: Item }) {
+  const { collected, toggle, setNote } = useProgressStore();
+  const done = !!collected[item.id];
+  const note = collected[item.id]?.note ?? "";
   return (
     <li className="card p-4 flex flex-col gap-3">
       <div className="flex items-center gap-3">
         <label className="flex items-center gap-3 cursor-pointer">
-          <input type="checkbox" className="accent-accent w-6 h-6" checked={done} onChange={()=>onToggle(item.id)} />
+          <input type="checkbox" className="accent-accent w-6 h-6" checked={done} onChange={()=>toggle(item.id)} />
           <span className="font-medium text-base sm:text-lg">{item.name}</span>
         </label>
         <div className="flex gap-2 flex-wrap">
@@ -44,7 +47,7 @@ export function ItemRow({ item, done, note, onToggle, onNote }: { item: Item; do
             className="input w-full text-base"
             placeholder="Your note…"
             value={note}
-            onChange={e=>onNote(item.id, e.target.value)}
+            onChange={e=>setNote(item.id, e.target.value)}
           />
         </div>
       </div>

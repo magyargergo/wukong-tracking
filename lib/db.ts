@@ -1,16 +1,21 @@
-import { neon } from "@neondatabase/serverless";
+import { neon, neonConfig } from "@neondatabase/serverless";
 
 type UserRow = { id: number; username: string; name?: string | null; password_hash?: string | null; is_admin: boolean };
-type ProgressRow = { user_id: number; item_id: string; done: boolean; note?: string | null };
 type SessionRow = { id: number; token: string; user_id: number; created_at: number; expires_at: number; last_used_at: number; user_agent?: string | null; ip?: string | null; revoked: boolean };
 
 function sql() {
   const url = process.env.DATABASE_URL;
   if (!url) throw new Error("DATABASE_URL is required for Neon Postgres");
+  // Reuse connections across invocations to cut TLS/setup costs
+  try {
+    neonConfig.fetchConnectionCache = true;
+  } catch {}
   return neon(url);
 }
 
 async function ensureSchema() {
+  // Avoid repeating DDL on hot paths within the same runtime
+  if ((globalThis as any).__wukong_schema_initialized__) return;
   const q = sql();
   await q`create table if not exists users (
     id serial primary key,
@@ -39,6 +44,7 @@ async function ensureSchema() {
     ip text,
     revoked boolean not null default false
   )`;
+  (globalThis as any).__wukong_schema_initialized__ = true;
 }
 
 export async function getOrCreateUser(username: string, name?: string): Promise<UserRow> {
@@ -84,6 +90,27 @@ export async function deleteProgress(userId: number, itemId?: string) {
   const q = sql();
   if (itemId) await q`delete from progress where user_id = ${userId} and item_id = ${itemId}`;
   else await q`delete from progress where user_id = ${userId}`;
+}
+
+export async function replaceProgress(userId: number, entries: Record<string, { done?: boolean; note?: string }>) {
+  await ensureSchema();
+  const q = sql();
+  const items: string[] = [];
+  const dones: boolean[] = [];
+  const notes: (string|null)[] = [];
+  for (const [itemId, v] of Object.entries(entries)) {
+    items.push(itemId);
+    dones.push(!!(v as any)?.done);
+    const noteVal = typeof (v as any)?.note === "string" ? (v as any).note as string : null;
+    notes.push(noteVal);
+  }
+  // Execute as two statements to avoid .begin() dependency and multi-command restrictions
+  await q`delete from progress where user_id = ${userId}`;
+  if (items.length > 0) {
+    await q`insert into progress (user_id, item_id, done, note)
+             select ${userId}, x.item_id, x.done, x.note
+             from unnest(${items}::text[], ${dones}::boolean[], ${notes}::text[]) as x(item_id, done, note)`;
+  }
 }
 
 export async function upsertUser(user: { id?: number; username: string; name?: string; password_hash?: string | null; is_admin?: boolean }) {
