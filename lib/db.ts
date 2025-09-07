@@ -1,4 +1,4 @@
-import { neon, neonConfig } from "@neondatabase/serverless";
+import { neon } from "@neondatabase/serverless";
 
 type UserRow = { id: number; username: string; name?: string | null; password_hash?: string | null; is_admin: boolean };
 type SessionRow = { id: number; token: string; user_id: number; created_at: number; expires_at: number; last_used_at: number; user_agent?: string | null; ip?: string | null; revoked: boolean };
