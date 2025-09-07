@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { Sun, Moon, Home, ListTodo, Settings, ArrowLeft } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
+import { useProgressStore } from "@/lib/store";
 
 export function Header() {
   const { theme, setTheme } = useTheme();
@@ -13,6 +14,7 @@ export function Header() {
   const pathname = usePathname();
   const router = useRouter();
   const [isSystemAdmin, setIsSystemAdmin] = useState(false);
+  const { dirty, finalise } = useProgressStore();
 
   useEffect(() => {
     (async () => {
@@ -39,6 +41,7 @@ export function Header() {
         </button>
         <Link href="/" className="font-semibold text-lg">Wukong 100%</Link>
         <nav className="ml-auto flex items-center gap-2">
+          {dirty && !isSystemAdmin && <button className="btn" onClick={finalise}>Finalise</button>}
           <Link className="btn" href="/"><Home size={16}/> Home</Link>
           {!isSystemAdmin && <Link className="btn" href="/tracker"><ListTodo size={16}/> Tracker</Link>}
           {!isSystemAdmin && <Link className="btn" href="/settings"><Settings size={16}/> Settings</Link>}

@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { AppThemeProvider } from "@/components/AppThemeProvider";
 import { Header } from "@/components/Header";
+import { NavGuard } from "@/components/NavGuard";
 
 export const metadata: Metadata = {
   title: "Wukong 100% — Guide & Tracker",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AppThemeProvider>
           <div className="min-h-screen flex flex-col">
             <Header />
+            <NavGuard />
             <main className="flex-1 container mx-auto px-4 py-6">{children}</main>
             <footer className="container mx-auto px-4 py-6 text-xs text-neutral-400">
               Data saved locally • Export often before starting NG+

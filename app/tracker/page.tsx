@@ -1,9 +1,8 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { Suspense, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { useData } from "@/lib/data";
-import { useProgressStore } from "@/lib/store";
 import { ItemRow } from "@/components/ItemRow";
 
 function TrackerInner() {
@@ -13,13 +12,25 @@ function TrackerInner() {
   const [query, setQuery] = useState("");
   const [onlyIncomplete, setOnlyIncomplete] = useState(false);
   const [onlyNGP, setOnlyNGP] = useState(false);
-  const { collected } = useProgressStore();
+  const [collected, setCollected] = useState<Record<string, { done?: boolean; note?: string }>>({});
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const res = await fetch("/api/progress", { cache: "no-store" });
+        if (res.ok) {
+          const data = await res.json();
+          setCollected(data?.collected || {});
+        }
+      } catch {}
+    })();
+  }, []);
 
   const filtered = useMemo(() => {
     return items.filter(it => {
       if (qCat && it.category !== qCat) return false;
       if (onlyNGP && !it.ngPlusOnly) return false;
-      if (onlyIncomplete && collected[it.id]) return false;
+      if (onlyIncomplete && collected[it.id]?.done) return false;
       if (query && !(`${it.name} ${it.notes||""}`.toLowerCase().includes(query.toLowerCase()))) return false;
       return true;
     });
@@ -41,7 +52,16 @@ function TrackerInner() {
       </div>
 
       <ul className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2">
-        {filtered.map(it => <ItemRow key={it.id} item={it} />)}
+        {filtered.map(it => (
+          <ItemRow
+            key={it.id}
+            item={it}
+            done={!!collected[it.id]?.done}
+            note={collected[it.id]?.note ?? ""}
+            onToggle={(id)=> setCollected(c => ({ ...c, [id]: { ...c[id], done: !c[id]?.done } }))}
+            onNote={(id,note)=> setCollected(c => ({ ...c, [id]: { ...c[id], note, done: c[id]?.done ?? false } }))}
+          />
+        ))}
         {filtered.length===0 && <div className="text-neutral-400 p-6 text-center">No items match your filters.</div>}
       </ul>
 
