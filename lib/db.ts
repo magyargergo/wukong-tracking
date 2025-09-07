@@ -12,35 +12,33 @@ function sql() {
 
 async function ensureSchema() {
   const q = sql();
-  await q`
-    create table if not exists users (
-      id serial primary key,
-      username text not null unique,
-      name text,
-      password_hash text,
-      is_admin boolean not null default false
-    );
+  await q`create table if not exists users (
+    id serial primary key,
+    username text not null unique,
+    name text,
+    password_hash text,
+    is_admin boolean not null default false
+  )`;
 
-    create table if not exists progress (
-      user_id integer not null references users(id) on delete cascade,
-      item_id text not null,
-      done boolean not null default false,
-      note text,
-      primary key(user_id, item_id)
-    );
+  await q`create table if not exists progress (
+    user_id integer not null references users(id) on delete cascade,
+    item_id text not null,
+    done boolean not null default false,
+    note text,
+    primary key(user_id, item_id)
+  )`;
 
-    create table if not exists sessions (
-      id serial primary key,
-      token text not null unique,
-      user_id integer not null references users(id) on delete cascade,
-      created_at integer not null,
-      expires_at integer not null,
-      last_used_at integer not null,
-      user_agent text,
-      ip text,
-      revoked boolean not null default false
-    );
-  `;
+  await q`create table if not exists sessions (
+    id serial primary key,
+    token text not null unique,
+    user_id integer not null references users(id) on delete cascade,
+    created_at integer not null,
+    expires_at integer not null,
+    last_used_at integer not null,
+    user_agent text,
+    ip text,
+    revoked boolean not null default false
+  )`;
 }
 
 export async function getOrCreateUser(username: string, name?: string): Promise<UserRow> {
