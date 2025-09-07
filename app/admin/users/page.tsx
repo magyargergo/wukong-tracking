@@ -3,12 +3,12 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
-type UserListItem = { id: number; username: string; name?: string; is_admin: boolean };
+type UserListItem = { id: number; username: string; name?: string };
 
 export default function AdminUsersPage() {
   const router = useRouter();
   const [users, setUsers] = useState<UserListItem[]>([]);
-  const [form, setForm] = useState<{ id?: number; username: string; name?: string; password?: string; is_admin: boolean }>({ username: "", name: "", password: "", is_admin: false });
+  const [form, setForm] = useState<{ id?: number; username: string; name?: string; password?: string }>({ username: "", name: "", password: "" });
   const [error, setError] = useState("");
   const [csrf, setCsrf] = useState<string>("");
 
@@ -32,10 +32,10 @@ export default function AdminUsersPage() {
     const res = await fetch("/api/admin/users", {
       method,
       headers: { "content-type": "application/json", "x-csrf-token": csrf },
-      body: JSON.stringify(form)
+      body: JSON.stringify({ id: form.id, username: form.username, name: form.name, password: form.password })
     });
     if (!res.ok) { const d = await res.json().catch(()=>({error:""})); setError(d.error || "Failed"); return; }
-    setForm({ username: "", name: "", password: "", is_admin: false });
+    setForm({ username: "", name: "", password: "" });
     await load();
     router.refresh();
   };
@@ -58,9 +58,8 @@ export default function AdminUsersPage() {
             <div key={u.id} className="py-2 flex items-center gap-3">
               <div className="font-medium">{u.username}</div>
               <div className="text-neutral-500">{u.name}</div>
-              {u.is_admin && <span className="badge">Admin</span>}
               <div className="ml-auto flex gap-2">
-                <button className="btn" onClick={() => setForm({ id: u.id, username: u.username, name: u.name, is_admin: u.is_admin })}>Edit</button>
+                <button className="btn" onClick={() => setForm({ id: u.id, username: u.username, name: u.name })}>Edit</button>
                 <button className="btn" onClick={() => onDelete(u.id)}>Delete</button>
               </div>
             </div>
@@ -75,13 +74,9 @@ export default function AdminUsersPage() {
           <input className="input" placeholder="Username" value={form.username} onChange={e=>setForm(f=>({...f, username: e.target.value}))} />
           <input className="input" placeholder="Name" value={form.name||""} onChange={e=>setForm(f=>({...f, name: e.target.value}))} />
           <input className="input" type="password" placeholder={form.id?"New password (optional)":"Password"} value={form.password||""} onChange={e=>setForm(f=>({...f, password: e.target.value}))} />
-          <label className="badge gap-2 cursor-pointer w-min">
-            <input type="checkbox" className="accent-accent" checked={form.is_admin} onChange={e=>setForm(f=>({...f, is_admin: e.target.checked}))} />
-            Admin
-          </label>
           <div className="flex gap-2">
             <button className="btn" type="submit">{form.id?"Update":"Create"}</button>
-            {form.id && <button className="btn" type="button" onClick={()=>setForm({ username: "", name: "", password: "", is_admin: false })}>Cancel</button>}
+            {form.id && <button className="btn" type="button" onClick={()=>setForm({ username: "", name: "", password: "" })}>Cancel</button>}
           </div>
         </form>
       </section>
