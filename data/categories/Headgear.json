@@ -171,4 +171,14 @@
     "confidence": 5.5,
     "verified": true
   }
+  ,
+  {
+    "id": "headgear-lion-head-of-opulence",
+    "name": "Lion Head of Opulence",
+    "category": "Headgear",
+    "description": "Claimable from the Keeper's Shrine after updating to version 1.0.13.16669.",
+    "sources": ["https://blackmythwukong.fandom.com/wiki/Lion_Head_of_Opulence"],
+    "confidence": 5,
+    "verified": true
+  }
 ]

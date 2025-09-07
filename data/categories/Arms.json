@@ -190,4 +190,14 @@
     "confidence": 5.5,
     "verified": true
   }
+  ,
+  {
+    "id": "arms-armguard-of-opulence",
+    "name": "Armguard of Opulence",
+    "category": "Arms",
+    "description": "Claimable from the Keeper's Shrine after updating to version 1.0.13.16669.",
+    "sources": ["https://blackmythwukong.fandom.com/wiki/Armguard_of_Opulence"],
+    "confidence": 5,
+    "verified": true
+  }
 ]

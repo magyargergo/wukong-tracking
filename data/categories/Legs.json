@@ -162,4 +162,14 @@
     "confidence": 5.5,
     "verified": true
   }
+  ,
+  {
+    "id": "legs-buskins-of-opulence",
+    "name": "Buskins of Opulence",
+    "category": "Legs",
+    "description": "Claimable from the Keeper's Shrine after updating to version 1.0.13.16669.",
+    "sources": ["https://blackmythwukong.fandom.com/wiki/Buskins_of_Opulence"],
+    "confidence": 5,
+    "verified": true
+  }
 ]

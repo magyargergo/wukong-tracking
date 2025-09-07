@@ -31,7 +31,10 @@ export async function POST(req: Request) {
   const note = typeof body?.note === "string" ? body.note : undefined;
   if (!itemId) return NextResponse.json({ error: "Missing itemId" }, { status: 400 });
   if (!isValidItemId(itemId)) return NextResponse.json({ error: "Invalid itemId" }, { status: 400 });
-  await upsertProgress(u.id, itemId, done, note);
+  const applied = await upsertProgress(u.id, itemId, done, note, (body?.updatedAt as number|undefined));
+  if (!applied) {
+    return NextResponse.json({ ok: false, conflict: true, message: "Outdated change. Please refetch." }, { status: 409, headers: { ...corsHeaders(req) } });
+  }
   return NextResponse.json({ ok: true }, { headers: { ...corsHeaders(req) } });
 }
 
@@ -49,12 +52,15 @@ export async function PUT(req: Request) {
 
   // Replace strategy: clear all then insert current state
   // Batch replacement in one transaction to avoid N round-trips
-  const filtered: Record<string, { done?: boolean; note?: string }> = {};
+  const filtered: Record<string, { done?: boolean; note?: string; updatedAt?: number }> = {};
   for (const [itemId, entry] of Object.entries(collected)) {
     if (!itemId || !isValidItemId(itemId)) continue;
-    filtered[itemId] = { done: !!(entry as any)?.done, note: typeof (entry as any)?.note === "string" ? (entry as any).note : undefined };
+    filtered[itemId] = { done: !!(entry as any)?.done, note: typeof (entry as any)?.note === "string" ? (entry as any).note : undefined, updatedAt: Date.now()/1000 };
   }
-  await replaceProgress(u.id, filtered);
+  const result = await replaceProgress(u.id, filtered);
+  if (result.applied < result.total) {
+    return NextResponse.json({ ok: false, conflict: true, applied: result.applied, total: result.total, message: "Some items were outdated. Please refetch." }, { status: 409, headers: { ...corsHeaders(req) } });
+  }
   return NextResponse.json({ ok: true }, { headers: { ...corsHeaders(req) } });
 }
 

@@ -58,11 +58,24 @@ function schedulePush(collected: CollectedMap) {
   syncTimer = setTimeout(async () => {
     try {
       const csrf = (document.cookie.match(/(?:^|; )csrfToken=([^;]+)/)?.[1]) || "";
-      await fetch("/api/progress", {
+      const res = await fetch("/api/progress", {
         method: "PUT",
         headers: { "content-type": "application/json", "x-csrf-token": csrf },
-        body: JSON.stringify({ collected })
+        body: JSON.stringify({ collected: Object.fromEntries(Object.entries(collected).map(([k, v]) => [k, { ...v, updatedAt: Math.floor(Date.now()/1000) }])) })
       });
+      if (res.status === 409) {
+        // Server has newer data; refetch to resolve
+        const latest = await fetch(`/api/progress?ts=${Date.now()}`, { cache: "no-store" });
+        if (latest.ok) {
+          const data = await latest.json();
+          const incoming = data?.collected as Record<string, { done?: boolean; note?: string }>|undefined;
+          if (incoming) {
+            const clean: CollectedMap = {};
+            for (const [k, v] of Object.entries(incoming)) clean[k] = { done: !!v?.done, note: typeof v?.note === "string" ? v.note : undefined };
+            useProgressStore.setState({ collected: clean });
+          }
+        }
+      }
     } catch {}
   }, 300);
 }

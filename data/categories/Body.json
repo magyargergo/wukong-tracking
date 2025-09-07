@@ -180,4 +180,14 @@
     "confidence": 5.5,
     "verified": true
   }
+  ,
+  {
+    "id": "body-red-silk-robe-of-opulence",
+    "name": "Red Silk Robe of Opulence",
+    "category": "Body",
+    "description": "Claimable from the Keeper's Shrine after updating to version 1.0.13.16669.",
+    "sources": ["https://blackmythwukong.fandom.com/wiki/Red_Silk_Robe_of_Opulence"],
+    "confidence": 5,
+    "verified": true
+  }
 ]

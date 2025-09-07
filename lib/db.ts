@@ -30,8 +30,10 @@ async function ensureSchema() {
     item_id text not null,
     done boolean not null default false,
     note text,
+    updated_at integer not null default 0,
     primary key(user_id, item_id)
   )`;
+  await q`alter table progress add column if not exists updated_at integer not null default 0`;
 
   await q`create table if not exists sessions (
     id serial primary key,
@@ -70,19 +72,26 @@ export async function getUserById(id: number): Promise<UserRow | undefined> {
   return rows[0] ? normalizeUser(rows[0]) : undefined;
 }
 
-export async function getProgressMap(userId: number): Promise<Record<string, { done: boolean; note?: string }>> {
+export async function getProgressMap(userId: number): Promise<Record<string, { done: boolean; note?: string; updatedAt: number }>> {
   await ensureSchema();
   const q = sql();
-  const rows = await q`select user_id, item_id, done, note from progress where user_id = ${userId}` as any[];
-  const map: Record<string, { done: boolean; note?: string }> = {};
-  for (const r of rows) map[String(r.item_id)] = { done: !!r.done, note: r.note ?? undefined };
+  const rows = await q`select user_id, item_id, done, note, updated_at from progress where user_id = ${userId}` as any[];
+  const map: Record<string, { done: boolean; note?: string; updatedAt: number }> = {};
+  for (const r of rows) map[String(r.item_id)] = { done: !!r.done, note: r.note ?? undefined, updatedAt: Number(r.updated_at) };
   return map;
 }
 
-export async function upsertProgress(userId: number, itemId: string, done: boolean, note?: string) {
+export async function upsertProgress(userId: number, itemId: string, done: boolean, note?: string, updatedAt?: number): Promise<boolean> {
   await ensureSchema();
   const q = sql();
-  await q`insert into progress (user_id, item_id, done, note) values (${userId}, ${itemId}, ${done}, ${note ?? null}) on conflict (user_id, item_id) do update set done = excluded.done, note = excluded.note`;
+  const ts = typeof updatedAt === 'number' ? Math.floor(updatedAt) : Math.floor(Date.now() / 1000);
+  const rows = await q`insert into progress (user_id, item_id, done, note, updated_at)
+           values (${userId}, ${itemId}, ${done}, ${note ?? null}, ${ts})
+           on conflict (user_id, item_id) do update
+             set done = excluded.done, note = excluded.note, updated_at = excluded.updated_at
+             where excluded.updated_at > progress.updated_at
+           returning item_id` as any[];
+  return rows.length > 0;
 }
 
 export async function deleteProgress(userId: number, itemId?: string) {
@@ -92,25 +101,30 @@ export async function deleteProgress(userId: number, itemId?: string) {
   else await q`delete from progress where user_id = ${userId}`;
 }
 
-export async function replaceProgress(userId: number, entries: Record<string, { done?: boolean; note?: string }>) {
+export async function replaceProgress(userId: number, entries: Record<string, { done?: boolean; note?: string; updatedAt?: number }>): Promise<{ applied: number; total: number; }>{
   await ensureSchema();
   const q = sql();
   const items: string[] = [];
   const dones: boolean[] = [];
   const notes: (string|null)[] = [];
+  const times: number[] = [];
   for (const [itemId, v] of Object.entries(entries)) {
     items.push(itemId);
     dones.push(!!(v as any)?.done);
     const noteVal = typeof (v as any)?.note === "string" ? (v as any).note as string : null;
     notes.push(noteVal);
+    const t = typeof (v as any)?.updatedAt === 'number' ? Math.floor((v as any).updatedAt) : Math.floor(Date.now() / 1000);
+    times.push(t);
   }
-  // Execute as two statements to avoid .begin() dependency and multi-command restrictions
-  await q`delete from progress where user_id = ${userId}`;
-  if (items.length > 0) {
-    await q`insert into progress (user_id, item_id, done, note)
-             select ${userId}, x.item_id, x.done, x.note
-             from unnest(${items}::text[], ${dones}::boolean[], ${notes}::text[]) as x(item_id, done, note)`;
-  }
+  if (items.length === 0) return { applied: 0, total: 0 };
+  const rows = await q`insert into progress (user_id, item_id, done, note, updated_at)
+           select ${userId}, x.item_id, x.done, x.note, x.updated_at
+           from unnest(${items}::text[], ${dones}::boolean[], ${notes}::text[], ${times}::int[]) as x(item_id, done, note, updated_at)
+           on conflict (user_id, item_id) do update
+             set done = excluded.done, note = excluded.note, updated_at = excluded.updated_at
+             where excluded.updated_at > progress.updated_at
+           returning item_id` as any[];
+  return { applied: rows.length, total: items.length };
 }
 
 export async function upsertUser(user: { id?: number; username: string; name?: string; password_hash?: string | null; is_admin?: boolean }) {
