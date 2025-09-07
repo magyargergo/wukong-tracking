@@ -1,4 +1,4 @@
-# Wukong 100% — Guide & Tracker (Cursor-ready)
+# Wukong 100% — Guide & Tracker
 
 A modern, responsive checklist + guide for **Black Myth: Wukong** collectibles. Built with **Next.js 14 + TypeScript + Tailwind + Zustand**. Includes authentication, session cookies, and Postgres‑backed per‑user progress (Neon/Vercel Postgres).
 
