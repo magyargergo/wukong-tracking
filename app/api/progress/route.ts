@@ -1,0 +1,74 @@
+import { NextResponse } from "next/server";
+import { getUserFromCookies } from "@/lib/auth";
+import { deleteProgress, getOrCreateUser, getProgressMap, upsertProgress } from "@/lib/db";
+import { corsHeaders, isValidCsrf, isValidItemId } from "@/lib/security";
+import { cookies } from "next/headers";
+
+export async function OPTIONS(req: Request) {
+  return new NextResponse(null, { headers: { ...corsHeaders(req) } });
+}
+
+export async function GET(req: Request) {
+  const user = getUserFromCookies();
+  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const u = getOrCreateUser(user.username, user.name);
+  const map = getProgressMap(u.id);
+  return NextResponse.json({ collected: map }, { headers: { ...corsHeaders(req) } });
+}
+
+export async function POST(req: Request) {
+  const user = getUserFromCookies();
+  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const u = getOrCreateUser(user.username, user.name);
+  const csrfCookie = cookies().get("csrfToken")?.value;
+  if (!isValidCsrf(req, csrfCookie)) return NextResponse.json({ error: "Bad CSRF" }, { status: 403 });
+
+  const body = await req.json().catch(() => ({}));
+  const itemId = String(body?.itemId || "").trim();
+  const done = !!body?.done;
+  const note = typeof body?.note === "string" ? body.note : undefined;
+  if (!itemId) return NextResponse.json({ error: "Missing itemId" }, { status: 400 });
+  if (!isValidItemId(itemId)) return NextResponse.json({ error: "Invalid itemId" }, { status: 400 });
+  upsertProgress(u.id, itemId, done, note);
+  return NextResponse.json({ ok: true }, { headers: { ...corsHeaders(req) } });
+}
+
+export async function PUT(req: Request) {
+  const user = getUserFromCookies();
+  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const u = getOrCreateUser(user.username, user.name);
+  const csrfCookie = cookies().get("csrfToken")?.value;
+  if (!isValidCsrf(req, csrfCookie)) return NextResponse.json({ error: "Bad CSRF" }, { status: 403 });
+
+  const body = await req.json().catch(() => ({}));
+  const collected = body?.collected as Record<string, { done?: boolean; note?: string }> | undefined;
+  if (!collected || typeof collected !== "object") return NextResponse.json({ error: "Missing collected" }, { status: 400 });
+
+  // Replace strategy: clear all then insert current state
+  deleteProgress(u.id);
+  for (const [itemId, entry] of Object.entries(collected)) {
+    if (!itemId || !isValidItemId(itemId)) continue;
+    const done = !!(entry as any)?.done;
+    const note = typeof (entry as any)?.note === "string" ? (entry as any).note : undefined;
+    upsertProgress(u.id, itemId, done, note);
+  }
+  return NextResponse.json({ ok: true }, { headers: { ...corsHeaders(req) } });
+}
+
+export async function DELETE(req: Request) {
+  const user = getUserFromCookies();
+  if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  const u = getOrCreateUser(user.username, user.name);
+  const csrfCookie = cookies().get("csrfToken")?.value;
+  if (!isValidCsrf(req, csrfCookie)) return NextResponse.json({ error: "Bad CSRF" }, { status: 403 });
+  let itemId: string | undefined;
+  try {
+    const url = new URL(req.url);
+    const id = url.searchParams.get("itemId");
+    if (id && isValidItemId(id)) itemId = id;
+  } catch {}
+  deleteProgress(u.id, itemId);
+  return NextResponse.json({ ok: true }, { headers: { ...corsHeaders(req) } });
+}
+
+

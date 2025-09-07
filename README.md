@@ -39,4 +39,35 @@ pnpm normalize:data
 ## License
 MIT — see `LICENSE` for details.
 
+## Authentication
+
+- Credentials are defined by environment variables:
+  - `AUTH_USER` (default: `admin`)
+  - `AUTH_PASS` (default: `secret`)
+- Auth is cookie-based via middleware; `/login` is public.
+
+## Persistence (SQLite)
+
+- Uses `better-sqlite3` and stores the database at `.data/app.db` by default.
+- Override location with `SQLITE_FILE` env var.
+- Schema:
+  - `users(id INTEGER PRIMARY KEY, username TEXT UNIQUE, name TEXT)`
+  - `progress(user_id INTEGER, item_id TEXT, done INTEGER, note TEXT, PRIMARY KEY(user_id,item_id))`
+
+### Seeding users
+
+Users are created on first use based on the logged-in username. No manual seeding is required.
+
+```bash
+# Optional: specify a custom DB path
+set SQLITE_FILE=D:\\path\\to\\app.db  # Windows PowerShell
+$env:SQLITE_FILE = "D:\\path\\to\\app.db" # alt syntax
+
+# Credentials
+$env:AUTH_USER = "myuser"
+$env:AUTH_PASS = "mypassword"
+
+pnpm dev
+```
+
 

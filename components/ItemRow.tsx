@@ -32,7 +32,7 @@ export function ItemRow({ item }: { item: Item }) {
                   let label = `Source ${i+1}`;
                   try { label = new URL(u).hostname.replace(/^www\./, ""); } catch {}
                   return (
-                    <a key={i} className="underline hover:text-accent" href={u} target="_blank" rel="noreferrer">
+                    <a key={i} className="underline hover:text-accent" href={u} target="_blank" rel="noreferrer noopener">
                       {label}
                     </a>
                   );

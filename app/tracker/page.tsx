@@ -9,7 +9,7 @@ import { ItemRow } from "@/components/ItemRow";
 function TrackerInner() {
   const { items } = useData();
   const search = useSearchParams();
-  const qCat = search.get("category") ?? "";
+  const qCat = (search?.get("category") as string | null) ?? "";
   const [query, setQuery] = useState("");
   const [onlyIncomplete, setOnlyIncomplete] = useState(false);
   const [onlyNGP, setOnlyNGP] = useState(false);

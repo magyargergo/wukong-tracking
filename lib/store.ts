@@ -13,6 +13,7 @@ interface ProgressState {
   reset: () => void;
   importProgress: (incoming: Record<string, any>) => void;
   ensureKnown: (names: string[]) => void;
+  syncFromServer: () => Promise<void>;
 }
 
 export const useProgressStore = create<ProgressState>()(persist((set, get) => ({
@@ -32,7 +33,61 @@ export const useProgressStore = create<ProgressState>()(persist((set, get) => ({
     }
     set({ collected: clean });
   },
-  ensureKnown: (_names) => {}
+  ensureKnown: (_names) => {},
+  async syncFromServer() {
+    try {
+      const res = await fetch("/api/progress", { cache: "no-store" });
+      if (!res.ok) return;
+      const data = await res.json();
+      if (data?.collected && typeof data.collected === "object") {
+        const incoming = data.collected as Record<string, { done?: boolean; note?: string }>;
+        const clean: CollectedMap = {};
+        for (const [k, v] of Object.entries(incoming)) {
+          clean[k] = { done: !!v?.done, note: typeof v?.note === "string" ? v.note : undefined };
+        }
+        set({ collected: clean });
+      }
+    } catch {}
+  }
 }), { name: "wukong-100-tracker-v1" }));
+
+// Client-side background sync for mutations
+let syncTimer: any = null;
+function schedulePush(collected: CollectedMap) {
+  if (syncTimer) clearTimeout(syncTimer);
+  syncTimer = setTimeout(async () => {
+    try {
+      const csrf = (document.cookie.match(/(?:^|; )csrfToken=([^;]+)/)?.[1]) || "";
+      await fetch("/api/progress", {
+        method: "PUT",
+        headers: { "content-type": "application/json", "x-csrf-token": csrf },
+        body: JSON.stringify({ collected })
+      });
+    } catch {}
+  }, 300);
+}
+
+if (typeof window !== "undefined") {
+  // Initial pull on load
+  (async () => {
+    try {
+      const res = await fetch("/api/progress", { cache: "no-store" });
+      if (res.ok) {
+        const data = await res.json();
+        const incoming = data?.collected as Record<string, { done?: boolean; note?: string }> | undefined;
+        if (incoming) {
+          const clean: CollectedMap = {};
+          for (const [k, v] of Object.entries(incoming)) clean[k] = { done: !!v?.done, note: typeof v?.note === "string" ? v.note : undefined };
+          useProgressStore.setState({ collected: clean });
+        }
+      }
+    } catch {}
+  })();
+
+  // Watch state changes and push to server
+  useProgressStore.subscribe((state) => {
+    schedulePush(state.collected);
+  });
+}
 
 
