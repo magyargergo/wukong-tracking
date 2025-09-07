@@ -16,7 +16,8 @@ export async function GET(req: Request) {
   const token = cookies().get("session")?.value;
   // Allow only system admin via env-admin session cookie
   if (!token || !token.startsWith("env-admin:")) return NextResponse.json({ error: "Forbidden" }, { status: 403 });
-  return NextResponse.json({ users: listUsers() }, { headers: { ...corsHeaders(req) } });
+  const users = await listUsers();
+  return NextResponse.json({ users }, { headers: { ...corsHeaders(req) } });
 }
 
 export async function POST(req: Request) {
