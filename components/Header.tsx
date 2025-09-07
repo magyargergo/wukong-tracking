@@ -12,14 +12,14 @@ export function Header() {
   useEffect(()=>setMounted(true),[]);
   const pathname = usePathname();
   const router = useRouter();
-  const [isAdmin, setIsAdmin] = useState(false);
+  const [isSystemAdmin, setIsSystemAdmin] = useState(false);
 
   useEffect(() => {
     (async () => {
       try {
         const res = await fetch("/api/me", { cache: "no-store" });
         const data = await res.json();
-        setIsAdmin(!!data?.user?.is_admin);
+        setIsSystemAdmin(!!data?.user?.isSystemAdmin);
       } catch {}
     })();
   }, []);
@@ -37,9 +37,9 @@ export function Header() {
         <Link href="/" className="font-semibold text-lg">Wukong 100%</Link>
         <nav className="ml-auto flex items-center gap-2">
           <Link className="btn" href="/"><Home size={16}/> Home</Link>
-          <Link className="btn" href="/tracker"><ListTodo size={16}/> Tracker</Link>
-          <Link className="btn" href="/settings"><Settings size={16}/> Settings</Link>
-          {isAdmin && <Link className="btn" href="/admin/users">Admin</Link>}
+          {!isSystemAdmin && <Link className="btn" href="/tracker"><ListTodo size={16}/> Tracker</Link>}
+          {!isSystemAdmin && <Link className="btn" href="/settings"><Settings size={16}/> Settings</Link>}
+          {isSystemAdmin && <Link className="btn" href="/admin/users">System Admin</Link>}
           <button className="btn" onClick={()=> setTheme((theme ?? "dark")==="dark" ? "light" : "dark")}>
             {mounted && (theme ?? "dark")==="dark" ? <Sun size={16}/> : <Moon size={16}/>}
             Theme

@@ -9,19 +9,20 @@ async function ensureAdminBySession(token?: string): Promise<boolean> {
   const s = await getSessionByToken(token);
   if (!s || !!s.revoked) return false;
   const u = await getUserById(s.user_id);
-  return !!u?.is_admin;
+  return false; // no DB admins for now
 }
 
 export async function GET(req: Request) {
   const token = cookies().get("session")?.value;
-  if (!(await ensureAdminBySession(token))) return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+  // Allow only system admin via env-admin session cookie
+  if (!token || !token.startsWith("env-admin:")) return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   return NextResponse.json({ users: listUsers() }, { headers: { ...corsHeaders(req) } });
 }
 
 export async function POST(req: Request) {
   const token = cookies().get("session")?.value;
   const csrf = cookies().get("csrfToken")?.value;
-  if (!(await ensureAdminBySession(token))) return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+  if (!token || !token.startsWith("env-admin:")) return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   if (!isValidCsrf(req, csrf)) return NextResponse.json({ error: "Bad CSRF" }, { status: 403 });
   const body = await req.json().catch(() => ({}));
   const username = String(body?.username || "").trim();
@@ -37,7 +38,7 @@ export async function POST(req: Request) {
 export async function PUT(req: Request) {
   const token = cookies().get("session")?.value;
   const csrf = cookies().get("csrfToken")?.value;
-  if (!(await ensureAdminBySession(token))) return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+  if (!token || !token.startsWith("env-admin:")) return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   if (!isValidCsrf(req, csrf)) return NextResponse.json({ error: "Bad CSRF" }, { status: 403 });
   const body = await req.json().catch(() => ({}));
   const id = Number(body?.id || 0);
@@ -54,7 +55,7 @@ export async function PUT(req: Request) {
 export async function DELETE(req: Request) {
   const token = cookies().get("session")?.value;
   const csrf = cookies().get("csrfToken")?.value;
-  if (!(await ensureAdminBySession(token))) return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+  if (!token || !token.startsWith("env-admin:")) return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   if (!isValidCsrf(req, csrf)) return NextResponse.json({ error: "Bad CSRF" }, { status: 403 });
   let id = 0;
   try { const url = new URL(req.url); id = Number(url.searchParams.get("id") || 0); } catch {}

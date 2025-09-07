@@ -11,6 +11,7 @@ export async function OPTIONS(req: Request) {
 export async function GET(req: Request) {
   const user = await getUserFromCookies();
   if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  if (user.isSystemAdmin) return NextResponse.json({ error: "System admin cannot access progress" }, { status: 403 });
   const u = await getOrCreateUser(user.username, user.name);
   const map = await getProgressMap(u.id);
   return NextResponse.json({ collected: map }, { headers: { ...corsHeaders(req) } });
@@ -19,6 +20,7 @@ export async function GET(req: Request) {
 export async function POST(req: Request) {
   const user = await getUserFromCookies();
   if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  if (user.isSystemAdmin) return NextResponse.json({ error: "System admin cannot modify progress" }, { status: 403 });
   const u = await getOrCreateUser(user.username, user.name);
   const csrfCookie = cookies().get("csrfToken")?.value;
   if (!isValidCsrf(req, csrfCookie)) return NextResponse.json({ error: "Bad CSRF" }, { status: 403 });
@@ -36,6 +38,7 @@ export async function POST(req: Request) {
 export async function PUT(req: Request) {
   const user = await getUserFromCookies();
   if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  if (user.isSystemAdmin) return NextResponse.json({ error: "System admin cannot modify progress" }, { status: 403 });
   const u = await getOrCreateUser(user.username, user.name);
   const csrfCookie = cookies().get("csrfToken")?.value;
   if (!isValidCsrf(req, csrfCookie)) return NextResponse.json({ error: "Bad CSRF" }, { status: 403 });
@@ -58,6 +61,7 @@ export async function PUT(req: Request) {
 export async function DELETE(req: Request) {
   const user = await getUserFromCookies();
   if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  if (user.isSystemAdmin) return NextResponse.json({ error: "System admin cannot modify progress" }, { status: 403 });
   const u = await getOrCreateUser(user.username, user.name);
   const csrfCookie = cookies().get("csrfToken")?.value;
   if (!isValidCsrf(req, csrfCookie)) return NextResponse.json({ error: "Bad CSRF" }, { status: 403 });

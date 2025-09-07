@@ -26,7 +26,17 @@ export function middleware(req: NextRequest) {
 
   const authCookie = req.cookies.get(AUTH_COOKIE)?.value;
   const isAuthed = !!authCookie;
-  if (isAuthed) return res;
+  if (isAuthed) {
+    // If system admin (env-admin cookie), only allow admin routes and logout/me
+    if (authCookie && authCookie.startsWith("env-admin:")) {
+      const allowed = pathname.startsWith("/admin") || pathname.startsWith("/api/admin") || pathname.startsWith("/api/logout") || pathname.startsWith("/api/me") || pathname === "/login";
+      if (!allowed) {
+        const adminUrl = new URL("/admin/users", req.url);
+        return NextResponse.redirect(adminUrl);
+      }
+    }
+    return res;
+  }
 
   const loginUrl = new URL("/login", req.url);
   loginUrl.searchParams.set("next", pathname);

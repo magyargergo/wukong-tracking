@@ -8,7 +8,7 @@ export async function GET(req: Request) {
   if (!user) return NextResponse.json({ user: null }, { headers: { ...corsHeaders(req) } });
   const dbUser = await getUserByUsername(user.username);
   return NextResponse.json({
-    user: dbUser ? { username: dbUser.username, name: dbUser.name, is_admin: !!dbUser.is_admin } : { username: user.username, name: user.name, is_admin: false }
+    user: user.isSystemAdmin ? { username: user.username, name: user.name, isSystemAdmin: true } : { username: user.username, name: user.name, isSystemAdmin: false }
   }, { headers: { ...corsHeaders(req) } });
 }
 
