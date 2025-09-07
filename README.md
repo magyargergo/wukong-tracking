@@ -1,16 +1,16 @@
 # Wukong 100% — Guide & Tracker (Cursor-ready)
 
-A modern, responsive checklist + guide for **Black Myth: Wukong** collectibles. Built with **Next.js 14 + TypeScript + Tailwind + Zustand**. Includes authentication, session cookies, and SQLite-backed per‑user progress (with optional JSON export/import).
+A modern, responsive checklist + guide for **Black Myth: Wukong** collectibles. Built with **Next.js 14 + TypeScript + Tailwind + Zustand**. Includes authentication, session cookies, and Postgres‑backed per‑user progress (Neon/Vercel Postgres).
 
 ## Quick start
 ```bash
-# (optional) set env vars for dev
-# Windows PowerShell examples:
+# (required) database URL (Neon/Vercel Postgres)
+$env:DATABASE_URL = "postgres://USER:PASS@HOST:PORT/wukong-tracker?sslmode=require"
+# system admin credentials (env-based, not stored in DB)
 $env:AUTH_USER = "admin"
 $env:AUTH_PASS = "secret"
-# optional CORS and custom DB path
+# optional: allowed CORS origins (comma-separated)
 # $env:CORS_ORIGINS = "https://yourdomain.com,https://staging.yourdomain.com"
-# $env:SQLITE_FILE = "D:\\path\\to\\app.db"
 
 pnpm install
 pnpm dev
@@ -37,7 +37,7 @@ pnpm normalize:data
 ### Tech stack
 - Next.js 14 (App Router), TypeScript, Tailwind CSS
 - Zustand for state, `next-themes` for dark mode
-- SQLite via `better-sqlite3` for sessions and per‑user progress
+- Postgres via `@neondatabase/serverless` (Vercel/Neon) for sessions and per‑user progress
 
 ## Data sources referenced
 - PowerPyx lists for weapons, vessels, spells, drinks, seeds, gourds, formulas: `https://www.powerpyx.com`
@@ -51,32 +51,24 @@ MIT — see `LICENSE` for details.
 ## Authentication
 
 - Login at `/login`. Middleware protects all routes except `/login` and static assets.
-- Initial admin can sign in using env credentials:
-  - `AUTH_USER` (default: `admin`)
-  - `AUTH_PASS` (default: `secret`)
-- On login, a `session` HttpOnly cookie is issued (7 days). CSRF uses a double‑submit token (`csrfToken` cookie + `x-csrf-token` header).
-- Logout clears the session and CSRF cookies.
-- Admin user management UI is available at `/admin/users` (visible only to admins).
+- System Admin: signs in using env credentials (`AUTH_USER`/`AUTH_PASS`). Not stored in DB; has access only to `/admin/users` and related admin APIs. Cannot view/use Tracker/Settings or progress APIs.
+- Regular users: managed by the System Admin via `/admin/users` and stored in Postgres.
+- On login, a `session` HttpOnly cookie is issued (7 days). CSRF uses a double‑submit token (`csrfToken` cookie + `x-csrf-token` header). Logout clears cookies.
 
-## Persistence (SQLite)
+## Persistence (Postgres on Neon/Vercel)
 
-- Uses `better-sqlite3` and stores the database at `.data/app.db` by default.
-- Override location with `SQLITE_FILE` env var.
+- Uses `@neondatabase/serverless` with `DATABASE_URL`.
 - Schema (simplified):
-  - `users(id INTEGER PRIMARY KEY, username TEXT UNIQUE, name TEXT, password_hash TEXT, is_admin INTEGER DEFAULT 0)`
-  - `progress(user_id INTEGER, item_id TEXT, done INTEGER, note TEXT, PRIMARY KEY(user_id,item_id))`
-  - `sessions(id INTEGER PRIMARY KEY, token TEXT UNIQUE, user_id INTEGER, created_at INTEGER, expires_at INTEGER, last_used_at INTEGER, user_agent TEXT, ip TEXT, revoked INTEGER DEFAULT 0)`
+  - `users(id serial primary key, username text unique, name text, password_hash text)`
+  - `progress(user_id integer, item_id text, done boolean, note text, primary key(user_id, item_id))`
+  - `sessions(id serial primary key, token text unique, user_id integer, created_at integer, expires_at integer, last_used_at integer, user_agent text, ip text, revoked boolean)`
 
 ### Seeding / managing users
 
-- The env user signs in first and appears as a user record automatically.
-- Use `/admin/users` to create, update, delete users (passwords are stored as bcrypt hashes) and grant admin.
+- System Admin is env-based (not in DB) and cannot be edited/deleted.
+- Use `/admin/users` to create, update, delete regular users (passwords are stored as bcrypt hashes).
 
 ```bash
-# Optional: specify a custom DB path
-set SQLITE_FILE=D:\\path\\to\\app.db  # Windows PowerShell
-$env:SQLITE_FILE = "D:\\path\\to\\app.db" # alt syntax
-
 # Credentials
 $env:AUTH_USER = "myuser"
 $env:AUTH_PASS = "mypassword"
