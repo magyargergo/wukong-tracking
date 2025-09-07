@@ -33,7 +33,7 @@ export function ProgressRing({ value, size=64, strokeWidth=8 }: { value: number;
         dominantBaseline="middle"
         textAnchor="middle"
         fontSize={size*0.28}
-        className="fill-neutral-200"
+        className="fill-neutral-900 dark:fill-neutral-100 font-semibold"
       >
         {Math.round(value)}%
       </text>
