@@ -1,7 +1,6 @@
 "use client";
 
 import { create } from "zustand";
-import { persist } from "zustand/middleware";
 
 type CollectedEntry = { done: boolean; note?: string };
 type CollectedMap = Record<string, CollectedEntry>;
@@ -16,7 +15,7 @@ interface ProgressState {
   syncFromServer: () => Promise<void>;
 }
 
-export const useProgressStore = create<ProgressState>()(persist((set, get) => ({
+export const useProgressStore = create<ProgressState>()((set, get) => ({
   collected: {},
   toggle: (id) => set((s) => ({
     collected: { ...s.collected, [id]: { ...s.collected[id], done: !s.collected[id]?.done } }
@@ -49,7 +48,7 @@ export const useProgressStore = create<ProgressState>()(persist((set, get) => ({
       }
     } catch {}
   }
-}), { name: "wukong-100-tracker-v1" }));
+}));
 
 // Client-side background sync for mutations
 let syncTimer: any = null;
