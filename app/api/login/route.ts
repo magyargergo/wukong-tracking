@@ -21,14 +21,14 @@ export async function POST(req: Request) {
     password = String(form.get("password") || "");
   }
 
-  const user = validateCredentials(username, password);
+  const user = await validateCredentials(username, password);
   if (!user) {
     return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
   }
 
   const ip = req.headers.get("x-forwarded-for") || undefined;
   const ua = req.headers.get("user-agent") || undefined;
-  setAuthCookie(user.username, { userAgent: ua, ip });
+  await setAuthCookie(user.username, { userAgent: ua, ip });
   return NextResponse.json({ ok: true }, { headers: { ...corsHeaders(req) } });
 }
 

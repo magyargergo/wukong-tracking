@@ -1,172 +1,174 @@
-import Database from "better-sqlite3";
-import fs from "node:fs";
-import path from "node:path";
+import { neon } from "@neondatabase/serverless";
 
-type UserRow = { id: number; username: string; name?: string; password_hash?: string | null; is_admin?: number };
-type ProgressRow = { user_id: number; item_id: string; done: number; note?: string };
-type SessionRow = { id: number; token: string; user_id: number; created_at: number; expires_at: number; last_used_at: number; user_agent?: string | null; ip?: string | null; revoked?: number };
+type UserRow = { id: number; username: string; name?: string | null; password_hash?: string | null; is_admin: boolean };
+type ProgressRow = { user_id: number; item_id: string; done: boolean; note?: string | null };
+type SessionRow = { id: number; token: string; user_id: number; created_at: number; expires_at: number; last_used_at: number; user_agent?: string | null; ip?: string | null; revoked: boolean };
 
-let dbInstance: Database.Database | null = null;
-
-function getDatabaseFilePath() {
-  const configured = process.env.SQLITE_FILE?.trim();
-  if (configured && configured.length > 0) {
-    try {
-      const dir = path.dirname(configured);
-      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-    } catch {}
-    return configured;
-  }
-
-  // Try to use a local writable folder relative to the app (works in most Node hosts)
-  try {
-    const localDir = path.join(process.cwd(), ".data");
-    if (!fs.existsSync(localDir)) fs.mkdirSync(localDir, { recursive: true });
-    return path.join(localDir, "app.db");
-  } catch {
-    // Fall through to temp dir
-  }
-
-  // Serverless fallback: use OS temp dir (ephemeral)
-  const tmpBase = process.env.TMPDIR || process.env.TEMP || "/tmp";
-  try {
-    if (!fs.existsSync(tmpBase)) fs.mkdirSync(tmpBase, { recursive: true });
-  } catch {}
-  return path.join(tmpBase, "wukong-tracker.db");
+function sql() {
+  const url = process.env.DATABASE_URL;
+  if (!url) throw new Error("DATABASE_URL is required for Neon Postgres");
+  return neon(url);
 }
 
-export function getDb() {
-  if (dbInstance) return dbInstance;
-  const file = getDatabaseFilePath();
-  dbInstance = new Database(file);
-  dbInstance.pragma("journal_mode = WAL");
-  init(dbInstance);
-  return dbInstance;
-}
-
-function init(db: Database.Database) {
-  db.exec(`
-    CREATE TABLE IF NOT EXISTS users (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
-      username TEXT NOT NULL UNIQUE,
-      name TEXT,
-      password_hash TEXT,
-      is_admin INTEGER NOT NULL DEFAULT 0
+async function ensureSchema() {
+  const q = sql();
+  await q`
+    create table if not exists users (
+      id serial primary key,
+      username text not null unique,
+      name text,
+      password_hash text,
+      is_admin boolean not null default false
     );
 
-    CREATE TABLE IF NOT EXISTS progress (
-      user_id INTEGER NOT NULL,
-      item_id TEXT NOT NULL,
-      done INTEGER NOT NULL DEFAULT 0,
-      note TEXT,
-      PRIMARY KEY(user_id, item_id),
-      FOREIGN KEY(user_id) REFERENCES users(id) ON DELETE CASCADE
+    create table if not exists progress (
+      user_id integer not null references users(id) on delete cascade,
+      item_id text not null,
+      done boolean not null default false,
+      note text,
+      primary key(user_id, item_id)
     );
 
-    CREATE TABLE IF NOT EXISTS sessions (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
-      token TEXT NOT NULL UNIQUE,
-      user_id INTEGER NOT NULL,
-      created_at INTEGER NOT NULL,
-      expires_at INTEGER NOT NULL,
-      last_used_at INTEGER NOT NULL,
-      user_agent TEXT,
-      ip TEXT,
-      revoked INTEGER NOT NULL DEFAULT 0,
-      FOREIGN KEY(user_id) REFERENCES users(id) ON DELETE CASCADE
+    create table if not exists sessions (
+      id serial primary key,
+      token text not null unique,
+      user_id integer not null references users(id) on delete cascade,
+      created_at integer not null,
+      expires_at integer not null,
+      last_used_at integer not null,
+      user_agent text,
+      ip text,
+      revoked boolean not null default false
     );
-  `);
+  `;
 }
 
-export function getOrCreateUser(username: string, name?: string): UserRow {
-  const db = getDb();
-  const existing = db.prepare("SELECT id, username, name FROM users WHERE username = ?").get(username) as UserRow | undefined;
-  if (existing) return existing;
-  const info = db.prepare("INSERT INTO users (username, name) VALUES (?, ?)").run(username, name ?? null);
-  return { id: Number(info.lastInsertRowid), username, name };
+export async function getOrCreateUser(username: string, name?: string): Promise<UserRow> {
+  await ensureSchema();
+  const q = sql();
+  const existing = await q`select id, username, name, password_hash, is_admin from users where username = ${username} limit 1` as any[];
+  if (existing.length > 0) return normalizeUser(existing[0]);
+  const rows = await q`insert into users (username, name) values (${username}, ${name ?? null}) returning id, username, name, password_hash, is_admin` as any[];
+  return normalizeUser(rows[0]);
 }
 
-export function getUserByUsername(username: string): UserRow | undefined {
-  const db = getDb();
-  return db.prepare("SELECT id, username, name, password_hash, is_admin FROM users WHERE username = ?").get(username) as UserRow | undefined;
+export async function getUserByUsername(username: string): Promise<UserRow | undefined> {
+  await ensureSchema();
+  const q = sql();
+  const rows = await q`select id, username, name, password_hash, is_admin from users where username = ${username} limit 1` as any[];
+  return rows[0] ? normalizeUser(rows[0]) : undefined;
 }
 
-export function getUserById(id: number): UserRow | undefined {
-  const db = getDb();
-  return db.prepare("SELECT id, username, name, password_hash, is_admin FROM users WHERE id = ?").get(id) as UserRow | undefined;
+export async function getUserById(id: number): Promise<UserRow | undefined> {
+  await ensureSchema();
+  const q = sql();
+  const rows = await q`select id, username, name, password_hash, is_admin from users where id = ${id} limit 1` as any[];
+  return rows[0] ? normalizeUser(rows[0]) : undefined;
 }
 
-export function getProgressMap(userId: number): Record<string, { done: boolean; note?: string }> {
-  const db = getDb();
-  const rows = db.prepare("SELECT user_id, item_id, done, note FROM progress WHERE user_id = ?").all(userId) as ProgressRow[];
+export async function getProgressMap(userId: number): Promise<Record<string, { done: boolean; note?: string }>> {
+  await ensureSchema();
+  const q = sql();
+  const rows = await q`select user_id, item_id, done, note from progress where user_id = ${userId}` as any[];
   const map: Record<string, { done: boolean; note?: string }> = {};
-  for (const r of rows) map[r.item_id] = { done: r.done === 1, note: r.note ?? undefined };
+  for (const r of rows) map[String(r.item_id)] = { done: !!r.done, note: r.note ?? undefined };
   return map;
 }
 
-export function upsertProgress(userId: number, itemId: string, done: boolean, note?: string) {
-  const db = getDb();
-  db.prepare("INSERT INTO progress (user_id, item_id, done, note) VALUES (?, ?, ?, ?) ON CONFLICT(user_id, item_id) DO UPDATE SET done=excluded.done, note=excluded.note").run(userId, itemId, done ? 1 : 0, note ?? null);
+export async function upsertProgress(userId: number, itemId: string, done: boolean, note?: string) {
+  await ensureSchema();
+  const q = sql();
+  await q`insert into progress (user_id, item_id, done, note) values (${userId}, ${itemId}, ${done}, ${note ?? null}) on conflict (user_id, item_id) do update set done = excluded.done, note = excluded.note`;
 }
 
-export function deleteProgress(userId: number, itemId?: string) {
-  const db = getDb();
-  if (itemId) db.prepare("DELETE FROM progress WHERE user_id = ? AND item_id = ?").run(userId, itemId);
-  else db.prepare("DELETE FROM progress WHERE user_id = ?").run(userId);
+export async function deleteProgress(userId: number, itemId?: string) {
+  await ensureSchema();
+  const q = sql();
+  if (itemId) await q`delete from progress where user_id = ${userId} and item_id = ${itemId}`;
+  else await q`delete from progress where user_id = ${userId}`;
 }
 
-export function upsertUser(user: { id?: number; username: string; name?: string; password_hash?: string | null; is_admin?: boolean }) {
-  const db = getDb();
+export async function upsertUser(user: { id?: number; username: string; name?: string; password_hash?: string | null; is_admin?: boolean }) {
+  await ensureSchema();
+  const q = sql();
   if (user.id) {
-    db.prepare("UPDATE users SET username = ?, name = ?, password_hash = COALESCE(?, password_hash), is_admin = ? WHERE id = ?")
-      .run(user.username, user.name ?? null, user.password_hash ?? null, user.is_admin ? 1 : 0, user.id);
+    await q`update users set username = ${user.username}, name = ${user.name ?? null}, password_hash = coalesce(${user.password_hash ?? null}, password_hash), is_admin = ${!!user.is_admin} where id = ${user.id}`;
     return user.id;
   }
-  const info = db.prepare("INSERT INTO users (username, name, password_hash, is_admin) VALUES (?, ?, ?, ?)")
-    .run(user.username, user.name ?? null, user.password_hash ?? null, user.is_admin ? 1 : 0);
-  return Number(info.lastInsertRowid);
+  const rows = await q`insert into users (username, name, password_hash, is_admin) values (${user.username}, ${user.name ?? null}, ${user.password_hash ?? null}, ${!!user.is_admin}) returning id, username, name, password_hash, is_admin` as any[];
+  return Number(rows[0].id);
 }
 
-export function listUsers(): Array<{ id: number; username: string; name?: string; is_admin: boolean }>{
-  const db = getDb();
-  const rows = db.prepare("SELECT id, username, name, is_admin FROM users ORDER BY username ASC").all() as Array<UserRow>;
-  return rows.map(r => ({ id: r.id, username: r.username, name: r.name ?? undefined, is_admin: (r.is_admin ?? 0) === 1 }));
+export async function listUsers(): Promise<Array<{ id: number; username: string; name?: string; is_admin: boolean }>>{
+  await ensureSchema();
+  const q = sql();
+  const rows = await q`select id, username, name, is_admin from users order by username asc` as any[];
+  return rows.map(r => ({ id: Number(r.id), username: String(r.username), name: r.name ?? undefined, is_admin: !!r.is_admin }));
 }
 
-export function deleteUser(id: number) {
-  const db = getDb();
-  db.prepare("DELETE FROM users WHERE id = ?").run(id);
+export async function deleteUser(id: number) {
+  await ensureSchema();
+  const q = sql();
+  await q`delete from users where id = ${id}`;
 }
 
-export function createSession(params: { token: string; userId: number; ttlSeconds: number; userAgent?: string; ip?: string }) {
-  const db = getDb();
+export async function createSession(params: { token: string; userId: number; ttlSeconds: number; userAgent?: string; ip?: string }) {
+  await ensureSchema();
+  const q = sql();
   const now = Math.floor(Date.now() / 1000);
   const expires = now + Math.max(60, params.ttlSeconds);
-  db.prepare("INSERT INTO sessions (token, user_id, created_at, expires_at, last_used_at, user_agent, ip) VALUES (?, ?, ?, ?, ?, ?, ?)")
-    .run(params.token, params.userId, now, expires, now, params.userAgent ?? null, params.ip ?? null);
+  await q`insert into sessions (token, user_id, created_at, expires_at, last_used_at, user_agent, ip) values (${params.token}, ${params.userId}, ${now}, ${expires}, ${now}, ${params.userAgent ?? null}, ${params.ip ?? null})`;
 }
 
-export function getSessionByToken(token: string): SessionRow | undefined {
-  const db = getDb();
-  return db.prepare("SELECT id, token, user_id, created_at, expires_at, last_used_at, user_agent, ip, revoked FROM sessions WHERE token = ?")
-    .get(token) as SessionRow | undefined;
+export async function getSessionByToken(token: string): Promise<SessionRow | undefined> {
+  await ensureSchema();
+  const q = sql();
+  const rows = await q`select id, token, user_id, created_at, expires_at, last_used_at, user_agent, ip, revoked from sessions where token = ${token} limit 1` as any[];
+  return rows[0] ? normalizeSession(rows[0]) : undefined;
 }
 
-export function touchSession(token: string) {
-  const db = getDb();
+export async function touchSession(token: string) {
+  await ensureSchema();
+  const q = sql();
   const now = Math.floor(Date.now() / 1000);
-  db.prepare("UPDATE sessions SET last_used_at = ? WHERE token = ?").run(now, token);
+  await q`update sessions set last_used_at = ${now} where token = ${token}`;
 }
 
-export function revokeSession(token: string) {
-  const db = getDb();
-  db.prepare("UPDATE sessions SET revoked = 1 WHERE token = ?").run(token);
+export async function revokeSession(token: string) {
+  await ensureSchema();
+  const q = sql();
+  await q`update sessions set revoked = true where token = ${token}`;
 }
 
-export function deleteExpiredSessions() {
-  const db = getDb();
+export async function deleteExpiredSessions() {
+  await ensureSchema();
+  const q = sql();
   const now = Math.floor(Date.now() / 1000);
-  db.prepare("DELETE FROM sessions WHERE expires_at < ? OR revoked = 1").run(now);
+  await q`delete from sessions where expires_at < ${now} or revoked = true`;
+}
+
+function normalizeUser(row: any): UserRow {
+  return {
+    id: Number(row.id),
+    username: String(row.username),
+    name: row.name ?? null,
+    password_hash: row.password_hash ?? null,
+    is_admin: !!row.is_admin
+  };
+}
+
+function normalizeSession(row: any): SessionRow {
+  return {
+    id: Number(row.id),
+    token: String(row.token),
+    user_id: Number(row.user_id),
+    created_at: Number(row.created_at),
+    expires_at: Number(row.expires_at),
+    last_used_at: Number(row.last_used_at),
+    user_agent: row.user_agent ?? null,
+    ip: row.ip ?? null,
+    revoked: !!row.revoked
+  };
 }
 
 

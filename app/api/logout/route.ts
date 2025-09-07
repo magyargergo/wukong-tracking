@@ -7,7 +7,7 @@ export async function OPTIONS(req: Request) {
 }
 
 export async function POST(req: Request) {
-  clearAuthCookie();
+  await clearAuthCookie();
   return NextResponse.json({ ok: true }, { headers: { ...corsHeaders(req) } });
 }
 

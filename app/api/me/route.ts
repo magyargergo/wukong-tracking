@@ -4,11 +4,11 @@ import { getUserByUsername } from "@/lib/db";
 import { corsHeaders } from "@/lib/security";
 
 export async function GET(req: Request) {
-  const user = getUserFromCookies();
+  const user = await getUserFromCookies();
   if (!user) return NextResponse.json({ user: null }, { headers: { ...corsHeaders(req) } });
-  const dbUser = getUserByUsername(user.username);
+  const dbUser = await getUserByUsername(user.username);
   return NextResponse.json({
-    user: dbUser ? { username: dbUser.username, name: dbUser.name, is_admin: (dbUser.is_admin ?? 0) === 1 } : { username: user.username, name: user.name, is_admin: false }
+    user: dbUser ? { username: dbUser.username, name: dbUser.name, is_admin: !!dbUser.is_admin } : { username: user.username, name: user.name, is_admin: false }
   }, { headers: { ...corsHeaders(req) } });
 }
 
