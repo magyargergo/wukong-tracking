@@ -1,27 +1,27 @@
 "use client";
 
 import { useEffect } from "react";
-import { useProgressStore } from "@/lib/store";
+
+function hasPending(): boolean {
+  return /(?:^|; )progress_pending=1(?:;|$)/.test(document.cookie);
+}
 
 export function NavGuard() {
-  const { dirty } = useProgressStore();
-
   useEffect(() => {
     const beforeUnload = (e: BeforeUnloadEvent) => {
-      if (dirty) {
+      if (hasPending()) {
         e.preventDefault();
         e.returnValue = "";
       }
     };
     const onClick = (e: MouseEvent) => {
-      if (!dirty) return;
+      if (!hasPending()) return;
       const target = e.target as HTMLElement | null;
       if (!target) return;
       const anchor = target.closest("a[href]") as HTMLAnchorElement | null;
       if (!anchor) return;
       const href = anchor.getAttribute("href") || "";
       if (href.startsWith("#") || href.startsWith("javascript:")) return;
-      // Block same-origin navigations
       try {
         const url = new URL(href, window.location.href);
         if (url.origin === window.location.origin) {
@@ -36,7 +36,7 @@ export function NavGuard() {
       window.removeEventListener("beforeunload", beforeUnload);
       document.removeEventListener("click", onClick, true);
     };
-  }, [dirty]);
+  }, []);
 
   return null;
 }
