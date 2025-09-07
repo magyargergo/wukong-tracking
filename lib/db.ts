@@ -3,14 +3,19 @@ import { neon } from "@neondatabase/serverless";
 type UserRow = { id: number; username: string; name?: string | null; password_hash?: string | null; is_admin: boolean };
 type SessionRow = { id: number; token: string; user_id: number; created_at: number; expires_at: number; last_used_at: number; user_agent?: string | null; ip?: string | null; revoked: boolean };
 
+let __sharedSql: ReturnType<typeof neon> | undefined;
 function sql() {
+  if (__sharedSql) return __sharedSql;
   const url = process.env.DATABASE_URL;
   if (!url) throw new Error("DATABASE_URL is required for Neon Postgres");
-  return neon(url);
+  __sharedSql = neon(url);
+  return __sharedSql;
 }
 
 async function ensureSchema() {
-  // Avoid repeating DDL on hot paths within the same runtime
+  // Skip runtime DDL in production unless explicitly enabled
+  const allowRuntimeMigrations = process.env.ENABLE_RUNTIME_SCHEMA === "1" || process.env.NODE_ENV !== "production";
+  if (!allowRuntimeMigrations) return;
   if ((globalThis as any).__wukong_schema_initialized__) return;
   const q = sql();
   await q`create table if not exists users (
@@ -76,6 +81,27 @@ export async function getProgressMap(userId: number): Promise<Record<string, { d
   return map;
 }
 
+// Single round-trip: ensure user exists and fetch progress map by username
+export async function getProgressMapByUsername(username: string, name?: string): Promise<Record<string, { done: boolean; note?: string; updatedAt: number }>> {
+  await ensureSchema();
+  const q = sql();
+  const rows = await q`
+    with upsert_user as (
+      insert into users (username, name)
+      values (${username}, ${name ?? null})
+      on conflict (username)
+      do update set name = coalesce(users.name, excluded.name)
+      returning id
+    )
+    select p.item_id, p.done, p.note, p.updated_at
+    from progress p
+    where p.user_id = (select id from upsert_user)
+  ` as any[];
+  const map: Record<string, { done: boolean; note?: string; updatedAt: number }> = {};
+  for (const r of rows) map[String(r.item_id)] = { done: !!r.done, note: r.note ?? undefined, updatedAt: Number(r.updated_at) };
+  return map;
+}
+
 export async function upsertProgress(userId: number, itemId: string, done: boolean, note?: string, updatedAt?: number): Promise<boolean> {
   await ensureSchema();
   const q = sql();
@@ -89,11 +115,75 @@ export async function upsertProgress(userId: number, itemId: string, done: boole
   return rows.length > 0;
 }
 
+// Single round-trip upsert for progress by username
+export async function upsertProgressByUsername(params: { username: string; name?: string; itemId: string; done: boolean; note?: string; updatedAt?: number }): Promise<boolean> {
+  await ensureSchema();
+  const q = sql();
+  const ts = typeof params.updatedAt === 'number' ? Math.floor(params.updatedAt) : Math.floor(Date.now() / 1000);
+  const rows = await q`
+    with upsert_user as (
+      insert into users (username, name)
+      values (${params.username}, ${params.name ?? null})
+      on conflict (username)
+      do update set name = coalesce(users.name, excluded.name)
+      returning id
+    ), applied as (
+      insert into progress (user_id, item_id, done, note, updated_at)
+      select id, ${params.itemId}, ${params.done}, ${params.note ?? null}, ${ts}
+      from upsert_user
+      on conflict (user_id, item_id) do update
+        set done = excluded.done, note = excluded.note, updated_at = excluded.updated_at
+        where excluded.updated_at > progress.updated_at
+      returning 1
+    )
+    select count(*)::int as count from applied
+  ` as any[];
+  return Number(rows?.[0]?.count ?? 0) > 0;
+}
+
+// Single round-trip: create user if needed and return id
+export async function getOrCreateUserId(username: string, name?: string): Promise<number> {
+  await ensureSchema();
+  const q = sql();
+  const rows = await q`
+    with upsert_user as (
+      insert into users (username, name)
+      values (${username}, ${name ?? null})
+      on conflict (username)
+      do update set name = coalesce(users.name, excluded.name)
+      returning id
+    )
+    select id from upsert_user
+  ` as any[];
+  return Number(rows[0].id);
+}
+
 export async function deleteProgress(userId: number, itemId?: string) {
   await ensureSchema();
   const q = sql();
   if (itemId) await q`delete from progress where user_id = ${userId} and item_id = ${itemId}`;
   else await q`delete from progress where user_id = ${userId}`;
+}
+
+// Single round-trip delete by username (does not create user if missing)
+export async function deleteProgressByUsername(username: string, itemId?: string) {
+  await ensureSchema();
+  const q = sql();
+  if (itemId) {
+    await q`
+      with u as (
+        select id from users where username = ${username} limit 1
+      )
+      delete from progress p using u where p.user_id = u.id and p.item_id = ${itemId}
+    `;
+  } else {
+    await q`
+      with u as (
+        select id from users where username = ${username} limit 1
+      )
+      delete from progress p using u where p.user_id = u.id
+    `;
+  }
 }
 
 export async function replaceProgress(userId: number, entries: Record<string, { done?: boolean; note?: string; updatedAt?: number }>): Promise<{ applied: number; total: number; }>{
@@ -119,6 +209,43 @@ export async function replaceProgress(userId: number, entries: Record<string, { 
              set done = excluded.done, note = excluded.note, updated_at = excluded.updated_at
              where excluded.updated_at > progress.updated_at
            returning item_id` as any[];
+  return { applied: rows.length, total: items.length };
+}
+
+// Single round-trip batch replace by username
+export async function replaceProgressByUsername(username: string, name: string | undefined, entries: Record<string, { done?: boolean; note?: string; updatedAt?: number }>): Promise<{ applied: number; total: number; }>{
+  await ensureSchema();
+  const q = sql();
+  const items: string[] = [];
+  const dones: boolean[] = [];
+  const notes: (string|null)[] = [];
+  const times: number[] = [];
+  for (const [itemId, v] of Object.entries(entries)) {
+    items.push(itemId);
+    dones.push(!!(v as any)?.done);
+    const noteVal = typeof (v as any)?.note === "string" ? (v as any).note as string : null;
+    notes.push(noteVal);
+    const t = typeof (v as any)?.updatedAt === 'number' ? Math.floor((v as any).updatedAt) : Math.floor(Date.now() / 1000);
+    times.push(t);
+  }
+  if (items.length === 0) return { applied: 0, total: 0 };
+  const rows = await q`
+    with upsert_user as (
+      insert into users (username, name)
+      values (${username}, ${name ?? null})
+      on conflict (username)
+      do update set name = coalesce(users.name, excluded.name)
+      returning id
+    )
+    insert into progress (user_id, item_id, done, note, updated_at)
+    select u.id, x.item_id, x.done, x.note, x.updated_at
+    from upsert_user u
+    join unnest(${items}::text[], ${dones}::boolean[], ${notes}::text[], ${times}::int[]) as x(item_id, done, note, updated_at) on true
+    on conflict (user_id, item_id) do update
+      set done = excluded.done, note = excluded.note, updated_at = excluded.updated_at
+      where excluded.updated_at > progress.updated_at
+    returning item_id
+  ` as any[];
   return { applied: rows.length, total: items.length };
 }
 
