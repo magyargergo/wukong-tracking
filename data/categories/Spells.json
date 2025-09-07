@@ -1,0 +1,90 @@
+[
+  {
+    "id": "spells-a-pluck-of-many",
+    "name": "A Pluck Of Many",
+    "category": "Spells",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spells-cloud-step",
+    "name": "Cloud Step",
+    "category": "Spells",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spells-immobilize",
+    "name": "Immobilize",
+    "category": "Spells",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spells-life-saving-strand",
+    "name": "Life-Saving Strand",
+    "category": "Spells",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spells-ring-of-fire",
+    "name": "Ring Of Fire",
+    "category": "Spells",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spells-rock-solid",
+    "name": "Rock Solid",
+    "category": "Spells",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spells-somersault-cloud",
+    "name": "Somersault Cloud",
+    "category": "Spells",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spells-spell-binder",
+    "name": "Spell Binder",
+    "category": "Spells",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  }
+]

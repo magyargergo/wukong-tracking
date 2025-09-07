@@ -1,0 +1,288 @@
+[
+  {
+    "id": "soaks-brewer-s-bounty",
+    "name": "Brewer’s Bounty",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-orchid",
+    "name": "Orchid",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-1-gall-gem",
+    "name": "Soak #1: Gall Gem",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-10-thunderbolt-horn",
+    "name": "Soak #10: Thunderbolt Horn",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-11-stranded-loong-s-whisker",
+    "name": "Soak #11: Stranded Loong’s Whisker",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-12-breath-of-fire",
+    "name": "Soak #12: Breath Of Fire",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-13-turtle-tear",
+    "name": "Soak #13: Turtle Tear",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-14-sweet-ice",
+    "name": "Soak #14: Sweet Ice",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-15-goji-shoots",
+    "name": "Soak #15: Goji Shoots",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-16-purple-veined-peach-pit",
+    "name": "Soak #16: Purple-Veined Peach Pit",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-17-deathstinger",
+    "name": "Soak #17: Deathstinger",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-18-bee-mountain-stone",
+    "name": "Soak #18: Bee Mountain Stone",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-19-fruit-of-dao",
+    "name": "Soak #19: Fruit Of Dao",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-2-tender-jade-lotus",
+    "name": "Soak #2: Tender Jade Lotus",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-20-undying-vine",
+    "name": "Soak #20: Undying Vine",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-21-double-combed-rooster-blood",
+    "name": "Soak #21: Double-Combed Rooster Blood",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-22-mount-lingtai-seedlings",
+    "name": "Soak #22: Mount Lingtai Seedlings",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-23-slumbering-beetle-husk",
+    "name": "Soak #23: Slumbering Beetle Husk",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-24-flame-mediator",
+    "name": "Soak #24: Flame Mediator",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-25-flower-primes",
+    "name": "Soak #25: Flower Primes",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-26-graceful",
+    "name": "Soak #26: Graceful",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-27-guanyin-s-willow-leaf",
+    "name": "Soak #27: Guanyin’s Willow Leaf",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-3-laurel-buds",
+    "name": "Soak #3: Laurel Buds",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-4-steel-ginseng",
+    "name": "Soak #4: Steel Ginseng",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-5-iron-pellet",
+    "name": "Soak #5: Iron Pellet",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "soaks-soak-6-tiger-relic",
+    "name": "Soak #6: Tiger Relic",
+    "category": "Soaks",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-soaks-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  }
+]

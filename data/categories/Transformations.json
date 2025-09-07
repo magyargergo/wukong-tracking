@@ -1,0 +1,112 @@
+[
+  {
+    "id": "transformations-ashen-slumber",
+    "name": "Ashen Slumber",
+    "category": "Transformations",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "transformations-azure-dome",
+    "name": "Azure Dome",
+    "category": "Transformations",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "transformations-azure-dust",
+    "name": "Azure Dust",
+    "category": "Transformations",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "transformations-dark-thunder",
+    "name": "Dark Thunder",
+    "category": "Transformations",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "transformations-ebon-flow",
+    "name": "Ebon Flow",
+    "category": "Transformations",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "transformations-golden-lining",
+    "name": "Golden Lining",
+    "category": "Transformations",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "transformations-hoarfrost",
+    "name": "Hoarfrost",
+    "category": "Transformations",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "transformations-red-tides",
+    "name": "Red Tides",
+    "category": "Transformations",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "transformations-umbral-abyss",
+    "name": "Umbral Abyss",
+    "category": "Transformations",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "transformations-violet-hail",
+    "name": "Violet Hail",
+    "category": "Transformations",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  }
+]

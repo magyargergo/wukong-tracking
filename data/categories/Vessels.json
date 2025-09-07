@@ -1,0 +1,46 @@
+[
+  {
+    "id": "vessels-fireproof-mantle",
+    "name": "Fireproof Mantle",
+    "category": "Vessels",
+    "description": "Reward for finishing the Chapter 1 Secret Area \"Ancient Guanyin Temple\".\nRing all 3 Bells in Chapter 1. Refer to All Bell Locations.\nRinging the third bell teleports you to the Secret Area \"Ancient Guanyin Temple\". Here you must beat the boss \"Elder Jinchi\". He will be straight ahead from where you spawn.\nAfter beating \"Elder Jinchi\", you are teleported back to the third bell. Here interact with the body that hangs in front of the third bell to receive the Fireproof Mantle vessel.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-vessel-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 6
+  },
+  {
+    "id": "vessels-weaver-s-needle",
+    "name": "Weaver’s Needle",
+    "category": "Vessels",
+    "description": "Reward for finishing the Chapter 4 Secret Area \"Purple Cloud Mountain\".\nYou must defeat a boss called \"Venom Daoist\" in two separate locations to enter the secret area. Then defeat the boss in the secret area for the Vessel.\nDefeat the Venom Daoist at Webbed Hollow > Pool of Shattered Jade. To the right of this shrine go up the path to find a big spider cocoon hanging from the ceiling. Attack it until the Venom Daoist pops out of it, defeat him.\nDefeat Venom Daoist a second time at Temple of the Yellow Flower > Court of Illumination. From this shrine turn around 180° and then take the path straight in front of you (opposite the shrine). When the path splits, go left until there's a cutscene with the Venom Daoist (must have defeated him at the first location). In this fight he has two phases, each with a full healthbar. After the fight, interact with the wall in front of you to enter the secret area \"Purple Cloud Mountain\".\nIn Purple Cloud Mountain defeat the boss \"The Duskveil\". He's found at the top of the village on the central path. After beating him you unlock the Weaver's Needle vessel.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-vessel-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 6
+  },
+  {
+    "id": "vessels-wind-tamer",
+    "name": "Wind Tamer",
+    "category": "Vessels",
+    "description": "Reward for finishing the Chapter 2 Secret Area \"Kingdom of Sahali\".\nComplete the Drunken Boar's Questline to reach the Chapter 2 Secret Area. Refer to Drunken Boar Questline Walkthrough.\nAfter finishing the questline you enter the Secret Area \"Kingdom of Sahali\". Here you must defeat the boss \"Tiger Vanguard\" (he's different from the identically named boss at Crouching Tiger Temple). Then talk to the NPC standing on the cliff in front of you to trigger the boss fight against \"Fuban\". Defeat him to get the Wind Tamer vessel.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-vessel-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 6
+  },
+  {
+    "id": "vessels-plantain-fan",
+    "name": "Plantain Fan",
+    "category": "Vessels",
+    "description": "Automatic story-related reward for finishing Chapter 5, can't miss it. After Chapter 5 you will receive it in the rewards screen before Chapter 6 begins.\nIf the Plantain Fan is your 4th Vessel, then the Treasure Trove trophy for finding all Vessels will unlock in the rewards screen at the end of Chapter 5.\nFor more guides check out the Black Myth Wukong Wiki.",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-vessel-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  }
+]

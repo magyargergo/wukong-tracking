@@ -1,0 +1,113 @@
+{
+  "timestamp": "2025-09-07T14:05:39.407Z",
+  "expectedCounts": {
+    "Spirits": 54,
+    "Transformations": 10,
+    "Spells": 8,
+    "Weapons": 20,
+    "Armor": 78,
+    "Curios": 36,
+    "Vessels": 4,
+    "Gourds": 11,
+    "Drinks": 9,
+    "Soaks": 26,
+    "Seeds": 15,
+    "MeditationSpots": 24,
+    "Formulas": 14
+  },
+  "perCategory": [
+    {
+      "category": "Armor",
+      "file": "Armor.json",
+      "count": 78,
+      "expected": 78,
+      "noise": []
+    },
+    {
+      "category": "Curios",
+      "file": "Curios.json",
+      "count": 36,
+      "expected": 36,
+      "noise": []
+    },
+    {
+      "category": "Drinks",
+      "file": "Drinks.json",
+      "count": 9,
+      "expected": 9,
+      "noise": []
+    },
+    {
+      "category": "Formulas",
+      "file": "Formulas.json",
+      "count": 14,
+      "expected": 14,
+      "noise": []
+    },
+    {
+      "category": "Gourds",
+      "file": "Gourds.json",
+      "count": 11,
+      "expected": 11,
+      "noise": []
+    },
+    {
+      "category": "MeditationSpots",
+      "file": "MeditationSpots.json",
+      "count": 24,
+      "expected": 24,
+      "noise": []
+    },
+    {
+      "category": "Seeds",
+      "file": "Seeds.json",
+      "count": 15,
+      "expected": 15,
+      "noise": []
+    },
+    {
+      "category": "Soaks",
+      "file": "Soaks.json",
+      "count": 26,
+      "expected": 26,
+      "noise": []
+    },
+    {
+      "category": "Spells",
+      "file": "Spells.json",
+      "count": 8,
+      "expected": 8,
+      "noise": []
+    },
+    {
+      "category": "Spirits",
+      "file": "Spirits.json",
+      "count": 54,
+      "expected": 54,
+      "noise": []
+    },
+    {
+      "category": "Transformations",
+      "file": "Transformations.json",
+      "count": 10,
+      "expected": 10,
+      "noise": []
+    },
+    {
+      "category": "Vessels",
+      "file": "Vessels.json",
+      "count": 4,
+      "expected": 4,
+      "noise": []
+    },
+    {
+      "category": "Weapons",
+      "file": "Weapons.json",
+      "count": 20,
+      "expected": 20,
+      "noise": []
+    }
+  ],
+  "anomalies": [],
+  "_errors": []
+}

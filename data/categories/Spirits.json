@@ -1,0 +1,596 @@
+[
+  {
+    "id": "spirits-apramana-bat",
+    "name": "Apramana Bat",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-baw-li-guhh-lang",
+    "name": "Baw-Li-Guhh-Lang",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-beetle-captain",
+    "name": "Beetle Captain",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-blade-monk",
+    "name": "Blade Monk",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-bull-governor",
+    "name": "Bull Governor",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-centipede-guai",
+    "name": "Centipede Guai",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-charface",
+    "name": "Charface",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-civet-sergeant",
+    "name": "Civet Sergeant",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-clay-vajra",
+    "name": "Clay Vajra",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-cloudy-mist-misty-cloud",
+    "name": "Cloudy Mist, Misty Cloud",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-commander-beetle",
+    "name": "Commander Beetle",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-crow-diviner",
+    "name": "Crow Diviner",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-dragonfly-guai",
+    "name": "Dragonfly Guai",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-earth-rakshasa",
+    "name": "Earth Rakshasa",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-earth-wolf",
+    "name": "Earth Wolf",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-elder-amourworm",
+    "name": "Elder Amourworm",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-enslaved-yaksha",
+    "name": "Enslaved Yaksha",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-falcon-hermit",
+    "name": "Falcon Hermit",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-father-of-stones",
+    "name": "Father Of Stones",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-fickle-forms",
+    "name": "Fickle Forms",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-flint-chief",
+    "name": "Flint Chief",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-flint-vanguard",
+    "name": "Flint Vanguard",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-fungiman",
+    "name": "Fungiman",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-fungiwoman",
+    "name": "Fungiwoman",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-gore-eye-daoist",
+    "name": "Gore-Eye Daoist",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-guangmou",
+    "name": "Guangmou",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-lantern-holder",
+    "name": "Lantern Holder",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-mad-tiger",
+    "name": "Mad Tiger",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-mother-of-flamlings",
+    "name": "Mother Of Flamlings",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-mountain-patroller",
+    "name": "Mountain Patroller",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-nine-capped-lingzhi-guai",
+    "name": "Nine-Capped Lingzhi Guai",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-non-able",
+    "name": "Non-Able",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-non-pure",
+    "name": "Non-Pure",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-non-void",
+    "name": "Non-Void",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-non-white",
+    "name": "Non-White",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-old-ginseng-guai",
+    "name": "Old Ginseng Guai",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-poisestone",
+    "name": "Poisestone",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-puppet-spider",
+    "name": "Puppet Spider",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-puppet-tick",
+    "name": "Puppet Tick",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-rat-archer",
+    "name": "Rat Archer",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-rat-governor",
+    "name": "Rat Governor",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-rat-imperial-guard",
+    "name": "Rat Imperial Guard",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-red-haired-yaksha",
+    "name": "Red-Haired Yaksha",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-scorpion-prince",
+    "name": "Scorpion Prince",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-second-rat-prince",
+    "name": "Second Rat Prince",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-snake-herbalist",
+    "name": "Snake Herbalist",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-snake-sheriff",
+    "name": "Snake Sheriff",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-spearbone",
+    "name": "Spearbone",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-swift-bat",
+    "name": "Swift Bat",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-tiger-s-acolyte",
+    "name": "Tiger’s Acolyte",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-top-takes-bottom-bottom-takes-top",
+    "name": "Top Takes Bottom, Bottom Takes Top",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-turtle-treasure",
+    "name": "Turtle Treasure",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-verdant-glow",
+    "name": "Verdant Glow",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  },
+  {
+    "id": "spirits-wandering-wight",
+    "name": "Wandering Wight",
+    "category": "Spirits",
+    "description": "",
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-spirits-locations/",
+      "https://www.ign.com/wikis/black-myth-wukong"
+    ],
+    "confidence": 5.5
+  }
+]
