@@ -9,46 +9,50 @@ export function ItemRow({ item }: { item: Item }) {
   const note = collected[item.id]?.note ?? "";
   const hasDetails = Boolean((Array.isArray(item.sources) && item.sources.length > 0) || item.description || item.howToGet || item.notes);
   return (
-    <li className="card p-4 flex flex-col sm:flex-row sm:items-center gap-3">
-      <label className="flex items-center gap-3 cursor-pointer">
-        <input type="checkbox" className="accent-accent w-5 h-5" checked={done} onChange={()=>toggle(item.id)} />
-        <span className="font-medium">{item.name}</span>
-      </label>
-      <div className="flex gap-2 flex-wrap ml-8 sm:ml-0">
-        {item.category && <span className="badge">{item.category}</span>}
-        {item.chapter && <span className="badge">Chapter {item.chapter}</span>}
-        {item.missable && <span className="badge">Missable</span>}
-        {item.ngPlusOnly && <span className="badge">NG+</span>}
+    <li className="card p-4 flex flex-col gap-3">
+      <div className="flex items-center gap-3">
+        <label className="flex items-center gap-3 cursor-pointer">
+          <input type="checkbox" className="accent-accent w-5 h-5" checked={done} onChange={()=>toggle(item.id)} />
+          <span className="font-medium">{item.name}</span>
+        </label>
+        <div className="flex gap-2 flex-wrap">
+          {item.category && <span className="badge">{item.category}</span>}
+          {item.chapter && <span className="badge">Chapter {item.chapter}</span>}
+          {item.missable && <span className="badge">Missable</span>}
+          {item.ngPlusOnly && <span className="badge">NG+</span>}
+        </div>
       </div>
-      {hasDetails && (
-        <details className="ml-8 sm:ml-auto">
-          <summary className="cursor-pointer text-sm text-accent">Guides</summary>
-          <div className="text-sm text-neutral-300 mt-2 max-w-prose space-y-2">
-            {Array.isArray(item.sources) && item.sources.length > 0 ? (
-              <div className="text-xs text-neutral-400 flex flex-wrap gap-2">
-                {item.sources.map((u, i) => {
-                  let label = `Source ${i+1}`;
-                  try { label = new URL(u).hostname.replace(/^www\./, ""); } catch {}
-                  return (
-                    <a key={i} className="underline hover:text-accent" href={u} target="_blank" rel="noreferrer">
-                      {label}
-                    </a>
-                  );
-                })}
-              </div>
-            ) : (
-              <div className="text-xs text-neutral-400">No links available.</div>
-            )}
-          </div>
-        </details>
-      )}
-      <div className="ml-8 sm:ml-auto w-full sm:w-80">
-        <input
-          className="input w-full"
-          placeholder="Your note…"
-          value={note}
-          onChange={e=>setNote(item.id, e.target.value)}
-        />
+      <div className="flex flex-col sm:flex-row sm:items-start gap-3 sm:gap-6">
+        {hasDetails && (
+          <details className="sm:w-72">
+            <summary className="cursor-pointer text-sm text-accent">Guides</summary>
+            <div className="text-sm text-neutral-700 dark:text-neutral-300 mt-2 max-w-prose space-y-2">
+              {Array.isArray(item.sources) && item.sources.length > 0 ? (
+                <div className="text-xs text-neutral-500 dark:text-neutral-400 flex flex-wrap gap-2">
+                  {item.sources.map((u, i) => {
+                    let label = `Source ${i+1}`;
+                    try { label = new URL(u).hostname.replace(/^www\./, ""); } catch {}
+                    return (
+                      <a key={i} className="underline hover:text-accent" href={u} target="_blank" rel="noreferrer">
+                        {label}
+                      </a>
+                    );
+                  })}
+                </div>
+              ) : (
+                <div className="text-xs text-neutral-500 dark:text-neutral-400">No links available.</div>
+              )}
+            </div>
+          </details>
+        )}
+        <div className="w-full sm:w-80 sm:ml-auto">
+          <input
+            className="input w-full"
+            placeholder="Your note…"
+            value={note}
+            onChange={e=>setNote(item.id, e.target.value)}
+          />
+        </div>
       </div>
     </li>
   );
