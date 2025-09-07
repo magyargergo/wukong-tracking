@@ -5,12 +5,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/wukong-tracker.git"
+    "url": "git+https://github.com/magyargergo/wukong-tracking.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/wukong-tracker/issues"
+    "url": "https://github.com/magyargergo/wukong-tracking/issues"
   },
-  "homepage": "https://github.com/your-username/wukong-tracker#readme",
+  "homepage": "https://github.com/magyargergo/wukong-tracking#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
