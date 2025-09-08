@@ -2,7 +2,8 @@ export type Category =
   | "Spirits" | "Transformations" | "Spells"
   | "Weapons" | "Arms" | "Body" | "Headgear" | "Legs" | "Curios" | "Vessels"
   | "Gourds" | "Drinks" | "Soaks" | "Seeds"
-  | "MeditationSpots" | "Formulas";
+  | "MeditationSpots" | "Formulas"
+  | "YaoguaiKings" | "YaoguaiChiefs" | "Characters";
 
 export type Chapter = 1|2|3|4|5|6|"Secret"|"NG+";
 

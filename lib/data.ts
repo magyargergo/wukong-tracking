@@ -17,6 +17,9 @@ import soaks from "@/data/categories/Soaks.json";
 import seeds from "@/data/categories/Seeds.json";
 import meditation from "@/data/categories/MeditationSpots.json";
 import formulas from "@/data/categories/Formulas.json";
+import yaoguaiKings from "@/data/categories/YaoguaiKings.json";
+import yaoguaiChiefs from "@/data/categories/YaoguaiChiefs.json";
+import characters from "@/data/categories/Characters.json";
 import { Item, Category } from "./types";
 import { useState } from "react";
 
@@ -45,6 +48,9 @@ const allItems: Item[] = [
   ...((seeds as Item[]) ?? []),
   ...((meditation as Item[]) ?? []),
   ...((formulas as Item[]) ?? []),
+  ...((yaoguaiKings as Item[]) ?? []),
+  ...((yaoguaiChiefs as Item[]) ?? []),
+  ...((characters as Item[]) ?? []),
 ].map((it) => ({
   ...it,
   id: it.id || `${it.category}-${it.name}`.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""),
