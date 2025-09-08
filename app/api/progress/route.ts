@@ -44,7 +44,7 @@ export async function PUT(req: Request) {
   if (!isValidCsrf(req, csrfCookie)) return NextResponse.json({ error: "Bad CSRF" }, { status: 403 });
 
   const body = await req.json().catch(() => ({}));
-  const collected = body?.collected as Record<string, { done?: boolean; note?: string }> | undefined;
+  const collected = body?.collected as Record<string, { done?: boolean; note?: string; updatedAt?: number }> | undefined;
   if (!collected || typeof collected !== "object") return NextResponse.json({ error: "Missing collected" }, { status: 400 });
 
   // Replace strategy: clear all then insert current state
@@ -52,7 +52,8 @@ export async function PUT(req: Request) {
   const filtered: Record<string, { done?: boolean; note?: string; updatedAt?: number }> = {};
   for (const [itemId, entry] of Object.entries(collected)) {
     if (!itemId || !isValidItemId(itemId)) continue;
-    filtered[itemId] = { done: !!(entry as any)?.done, note: typeof (entry as any)?.note === "string" ? (entry as any).note : undefined, updatedAt: Date.now()/1000 };
+    const ts = typeof (entry as any)?.updatedAt === 'number' ? Math.floor((entry as any).updatedAt) : Math.floor(Date.now()/1000);
+    filtered[itemId] = { done: !!(entry as any)?.done, note: typeof (entry as any)?.note === "string" ? (entry as any).note : undefined, updatedAt: ts };
   }
   const result = await replaceProgressByUsername(user.username, user.name, filtered);
   if (result.applied < result.total) {
