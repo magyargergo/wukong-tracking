@@ -15,7 +15,8 @@
   "Seeds": 15,
   "MeditationSpots": 24,
   "Formulas": 14,
-  "YaoguaiKings": 0,
-  "YaoguaiChiefs": 0,
-  "Characters": 0
+  "YaoguaiKings": 26,
+  "YaoguaiChiefs": 55,
+  "Characters": 32,
+  "LesserYaoguai": 90
 }
