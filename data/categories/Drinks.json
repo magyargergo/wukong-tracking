@@ -82,5 +82,23 @@
     ],
     "confidence": 5.5,
     "verified": true
+  },
+  {
+    "id": "drinks-loong-balm",
+    "name": "Loong Balm",
+    "category": "Drinks",
+    "description": "",
+    "sources": [],
+    "confidence": 5.5,
+    "verified": true
+  },
+  {
+    "id": "drinks-a-thousand-days-inebriation",
+    "name": "A Thousand Days Inebriation",
+    "category": "Drinks",
+    "description": "",
+    "sources": [],
+    "confidence": 5.5,
+    "verified": true
   }
 ]
