@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import { useData } from "@/lib/data";
 import { useProgressStore } from "@/lib/store";
 import { ProgressRing } from "@/components/ProgressRing";
+import { ListTodo, Settings as SettingsIcon } from "lucide-react";
 import Link from "next/link";
 
 export default function HomePage() {
@@ -28,17 +29,17 @@ export default function HomePage() {
 
   return (
     <div className="space-y-6">
-      <section className="card p-5 flex items-center justify-between gap-6">
+      <section className="card p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div className="flex items-center gap-4">
           <ProgressRing value={total.pct} size={72} strokeWidth={10} />
           <div>
-            <div className="text-2xl font-semibold">Overall Progress</div>
-            <div className="text-neutral-400">{total.d} / {total.t} items tracked</div>
+            <div className="h1">Overall Progress</div>
+            <div className="muted">{total.d} / {total.t} items tracked</div>
           </div>
         </div>
-        <div className="flex gap-2 flex-wrap">
-          <Link className="btn" href="/tracker">Open Tracker</Link>
-          <Link className="btn" href="/settings">Settings</Link>
+        <div className="hidden sm:flex gap-2 flex-wrap">
+          <Link className="btn btn-ghost" href="/tracker"><ListTodo size={16}/> Open Tracker</Link>
+          <Link className="btn btn-ghost" href="/settings"><SettingsIcon size={16}/> Settings</Link>
         </div>
       </section>
 
