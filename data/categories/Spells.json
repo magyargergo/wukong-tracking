@@ -3,110 +3,111 @@
     "id": "spells-a-pluck-of-many",
     "name": "A Pluck Of Many",
     "category": "Spells",
-    "description": "Summons a group of duplicates that attack alongside the player. These clones can distract enemies but are relatively fragile.",
-    "notes": "Receive from the Headless Monk after reaching the Windseal Gate towards the end of Chapter 2.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
       "https://www.pcgamesn.com/black-myth-wukong/spells"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": false
   },
   {
     "id": "spells-cloud-step",
     "name": "Cloud Step",
     "category": "Spells",
-    "description": "Transforms the player into an invisible mist, leaving a decoy behind. Allows for repositioning and can be followed by an 'Unveiling Strike' to stagger enemies.",
-    "notes": "Defeat the Black Wind King in the Black Wind Cave Interior towards the end of Chapter 1.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
       "https://www.pcgamesn.com/black-myth-wukong/spells"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": false
   },
   {
     "id": "spells-immobilize",
     "name": "Immobilize",
     "category": "Spells",
-    "description": "Freezes a target enemy in place, canceling their attacks. The duration is shorter for tougher enemies.",
-    "notes": "Automatically obtained during the fight against the Bullguard in Chapter 1.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
       "https://www.pcgamesn.com/black-myth-wukong/spells"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": false
   },
   {
     "id": "spells-life-saving-strand",
     "name": "Life-Saving Strand",
     "category": "Spells",
-    "description": "Automatically triggers to save the player's life once every 10 minutes by creating a clone that takes a fatal blow, restoring the player to full health.",
-    "notes": "Available only in New Game Plus; received upon interacting with the first Keeper Shrine in the new playthrough.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
       "https://gamerant.com/black-myth-wukong-all-spells-how-to-get-them/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 6,
+    "missable": false
   },
   {
     "id": "spells-ring-of-fire",
     "name": "Ring Of Fire",
     "category": "Spells",
-    "description": "Creates a ring of fire on the ground, repelling weaker enemies while accelerating stamina recovery and enhancing the effectiveness of consumables.",
-    "notes": "Defeat the Macaque Chief for the second time shortly after reaching the Warding Temple shrine in Chapter 3.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
       "https://www.pcgamesn.com/black-myth-wukong/spells"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   },
   {
     "id": "spells-rock-solid",
     "name": "Rock Solid",
     "category": "Spells",
-    "description": "Turns the player's body to stone, granting a brief moment of invincibility and parrying incoming attacks if timed correctly, which can stagger opponents.",
-    "notes": "Defeat the Tiger Vanguard at the Crouching Tiger Temple in Chapter 2.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
       "https://www.pcgamesn.com/black-myth-wukong/spells"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": false
   },
   {
     "id": "spells-somersault-cloud",
     "name": "Somersault Cloud",
     "category": "Spells",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 6,
+    "missable": false
   },
   {
     "id": "spells-spell-binder",
     "name": "Spell Binder",
     "category": "Spells",
-    "description": "Disables the use of spells, transformations, and soul skills but significantly enhances weapon and melee damage.",
-    "notes": "Complete the Treasure Hunter quest in Chapter 3, which culminates in defeating the Green-Capped Martialist.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
       "https://gamerant.com/black-myth-wukong-all-spells-how-to-get-them/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   }
 ]

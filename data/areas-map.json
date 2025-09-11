@@ -1,0 +1,154 @@
+[
+    { "name": "Black Wind Mountain", "aliases": [], "chapter": 1, "secret": false },
+  
+    { "name": "Forest of Wolves", "aliases": [], "chapter": 1, "secret": false },
+    { "name": "Front Hills", "aliases": ["Forest of Wolves"], "chapter": 1, "secret": false },
+    { "name": "Outside the Forest", "aliases": ["Forest of Wolves"], "chapter": 1, "secret": false },
+    { "name": "Loong Claw Grove", "aliases": ["Forest of Wolves"], "chapter": 1, "secret": false },
+    { "name": "Guanyin Temple", "aliases": ["Forest of Wolves"], "chapter": 1, "secret": false },
+  
+    { "name": "Bamboo Grove", "aliases": ["Bamboo Grove >"], "chapter": 1, "secret": false },
+    { "name": "Back Hills", "aliases": ["Bamboo Grove"], "chapter": 1, "secret": false },
+    { "name": "Snake Trail", "aliases": ["Bamboo Grove"], "chapter": 1, "secret": false },
+    { "name": "Marsh of White Mist", "aliases": ["Bamboo Grove"], "chapter": 1, "secret": false },
+  
+    { "name": "Black Wind Cave", "aliases": [], "chapter": 1, "secret": false },
+    { "name": "Cave Interior", "aliases": ["Black Wind Cave"], "chapter": 1, "secret": false },
+    { "name": "Outside the Cave", "aliases": ["Black Wind Cave"], "chapter": 1, "secret": false },
+    { "name": "Bodhi Peak", "aliases": ["Black Wind Cave"], "chapter": 1, "secret": false },
+  
+    { "name": "Ancient Guanyin Temple", "aliases": ["Secret Area"], "chapter": 1, "secret": true },
+    { "name": "Grand Chamber", "aliases": ["Ancient Guanyin Temple"], "chapter": 1, "secret": true },
+  
+    { "name": "Yellow Wind Ridge", "aliases": ["Chapter 2"], "chapter": 2, "secret": false },
+  
+    { "name": "Sandgate Village", "aliases": [], "chapter": 2, "secret": false },
+    { "name": "Village Entrance", "aliases": ["Sandgate Village"], "chapter": 2, "secret": false },
+    { "name": "Bottom of the Well", "aliases": ["Sandgate Village"], "chapter": 2, "secret": false },
+    { "name": "Valley of Despair", "aliases": ["Sandgate Village"], "chapter": 2, "secret": false },
+  
+    { "name": "Crouching Tiger Temple", "aliases": [], "chapter": 2, "secret": false },
+    { "name": "Temple Entrance", "aliases": ["Crouching Tiger Temple"], "chapter": 2, "secret": false },
+    { "name": "Cellar", "aliases": ["Crouching Tiger Temple"], "chapter": 2, "secret": false },
+  
+    { "name": "Fright Cliff", "aliases": [], "chapter": 2, "secret": false },
+    { "name": "Squall Hideout", "aliases": ["Fright Cliff"], "chapter": 2, "secret": false },
+    { "name": "Rockrest Flat", "aliases": ["Fright Cliff"], "chapter": 2, "secret": false },
+    { "name": "Hidden Loong Cavern", "aliases": ["Fright Cliff"], "chapter": 2, "secret": false },
+    { "name": "Rock Clash Platform", "aliases": ["Fright Cliff"], "chapter": 2, "secret": false },
+  
+    { "name": "Yellow Wind Formation", "aliases": [], "chapter": 2, "secret": false },
+    { "name": "Windrest Bridge", "aliases": ["Yellow Wind Formation"], "chapter": 2, "secret": false },
+    { "name": "Windrest Hamlet", "aliases": ["Yellow Wind Formation"], "chapter": 2, "secret": false },
+    { "name": "Windseal Gate", "aliases": ["Yellow Wind Formation"], "chapter": 2, "secret": false },
+  
+    { "name": "Kingdom of Sahali", "aliases": ["Secret Area", "Kingdom of Sahi"], "chapter": 2, "secret": true },
+    { "name": "Sandgate Pass", "aliases": ["Kingdom of Sahali"], "chapter": 2, "secret": true },
+    { "name": "Sandgate Bound", "aliases": ["Kingdom of Sahali"], "chapter": 2, "secret": true },
+  
+    { "name": "Ruyi Scroll", "aliases": [], "chapter": 3, "secret": false },
+    { "name": "Village Entrance", "aliases": ["Zodiac Village", "Ruyi Scroll"], "chapter": 3, "secret": false },
+  
+    { "name": "Snowhill Path", "aliases": [], "chapter": 3, "secret": false },
+    { "name": "Frost-Clad Path", "aliases": ["Snowhill Path"], "chapter": 3, "secret": false },
+    { "name": "Mirrormere", "aliases": ["Snowhill Path"], "chapter": 3, "secret": false },
+  
+    { "name": "Pagoda Realm", "aliases": [], "chapter": 3, "secret": false },
+    { "name": "Lower Pagoda", "aliases": ["Pagoda Realm"], "chapter": 3, "secret": false },
+    { "name": "Upper Pagoda", "aliases": ["Pagoda Realm"], "chapter": 3, "secret": false },
+    { "name": "Mani Wheel", "aliases": ["Pagoda Realm"], "chapter": 3, "secret": false },
+    { "name": "Outside the Wheel", "aliases": ["Pagoda Realm"], "chapter": 3, "secret": false },
+    { "name": "Snow-Veiled Trail", "aliases": ["Pagoda Realm"], "chapter": 3, "secret": false },
+    { "name": "The Great Pagoda", "aliases": ["Pagoda Realm"], "chapter": 3, "secret": false },
+    { "name": "Warding Temple", "aliases": ["Pagoda Realm"], "chapter": 3, "secret": false },
+  
+    { "name": "Bitter Lake", "aliases": [], "chapter": 3, "secret": false },
+    { "name": "South Shore of the Bitter Lake", "aliases": ["Bitter Lake"], "chapter": 3, "secret": false },
+    { "name": "Turtle Island", "aliases": ["Bitter Lake"], "chapter": 3, "secret": false },
+    { "name": "North Shore of the Bitter Lake", "aliases": ["Bitter Lake"], "chapter": 3, "secret": false },
+    { "name": "Precept Corridor", "aliases": ["Bitter Lake"], "chapter": 3, "secret": false },
+  
+    { "name": "Valley of Ecstasy", "aliases": [], "chapter": 3, "secret": false },
+    { "name": "Mindfulness Cliff", "aliases": ["Valley of Ecstasy"], "chapter": 3, "secret": false },
+    { "name": "Forest of Felicity", "aliases": ["Valley of Ecstasy"], "chapter": 3, "secret": false },
+    { "name": "Melon Field", "aliases": ["Valley of Ecstasy"], "chapter": 3, "secret": false },
+    { "name": "Brook of Bliss", "aliases": ["Valley of Ecstasy"], "chapter": 3, "secret": false },
+    { "name": "Towers of Karma", "aliases": ["Valley of Ecstasy"], "chapter": 3, "secret": false },
+    { "name": "Longevity Road", "aliases": ["Valley of Ecstasy"], "chapter": 3, "secret": false },
+  
+    { "name": "New Thunderclap Temple", "aliases": ["Thunderclap Temple"], "chapter": 3, "secret": false },
+    { "name": "Temple Entrance", "aliases": ["New Thunderclap Temple"], "chapter": 3, "secret": false },
+    { "name": "Mahavira Hall", "aliases": ["New Thunderclap Temple"], "chapter": 3, "secret": false },
+    { "name": "Floating Sculpture Upper Level", "aliases": ["New Thunderclap Temple"], "chapter": 3, "secret": false },
+    { "name": "Floating Sculpture Lower Level", "aliases": ["New Thunderclap Temple"], "chapter": 3, "secret": false },
+  
+    { "name": "Mount Mei", "aliases": ["Secret Area"], "chapter": 3, "secret": true },
+    { "name": "Mei-Jian Peak", "aliases": ["Mount Mei"], "chapter": 3, "secret": true },
+  
+    { "name": "Village of Lanxi", "aliases": [], "chapter": 4, "secret": false },
+    { "name": "Estate of the Zhu", "aliases": ["Village of Lanxi"], "chapter": 4, "secret": false },
+  
+    { "name": "Webbed Hollow", "aliases": [], "chapter": 4, "secret": false },
+    { "name": "Upper Hollow", "aliases": ["Webbed Hollow"], "chapter": 4, "secret": false },
+    { "name": "Pool of Shattered Jade", "aliases": ["Webbed Hollow"], "chapter": 4, "secret": false },
+    { "name": "The Verdure Bridge", "aliases": ["Webbed Hollow"], "chapter": 4, "secret": false },
+    { "name": "Middle Hollow", "aliases": ["Webbed Hollow"], "chapter": 4, "secret": false },
+    { "name": "Bonevault", "aliases": ["Webbed Hollow"], "chapter": 4, "secret": false },
+    { "name": "Cliff of Oblivion", "aliases": ["Webbed Hollow"], "chapter": 4, "secret": false },
+    { "name": "Relief of the Fallen Loong", "aliases": ["Webbed Hollow"], "chapter": 4, "secret": false },
+    { "name": "Lower Hollow", "aliases": ["Webbed Hollow"], "chapter": 4, "secret": false },
+    { "name": "Hut of Immortality", "aliases": ["Webbed Hollow"], "chapter": 4, "secret": false },
+    { "name": "The Purifying Spring", "aliases": ["Webbed Hollow"], "chapter": 4, "secret": false },
+    { "name": "The Gathering Cave", "aliases": ["Webbed Hollow"], "chapter": 4, "secret": false },
+  
+    { "name": "Temple of the Yellow Flower", "aliases": [], "chapter": 4, "secret": false },
+    { "name": "Mountain Trail", "aliases": ["Temple of the Yellow Flower"], "chapter": 4, "secret": false },
+    { "name": "Forest of Ferocity", "aliases": ["Temple of the Yellow Flower"], "chapter": 4, "secret": false },
+    { "name": "Temple Entrance", "aliases": ["Temple of the Yellow Flower"], "chapter": 4, "secret": false },
+    { "name": "Court of Illumination", "aliases": ["Temple of the Yellow Flower"], "chapter": 4, "secret": false },
+  
+    { "name": "Purple Cloud Mountain", "aliases": ["Secret Area"], "chapter": 4, "secret": true },
+    { "name": "Valley of Blooms", "aliases": ["Purple Cloud Mountain"], "chapter": 4, "secret": true },
+    { "name": "Bounds of Deity’s Abode", "aliases": ["Purple Cloud Mountain"], "chapter": 4, "secret": true },
+    { "name": "Petalfall Hamlet", "aliases": ["Purple Cloud Mountain"], "chapter": 4, "secret": true },
+    { "name": "Cloudnest Peak", "aliases": ["Purple Cloud Mountain"], "chapter": 4, "secret": true },
+  
+    { "name": "Flaming Mountains", "aliases": ["Chapter 5"], "chapter": 5, "secret": false },
+  
+    { "name": "Woods of Ember", "aliases": [], "chapter": 5, "secret": false },
+    { "name": "Ashen Pass I", "aliases": ["Woods of Ember"], "chapter": 5, "secret": false },
+    { "name": "Camp of Seasons", "aliases": ["Woods of Ember"], "chapter": 5, "secret": false },
+    { "name": "Height of Ember", "aliases": ["Woods of Ember"], "chapter": 5, "secret": false },
+    { "name": "Ashen Pass II", "aliases": ["Woods of Ember"], "chapter": 5, "secret": false },
+  
+    { "name": "Furnace Valley", "aliases": [], "chapter": 5, "secret": false },
+    { "name": "Valley Entrance", "aliases": ["Furnace Valley"], "chapter": 5, "secret": false },
+    { "name": "Rakshasa Palace", "aliases": ["Furnace Valley"], "chapter": 5, "secret": false },
+    { "name": "The Emerald Hall", "aliases": ["Furnace Valley"], "chapter": 5, "secret": false },
+  
+    { "name": "Field of Fire", "aliases": [], "chapter": 5, "secret": false },
+    { "name": "Ashen Pass III", "aliases": ["Field of Fire"], "chapter": 5, "secret": false },
+    { "name": "Cooling Slope", "aliases": ["Field of Fire"], "chapter": 5, "secret": false },
+    { "name": "Fallen Furnace Crater", "aliases": ["Field of Fire"], "chapter": 5, "secret": false },
+  
+    { "name": "Bishui Cave", "aliases": ["Secret Area"], "chapter": 5, "secret": true },
+    { "name": "Purge Pit", "aliases": ["Bishui Cave"], "chapter": 5, "secret": true },
+    { "name": "Cave Depths", "aliases": ["Bishui Cave"], "chapter": 5, "secret": true },
+    { "name": "Corridor of Fire and Ice", "aliases": ["Bishui Cave"], "chapter": 5, "secret": true },
+  
+    { "name": "Mount Huaguo", "aliases": ["Chapter 6"], "chapter": 6, "secret": false },
+  
+    { "name": "Foothills", "aliases": [], "chapter": 6, "secret": false },
+    { "name": "Verdant Path", "aliases": ["Foothills"], "chapter": 6, "secret": false },
+    { "name": "Rhino Watch Slope", "aliases": ["Foothills"], "chapter": 6, "secret": false },
+    { "name": "Deer Sight Forest", "aliases": ["Foothills"], "chapter": 6, "secret": false },
+    { "name": "Mantis-Catching Swamp", "aliases": ["Foothills"], "chapter": 6, "secret": false },
+  
+    { "name": "Water Curtain Cave", "aliases": [], "chapter": 6, "secret": false },
+    { "name": "Return Path", "aliases": ["Water Curtain Cave"], "chapter": 6, "secret": false },
+    { "name": "Peak of Innocence", "aliases": ["Water Curtain Cave"], "chapter": 6, "secret": false },
+  
+    { "name": "Birthstone", "aliases": [], "chapter": 6, "secret": false },
+    { "name": "Heart of Birthstone", "aliases": ["Birthstone"], "chapter": 6, "secret": false }
+]
+  

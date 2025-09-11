@@ -3,272 +3,291 @@
     "id": "weapons-adept-spine-shooting-fuban-staff",
     "name": "Adept-Spine Shooting Fuban Staff",
     "category": "Weapons",
-    "description": "Similar to Chitin Staff; attacks enemies nearby with spines shooting from the staff.",
-    "notes": "Craftable in New Game+.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
       "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 6,
+    "missable": false
   },
   {
     "id": "weapons-bishui-beast-staff",
     "name": "Bishui Beast Staff",
     "category": "Weapons",
-    "description": "Upgrade to the Rat Sage Staff.",
-    "notes": "Defeat the Bishui Golden-Eyed Beast.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Bishui_Beast_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": true
   },
   {
     "id": "weapons-bronze-cloud-staff",
     "name": "Bronze Cloud Staff",
     "category": "Weapons",
-    "description": "",
-    "notes": "Obtained with the Deluxe Edition.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Bronze_Cloud_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": true
   },
   {
     "id": "weapons-chitin-staff",
     "name": "Chitin Staff",
     "category": "Weapons",
-    "description": "Successful charged Heavy Attacks slightly recover Health per Focus Point used.",
-    "notes": "Craftable after defeating the Second Sister in Chapter 4.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Chitin_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "weapons-chu-bai-spear",
     "name": "Chu-Bai Spear",
     "category": "Weapons",
-    "description": "Integrates spear techniques into Light Attack Combo; increases damage of Thrust Stance moves.",
-    "notes": "Complete the Prisoner Questline in Chapter 3.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Chu-Bai_Spear"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": true
   },
   {
     "id": "weapons-cloud-patterned-stone-staff",
     "name": "Cloud-Patterned Stone Staff",
     "category": "Weapons",
-    "description": "Increases damage of charged Smash Heavy Attacks.",
-    "notes": "Defeat Shigandang in Chapter 2; requires finding all six Buddha's Eyeballs.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Cloud-Patterned_Stone_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "weapons-dark-iron-staff",
     "name": "Dark Iron Staff",
     "category": "Weapons",
-    "description": "Increases Attack based on Defense.",
-    "notes": "Craftable in New Game+.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Dark_Iron_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 6,
+    "missable": true
   },
   {
     "id": "weapons-golden-loong-staff",
     "name": "Golden Loong Staff",
     "category": "Weapons",
-    "description": "Increases damage of Pillar Stance moves; summons a Loong to execute Thunder at the enemy.",
-    "notes": "Defeat Cyan Loong in Chapter 3.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Golden_Loong_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": true
   },
   {
     "id": "weapons-jingubang",
     "name": "Jingubang",
     "category": "Weapons",
-    "description": "The gauge of the 4th Focus Point no longer depletes over time.",
-    "notes": "Find all four pieces of Sun Wukong's armor; then go to the cave with Jingubang.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Jingubang"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 6,
+    "missable": true
   },
   {
     "id": "weapons-kang-jin-staff",
     "name": "Kang-Jin Staff",
     "category": "Weapons",
-    "description": "Punishing Downpour executes Thunder Damage instead of area damage.",
-    "notes": "Defeat Kang-Jin Star in Chapter 3, then craft at a Keeper's Shrine.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Kang-Jin_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": true
   },
   {
     "id": "weapons-loongwreathe-staff",
     "name": "Loongwreathe Staff",
     "category": "Weapons",
-    "description": "Increases damage dealt by all Pillar Stance moves.",
-    "notes": "Defeat the Red Loong or Black Loong.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Loongwreathe_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "weapons-rat-sage-staff",
     "name": "Rat Sage Staff",
     "category": "Weapons",
-    "description": "Fourth move of Light Attack Combo and Mobile Staff Spin stir up a whirlwind of sands.",
-    "notes": "Defeat the Yellow Wind Sage at the end of Chapter 2.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Rat_Sage_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "weapons-spider-celestial-staff",
     "name": "Spider Celestial Staff",
     "category": "Weapons",
-    "description": "Similar to Chitin Staff; in Poisoned State, hits inflict Poison Bane.",
-    "notes": "Defeat the Violet Spider in Chapter 4.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Spider_Celestial_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "weapons-spikeshaft-staff",
     "name": "Spikeshaft Staff",
     "category": "Weapons",
-    "description": "Gains Focus after Seeing Through the enemy.",
-    "notes": "Obtainable after finishing Chapter 3.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Spikeshaft_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "weapons-staff-of-blazing-karma",
     "name": "Staff Of Blazing Karma",
     "category": "Weapons",
-    "description": "Charged Heavy Attacks in Smash Stance inflict a bursting lava effect on the ground.",
-    "notes": "Defeat the Flint Chief, Flint Vanguard, and Mother of Flamlings.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
       "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": false
   },
   {
     "id": "weapons-stormflash-loong-staff",
     "name": "Stormflash Loong Staff",
     "category": "Weapons",
-    "description": "Draws Thunder while charging; inflicts Thunder Damage with every staff attack when in Shocked State.",
-    "notes": "Obtainable in New Game+.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Stormflash_Loong_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 6,
+    "missable": true
   },
   {
     "id": "weapons-tri-point-double-edged-spear",
     "name": "Tri-Point Double-Edged Spear",
     "category": "Weapons",
-    "description": "Integrates spear techniques into Light Attack Combo; increases damage of Thrust Stance moves; shoots swords from the staff upon Forceful Thrust.",
-    "notes": "Defeat Erlang Shen and the Four Heavenly Kings.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Tri-Point_Double-Edged_Spear"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 6,
+    "missable": true
   },
   {
     "id": "weapons-twin-serpents-staff",
     "name": "Twin Serpents Staff",
     "category": "Weapons",
-    "description": "Increases damage of Light Attack Combo finishers; effect enhanced in water.",
-    "notes": "Unlocked after defeating the Whiteclad Noble in Chapter 1.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Twin_Serpents_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": true
   },
   {
     "id": "weapons-visionary-centipede-staff",
     "name": "Visionary Centipede Staff",
     "category": "Weapons",
-    "description": "Similar to Chitin Staff; if the enemy is in Poisoned State, enhances Health recovery.",
-    "notes": "Defeat the Hundred-Eyed Daoist Master in Chapter 4.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Visionary_Centipede_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": true
   },
   {
     "id": "weapons-wind-bear-staff",
     "name": "Wind Bear Staff",
     "category": "Weapons",
-    "description": "Increases Critical Hit Chance of the Unveiling Strike of Cloud Step.",
-    "notes": "Craftable after defeating Black Bear Guai in Chapter 1.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-weapon-locations-staffs-and-spears/",
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Wind_Bear_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": true
   },
   {
     "id": "weapons-willow-wood-staff",
     "name": "Willow Wood Staff",
     "category": "Weapons",
-    "description": "",
-    "notes": "Unlocked automatically at the beginning of the game.",
     "sources": [
-      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/"
+      "https://gamerant.com/black-myth-wukong-all-weapons-how-to-get-them/",
+      "https://www.ign.com/wikis/black-myth-wukong/Willow_Wood_Staff"
     ],
     "confidence": 3.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": true
   }
 ]

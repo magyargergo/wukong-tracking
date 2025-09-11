@@ -1,98 +1,914 @@
 [
-  {"id":"lesseryaoguai-wolf-scout","name":"Wolf Scout","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-wolf-swornsword","name":"Wolf Swornsword","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-wolf-soldier","name":"Wolf Soldier","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-wolf-stalwart","name":"Wolf Stalwart","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-wolf-archer","name":"Wolf Archer","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-wolf-sentinel","name":"Wolf Sentinel","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-wolf-assassin","name":"Wolf Assassin","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-croaky","name":"Croaky","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-crow-diviner","name":"Crow Diviner","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-bandit-chief-l","name":"Bandit Chief","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/","https://blackmythwukong.wiki.fextralife.com/Bandit+Chief"]},
-  {"id":"lesseryaoguai-skeletal-snake","name":"Skeletal Snake","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-snake-patroller","name":"Snake Patroller","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-fungling","name":"Fungling","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-ginsengling","name":"Ginsengling","category":"LesserYaoguai","chapter":1,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-
-  {"id":"lesseryaoguai-rat-archer","name":"Rat Archer","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-rat-soldier","name":"Rat Soldier","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-rat-governor","name":"Rat Governor","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-rat-captain","name":"Rat Captain","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-rat-imperial-guard","name":"Rat Imperial Guard","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-pitstone","name":"Pitstone","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-palestone","name":"Palestone","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-poisestone","name":"Poisestone","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-blazebone","name":"Blazebone","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-spearbone","name":"Spearbone","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-swift-bat","name":"Swift Bat","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-withered-corpse","name":"Withered Corpse","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/","https://blackmythwukong.wiki.fextralife.com/Withered+Corpse"]},
-  {"id":"lesseryaoguai-weasel-captain","name":"Weasel Captain","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-civet-sergeant","name":"Civet Sergeant","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-lingzhiling","name":"Lingzhiling","category":"LesserYaoguai","chapter":2,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-
-  {"id":"lesseryaoguai-supporter-monk","name":"Supporter Monk","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-blade-monk","name":"Blade Monk","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-censor-holder","name":"Censor Holder","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-circus-monkey","name":"Circus Monkey","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-overseeing-monk","name":"Overseeing Monk","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-dual-blade-monk","name":"Dual-Blade Monk","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-cyan-bat","name":"Cyan Bat","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-frozen-corpse","name":"Frozen Corpse","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-yaksha-patroller","name":"Yaksha Patroller","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-yaksha-archer","name":"Yaksha Archer","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-starved-abomination","name":"Starved Abomination","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-red-haired-yaksha","name":"Red-Haired Yaksha","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/","https://blackmythwukong.wiki.fextralife.com/Red-Haired+Yaksha"]},
-  {"id":"lesseryaoguai-lantern-warden","name":"Lantern Warden","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-enslaved-yaksha","name":"Enslaved Yaksha","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-falcon-fan-maker","name":"Falcon Fan-Maker","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-wolf-guardian","name":"Wolf Guardian","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-turtle-treasure","name":"Turtle Treasure","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-thunder-rhino-master","name":"Thunder Rhino Master","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/","https://blackmythwukong.wiki.fextralife.com/Thunder-Rhino+Master"]},
-  {"id":"lesseryaoguai-dark-faced-overlord","name":"Dark-faced Overlord","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-clay-vajra","name":"Clay Vajra","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-golden-lotus-guai","name":"Golden Lotus Guai","category":"LesserYaoguai","chapter":3,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-
-  {"id":"lesseryaoguai-wushan-lesser-guai","name":"Wushan Lesser Guai","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/","https://blackmythwukong.wiki.fextralife.com/Wushan+Lesser+Guai"]},
-  {"id":"lesseryaoguai-puppet-spider","name":"Puppet Spider","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-puppet-tick","name":"Puppet Tick","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-lantern-holder","name":"Lantern Holder","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-grasshopper-guai","name":"Grasshopper Guai","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-dragonfly-guai","name":"Dragonfly Guai","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-wasp-guai","name":"Wasp Guai","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-beetle-captain","name":"Beetle Captain","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-stone-spider","name":"Stone Spider","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-minor-amourworm","name":"Minor Amourworm","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-clawed-cocoon","name":"Clawed Cocoon","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-scorpion-prince","name":"Scorpion Prince","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-sword-daoist","name":"Sword Daoist","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-fly-whisk-daoist","name":"Fly-whisk Daoist","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-staff-daoist","name":"Staff Daoist","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-snake-herbalist","name":"Snake Herbalist","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-snake-sheriff","name":"Snake Sheriff","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/","https://blackmythwukong.wiki.fextralife.com/Snake+Sheriff","https://blackmythwukong.fandom.com/wiki/Snake_Sheriff"]},
-  {"id":"lesseryaoguai-worm-practitioner","name":"Worm Practitioner","category":"LesserYaoguai","chapter":4,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/","https://blackmythwukong.fandom.com/wiki/Worm_Practitioner","https://blackmythwukong.wiki.fextralife.com/Worm+Practioner"]},
-  {"id":"lesseryaoguai-lushleaf","name":"Lushleaf","category":"LesserYaoguai","chapter":"Secret","sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-
-  {"id":"lesseryaoguai-revenant-stalwart","name":"Revenant Stalwart","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-revenant-archer","name":"Revenant Archer","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-lavabull-revenant","name":"Lavabull Revenant","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-revenant-charbone","name":"Revenant Charbone","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/","https://blackmythwukong.wiki.fextralife.com/Revenant+Charbone"]},
-  {"id":"lesseryaoguai-revenant-charface","name":"Revenant Charface","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/","https://blackmythwukong.wiki.fextralife.com/Revenant+Charface"]},
-  {"id":"lesseryaoguai-lavabat","name":"Lavabat","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/","https://blackmythwukong.wiki.fextralife.com/Lavabat"]},
-  {"id":"lesseryaoguai-bull-sergeant","name":"Bull Sergeant","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-bull-soldier","name":"Bull Soldier","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-bull-stalwart","name":"Bull Stalwart","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-searing-fire","name":"Searing-Fire","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-scorching-fire","name":"Scorching-Fire","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-flamling","name":"Flamling","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-tenner","name":"Tenner","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-earth-rakshasa","name":"Earth Rakshasa","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-sea-rakshasa","name":"Sea Rakshasa","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-flame-rhino-master","name":"Flame Rhino Master","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-bull-governor","name":"Bull Governor","category":"LesserYaoguai","chapter":5,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-
-  {"id":"lesseryaoguai-eagle-soldier","name":"Eagle Soldier","category":"LesserYaoguai","chapter":6,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-hound-soldier","name":"Hound Soldier","category":"LesserYaoguai","chapter":6,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-jackal-soldier","name":"Jackal Soldier","category":"LesserYaoguai","chapter":6,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]},
-  {"id":"lesseryaoguai-captain-of-the-court","name":"Captain of the Court","category":"LesserYaoguai","chapter":6,"sources":["https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"]}
+  {
+    "id": "lesseryaoguai-wolf-scout",
+    "name": "Wolf Scout",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-wolf-swornsword",
+    "name": "Wolf Swornsword",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-wolf-soldier",
+    "name": "Wolf Soldier",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-wolf-stalwart",
+    "name": "Wolf Stalwart",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-wolf-archer",
+    "name": "Wolf Archer",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-wolf-sentinel",
+    "name": "Wolf Sentinel",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-wolf-assassin",
+    "name": "Wolf Assassin",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-croaky",
+    "name": "Croaky",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-crow-diviner",
+    "name": "Crow Diviner",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-bandit-chief-l",
+    "name": "Bandit Chief",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/",
+      "https://blackmythwukong.wiki.fextralife.com/Bandit+Chief"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-skeletal-snake",
+    "name": "Skeletal Snake",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-snake-patroller",
+    "name": "Snake Patroller",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-fungling",
+    "name": "Fungling",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-ginsengling",
+    "name": "Ginsengling",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-rat-archer",
+    "name": "Rat Archer",
+    "category": "LesserYaoguai",
+    "chapter": 2,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-rat-soldier",
+    "name": "Rat Soldier",
+    "category": "LesserYaoguai",
+    "chapter": 2,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-rat-governor",
+    "name": "Rat Governor",
+    "category": "LesserYaoguai",
+    "chapter": 2,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-rat-captain",
+    "name": "Rat Captain",
+    "category": "LesserYaoguai",
+    "chapter": 2,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-rat-imperial-guard",
+    "name": "Rat Imperial Guard",
+    "category": "LesserYaoguai",
+    "chapter": 2,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-pitstone",
+    "name": "Pitstone",
+    "category": "LesserYaoguai",
+    "chapter": 2,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-palestone",
+    "name": "Palestone",
+    "category": "LesserYaoguai",
+    "chapter": 2,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-poisestone",
+    "name": "Poisestone",
+    "category": "LesserYaoguai",
+    "chapter": 2,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-blazebone",
+    "name": "Blazebone",
+    "category": "LesserYaoguai",
+    "chapter": 2,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-spearbone",
+    "name": "Spearbone",
+    "category": "LesserYaoguai",
+    "chapter": 2,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-swift-bat",
+    "name": "Swift Bat",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-withered-corpse",
+    "name": "Withered Corpse",
+    "category": "LesserYaoguai",
+    "chapter": 2,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/",
+      "https://blackmythwukong.wiki.fextralife.com/Withered+Corpse"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-weasel-captain",
+    "name": "Weasel Captain",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-civet-sergeant",
+    "name": "Civet Sergeant",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-lingzhiling",
+    "name": "Lingzhiling",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-supporter-monk",
+    "name": "Supporter Monk",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-blade-monk",
+    "name": "Blade Monk",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-censor-holder",
+    "name": "Censor Holder",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-circus-monkey",
+    "name": "Circus Monkey",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-overseeing-monk",
+    "name": "Overseeing Monk",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-dual-blade-monk",
+    "name": "Dual-Blade Monk",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-cyan-bat",
+    "name": "Cyan Bat",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-frozen-corpse",
+    "name": "Frozen Corpse",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-yaksha-patroller",
+    "name": "Yaksha Patroller",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-yaksha-archer",
+    "name": "Yaksha Archer",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-starved-abomination",
+    "name": "Starved Abomination",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-red-haired-yaksha",
+    "name": "Red-Haired Yaksha",
+    "category": "LesserYaoguai",
+    "chapter": 3,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/",
+      "https://blackmythwukong.wiki.fextralife.com/Red-Haired+Yaksha"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-lantern-warden",
+    "name": "Lantern Warden",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-enslaved-yaksha",
+    "name": "Enslaved Yaksha",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-falcon-fan-maker",
+    "name": "Falcon Fan-Maker",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-wolf-guardian",
+    "name": "Wolf Guardian",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-turtle-treasure",
+    "name": "Turtle Treasure",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-thunder-rhino-master",
+    "name": "Thunder Rhino Master",
+    "category": "LesserYaoguai",
+    "chapter": 3,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/",
+      "https://blackmythwukong.wiki.fextralife.com/Thunder-Rhino+Master"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-dark-faced-overlord",
+    "name": "Dark-faced Overlord",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-clay-vajra",
+    "name": "Clay Vajra",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-golden-lotus-guai",
+    "name": "Golden Lotus Guai",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-wushan-lesser-guai",
+    "name": "Wushan Lesser Guai",
+    "category": "LesserYaoguai",
+    "chapter": 4,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/",
+      "https://blackmythwukong.wiki.fextralife.com/Wushan+Lesser+Guai"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-puppet-spider",
+    "name": "Puppet Spider",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-puppet-tick",
+    "name": "Puppet Tick",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-lantern-holder",
+    "name": "Lantern Holder",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-grasshopper-guai",
+    "name": "Grasshopper Guai",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-dragonfly-guai",
+    "name": "Dragonfly Guai",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-wasp-guai",
+    "name": "Wasp Guai",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-beetle-captain",
+    "name": "Beetle Captain",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-stone-spider",
+    "name": "Stone Spider",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-minor-amourworm",
+    "name": "Minor Amourworm",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-clawed-cocoon",
+    "name": "Clawed Cocoon",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-scorpion-prince",
+    "name": "Scorpion Prince",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-sword-daoist",
+    "name": "Sword Daoist",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-fly-whisk-daoist",
+    "name": "Fly-whisk Daoist",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-staff-daoist",
+    "name": "Staff Daoist",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-snake-herbalist",
+    "name": "Snake Herbalist",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-snake-sheriff",
+    "name": "Snake Sheriff",
+    "category": "LesserYaoguai",
+    "chapter": 1,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/",
+      "https://blackmythwukong.wiki.fextralife.com/Snake+Sheriff",
+      "https://blackmythwukong.fandom.com/wiki/Snake_Sheriff"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-worm-practitioner",
+    "name": "Worm Practitioner",
+    "category": "LesserYaoguai",
+    "chapter": 4,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/",
+      "https://blackmythwukong.fandom.com/wiki/Worm_Practitioner",
+      "https://blackmythwukong.wiki.fextralife.com/Worm+Practioner"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-lushleaf",
+    "name": "Lushleaf",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-revenant-stalwart",
+    "name": "Revenant Stalwart",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-revenant-archer",
+    "name": "Revenant Archer",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-lavabull-revenant",
+    "name": "Lavabull Revenant",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-revenant-charbone",
+    "name": "Revenant Charbone",
+    "category": "LesserYaoguai",
+    "chapter": 5,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/",
+      "https://blackmythwukong.wiki.fextralife.com/Revenant+Charbone"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-revenant-charface",
+    "name": "Revenant Charface",
+    "category": "LesserYaoguai",
+    "chapter": 5,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/",
+      "https://blackmythwukong.wiki.fextralife.com/Revenant+Charface"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-lavabat",
+    "name": "Lavabat",
+    "category": "LesserYaoguai",
+    "chapter": 5,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/",
+      "https://blackmythwukong.wiki.fextralife.com/Lavabat"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-bull-sergeant",
+    "name": "Bull Sergeant",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-bull-soldier",
+    "name": "Bull Soldier",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-bull-stalwart",
+    "name": "Bull Stalwart",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-searing-fire",
+    "name": "Searing-Fire",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-scorching-fire",
+    "name": "Scorching-Fire",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-flamling",
+    "name": "Flamling",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-tenner",
+    "name": "Tenner",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-earth-rakshasa",
+    "name": "Earth Rakshasa",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-sea-rakshasa",
+    "name": "Sea Rakshasa",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-flame-rhino-master",
+    "name": "Flame Rhino Master",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-bull-governor",
+    "name": "Bull Governor",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-eagle-soldier",
+    "name": "Eagle Soldier",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-hound-soldier",
+    "name": "Hound Soldier",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-jackal-soldier",
+    "name": "Jackal Soldier",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  },
+  {
+    "id": "lesseryaoguai-captain-of-the-court",
+    "name": "Captain of the Court",
+    "category": "LesserYaoguai",
+    "chapter": 6,
+    "sources": [
+      "https://www.powerpyx.com/black-myth-wukong-all-journal-portraits-yaoguai-enemy-locations/"
+    ],
+    "missable": false
+  }
 ]
-

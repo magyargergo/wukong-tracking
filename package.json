@@ -15,7 +15,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "enrich": "tsx scripts/enrich-data.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.1",
@@ -40,7 +41,8 @@
     "eslint-plugin-unused-imports": "^4.2.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.7",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "tsx": "^4.19.0"
   },
   "pnpm": {
     "patchedDependencies": {}

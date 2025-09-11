@@ -3,102 +3,120 @@
     "id": "drinks-drink-1-coconut-wine",
     "name": "Coconut Wine",
     "category": "Drinks",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-drinks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.ign.com/wikis/black-myth-wukong/Coconut_Wine"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": true
   },
   {
     "id": "drinks-drink-2-lambbrew",
     "name": "Lambbrew",
     "category": "Drinks",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-drinks-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": false
   },
   {
     "id": "drinks-drink-3-bluebridge-romance",
     "name": "Bluebridge Romance",
     "category": "Drinks",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-drinks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.ign.com/wikis/black-myth-wukong/Bluebridge_Romance"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": true
   },
   {
     "id": "drinks-drink-4-jade-essence",
     "name": "Jade Essence",
     "category": "Drinks",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-drinks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.ign.com/wikis/black-myth-wukong/Jade_Essence"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": true
   },
   {
     "id": "drinks-drink-5-pinebrew",
     "name": "Pinebrew",
     "category": "Drinks",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-drinks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.ign.com/wikis/black-myth-wukong/Pinebrew"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "drinks-drink-6-worryfree-brew",
     "name": "Worryfree Brew",
     "category": "Drinks",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-drinks-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.ign.com/wikis/black-myth-wukong/Worryfree_Brew"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "drinks-drink-7-sunset-of-the-nine-skies",
     "name": "Sunset Of The Nine Skies",
     "category": "Drinks",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-drinks-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": false
   },
   {
     "id": "drinks-loong-balm",
     "name": "Loong Balm",
     "category": "Drinks",
-    "description": "",
-    "sources": [],
+    "sources": [
+      "https://www.ign.com/wikis/black-myth-wukong/Loong_Balm"
+    ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": true
   },
   {
     "id": "drinks-a-thousand-days-inebriation",
     "name": "A Thousand Days Inebriation",
     "category": "Drinks",
-    "description": "",
-    "sources": [],
+    "sources": [
+      "https://www.ign.com/wikis/black-myth-wukong/A_Thousand_Days_Inebriation"
+    ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 6,
+    "missable": true
   }
 ]

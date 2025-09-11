@@ -3,180 +3,195 @@
     "id": "seeds-celestial-pear",
     "name": "Celestial Pear",
     "category": "Seeds",
-    "description": "Chapter 3 > Valley of Ecstasy > Brook of Bliss: from the Shrine, turn around and drop down the cliff at the bridge. After dropping down, immediately check your right for a tree with golden-glowing pears on it, then follow the river bank on the left side to find two more.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   },
   {
     "id": "seeds-fire-bellflower",
     "name": "Fire Bellflower",
     "category": "Seeds",
-    "description": "Chapter 5 > Woods of Ember > Ashen Pass I: from the Shine, go straight ahead and you'll find one behind a destructible fence. One more sample can be found by going straight ahead and up the stairs on the left, then straight in front of you. In the next area after crossing a wooden bridge you can find one more.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": false
   },
   {
     "id": "seeds-fire-date",
     "name": "Fire Date",
     "category": "Seeds",
-    "description": "Chapter 5 > Furnace Valley > Valley Entrance: from the Shrine, go straight ahead. After coming across the shielded enemy, drop down to the right and you'll find one sample. Then, turn around and go through the tunnel past the lava worm. Follow the lava to find a few more samples. Basically it's found all over the lava lake after this shrine, looks like a small tree.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": false
   },
   {
     "id": "seeds-fragrant-jade-flower",
     "name": "Fragrant Jade Flower",
     "category": "Seeds",
-    "description": "Chapter 4 > Village of Lanxi > Estate of Zhu: from the Shrine, don't go up the stairs but flank the gate on your right and you'll find one near the building. Then go up the stairs in front of the shrine and through the gate, immediately turn right and you'll find another one in the corner. Enter the next area by going through a temple-looking building, behind where you fought \"Second Sister\" boss, then you find one more in the top right corner next to many spider webs. Drop down the hole in the middle of the area to enter the Webbed Hollow, where you land is another of these plants. Looks like a pink flower bush.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": false
   },
   {
     "id": "seeds-gentian",
     "name": "Gentian",
     "category": "Seeds",
-    "description": "Chapter 3 > Valley of Ecstasy > Forest of Felicity: from the Shrine, go behind it and down the small hill and follow the path to the lake. On your way to it you'll find a sample of Gentian. Continue through and past the lake and you'll find one more sample past the lightning-casting mage. To the left of this you can drop down the ledge to the lower area to find some more Gentian there.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   },
   {
     "id": "seeds-golden-lotus",
     "name": "Golden Lotus",
     "category": "Seeds",
-    "description": "Chapter 3 > Pagoda Realm > Warding Temple: from the Shrine, drop down the cliff in front of you and then slightly merge to the right and you should see a worm-like enemy going uphill. You must farm this enemy until it drops the seed. Reset the area at the Shrine to try again. You can fast travel back to the shrine using \"Incense Trail Talisman\" item (can slot it to the quick-select items). Alternatively, you can also find these worm-like enemies around Chapter 3 > Bitter Lake > Turtle Island.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": false
   },
   {
     "id": "seeds-jade-lotus",
     "name": "Jade Lotus",
     "category": "Seeds",
-    "description": "Chapter 1 > Black Wind Cave > Cave Interior: Immediately after this Shrine, you will enter the boss arena where you fought the main boss \"Black Wind King\". In the right corner you can find this green water lily in the pond. Additionally, also farm the area in Chapter 3 > Valley of Ecstasy > Towers of Karma: from this shrine turn right and collect all the plants in the lake. Another good farming spot is in Chapter 3 > Valley of Ecstasy > Brook of Bliss: from this shrine turn around 180° and drop down the cliff, then you find plenty Jade Lotus in the lake.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": false
   },
   {
     "id": "seeds-licorice",
     "name": "Licorice",
     "category": "Seeds",
-    "description": "Chapter 2 > Secret: Kingdom of Sahali > Sandgate Bound: Licorice plant is commonly found in the desert around this Shrine, looks like a purple flower. One also spawns in Chapter 2 > Crouching Tiger Temple > Temple Entrance: turn left of the shrine and after a few steps it will be on the right of the path.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": false
   },
   {
     "id": "seeds-millenium-ginseng",
     "name": "Millenium Ginseng",
     "category": "Seeds",
-    "description": "Chapter 3 > Valley of Ecstasy > Towers of Karma: Dropped by Old Ginseng Guai Boss. From the \"Towers of Karma\" shrine turn left and you'll see a regular enemy with sickle weapons standing in front of a mural. To the right of him follow the path to the corner of the area, there is what looks like a little stone tower/altar. In front of this on the ground is a plant you can interact with. Pulling the plant from the ground will reveal this boss, it's actually not a plant at all but this hidden boss buried underground. If you haven't found Towers of Karma shrine yet, start from Forest of Felicity, go through the Torii Gate to the left, then drop down the left side to the lower area, in the back left side of the lower area is Towers of Karma shrine. It drops one seed but when given to Chen Loong it will register as two plants.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   },
-    {
+  {
     "id": "seeds-aged-ginseng",
     "name": "Aged Ginseng",
     "category": "Seeds",
-    "description": "Chapter 3 > Valley of Ecstasy > Towers of Karma: Dropped by Old Ginseng Guai Boss. From the \"Towers of Karma\" shrine turn left and you'll see a regular enemy with sickle weapons standing in front of a mural. To the right of him follow the path to the corner of the area, there is what looks like a little stone tower/altar. In front of this on the ground is a plant you can interact with. Pulling the plant from the ground will reveal this boss, it's actually not a plant at all but this hidden boss buried underground. If you haven't found Towers of Karma shrine yet, start from Forest of Felicity, go through the Torii Gate to the left, then drop down the left side to the lower area, in the back left side of the lower area is Towers of Karma shrine. It drops one seed but when given to Chen Loong it will register as two plants.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   },
   {
     "id": "seeds-monkey-head-fungus",
     "name": "Monkey-Head Fungus",
     "category": "Seeds",
-    "description": "Chapter 4 > Temple of Yellow Flowers > Court of Illumination: Dropped by Fungiwoman Boss. From the \"Court of Illumination\" Shrine, turn around and go up the stairs directly across. When there's a split in the path turn right, there's a mushroom you can pull out of the ground but it's actually this hidden boss. There's also a Drink pickup behind this boss. It drops one seed but when given to Chen Loong it will register as two plants.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": false
   },
-    {
+  {
     "id": "seeds-snake-head-mushroom",
     "name": "Snake-Head Mushroom",
     "category": "Seeds",
-    "description": "Chapter 4 > Temple of Yellow Flowers > Court of Illumination: Dropped by Fungiwoman Boss. From the \"Court of Illumination\" Shrine, turn around and go up the stairs directly across. When there's a split in the path turn right, there's a mushroom you can pull out of the ground but it's actually this hidden boss. There's also a Drink pickup behind this boss. It drops one seed but when given to Chen Loong it will register as two plants.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": false
   },
   {
     "id": "seeds-nine-capped-lingzhi",
     "name": "Nine-Capped Lingzhi",
     "category": "Seeds",
-    "description": "Chapter 5 > Field of Fire > Ashen Pass III: Dropped by Nine-Capped Lingzhi Guai Boss. To the right of \"Ashen Pass III\" shrine pull out the big red mushroom from the ground, it's this hidden boss. It drops one seed but when given to Chen Loong it will register as two plants.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": false
   },
-    {
+  {
     "id": "seeds-purple-lingzhi",
     "name": "Purple Lingzhi",
     "category": "Seeds",
-    "description": "Chapter 5 > Field of Fire > Ashen Pass III: Dropped by Nine-Capped Lingzhi Guai Boss. To the right of \"Ashen Pass III\" shrine pull out the big red mushroom from the ground, it's this hidden boss. It drops one seed but when given to Chen Loong it will register as two plants.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": false
   },
   {
     "id": "seeds-tree-pearl",
     "name": "Tree Pearl",
     "category": "Seeds",
-    "description": "Chapter 3 > Valley of Ecstasy > Towers of Karma: from the Shrine, there's a tree of this kind immediately behind you. Looks like a tree with round white fruits on it. Another one is found in the same area, behind the shrine you will find a lake, on the right side of the lake is a second tree.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-seed-locations/",
       "https://www.ign.com/wikis/black-myth-wukong"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   }
 ]

@@ -15,10 +15,6 @@ export interface Item {
   rarity?: "Common"|"Rare"|"Legendary"|"Mythical"|"Epic";
   missable?: boolean;
   ngPlusOnly?: boolean;
-  dlc?: boolean;
-  description?: string;
-  howToGet?: string;
-  notes?: string;
   sources?: string[];
 }
 

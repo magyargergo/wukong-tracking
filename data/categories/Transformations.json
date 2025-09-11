@@ -3,136 +3,146 @@
     "id": "transformations-ashen-slumber",
     "name": "Ashen Slumber",
     "category": "Transformations",
-    "description": "Rat Guai form. Abilities: Chop Wood, Blow Fire, Fiery Burst.",
-    "notes": "Defeat the Third Rat Prince across Chapters 2 & 3.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
-      "https://blackmwukong.com/transformations/"
+      "https://blackmwukong.com/transformations/",
+      "https://www.ign.com/wikis/black-myth-wukong/Ashen_Slumber"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": true
   },
   {
     "id": "transformations-azure-dome",
     "name": "Azure Dome",
     "category": "Transformations",
-    "description": "Stone Monkey form. Abilities: Primal Punch, Earthshatter Slam, Monkey Mind.",
-    "notes": "Defeat final bosses in the secret ending.",
     "sources": [
-      "https://blackmwukong.com/transformations/"
+      "https://blackmwukong.com/transformations/",
+      "https://www.ign.com/wikis/black-myth-wukong/Azure_Dome"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 6,
+    "missable": true
   },
   {
     "id": "transformations-azure-dust",
     "name": "Azure Dust",
     "category": "Transformations",
-    "description": "Rock Guai form. Abilities: Earth Shatter, Mountain Splitter, Rockfall.",
-    "notes": "Complete the Man-in-Stone side quest in Chapter 2.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
-      "https://blackmwukong.com/transformations/"
+      "https://blackmwukong.com/transformations/",
+      "https://www.ign.com/wikis/black-myth-wukong/Azure_Dust"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "transformations-dark-thunder",
     "name": "Dark Thunder",
     "category": "Transformations",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.ign.com/wikis/black-myth-wukong/Dark_Thunder"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": true
   },
   {
     "id": "transformations-ebon-flow",
     "name": "Ebon Flow",
     "category": "Transformations",
-    "description": "Yin Tiger form. Abilities: Onslaught Blade, Rift Cleaver, Windwalker.",
-    "notes": "Complete Chen Loong’s side quest in Chapter 3.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
-      "https://blackmwukong.com/transformations/"
+      "https://blackmwukong.com/transformations/",
+      "https://www.ign.com/wikis/black-myth-wukong/Ebon_Flow"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": true
   },
   {
     "id": "transformations-golden-lining",
     "name": "Golden Lining",
     "category": "Transformations",
-    "description": "Yellow Loong form. Abilities: Lightening Dance, Fatal Shadow, Death Trilogy.",
-    "notes": "Defeat Yellow Loong after completing related quests across multiple chapters.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
-      "https://blackmwukong.com/transformations/"
+      "https://blackmwukong.com/transformations/",
+      "https://www.ign.com/wikis/black-myth-wukong/Golden_Lining"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "transformations-hoarfrost",
     "name": "Hoarfrost",
     "category": "Transformations",
-    "description": "Monk from the Sea form. Abilities: Tentacle Flick, Tentacle Sweep, Ice Sheet.",
-    "notes": "Defeat the Monk from the Sea in the New Thunderclap Temple area in Chapter 3.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
-      "https://blackmwukong.com/transformations/"
+      "https://blackmwukong.com/transformations/",
+      "https://www.ign.com/wikis/black-myth-wukong/Hoarfrost"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": true
   },
   {
     "id": "transformations-red-tides",
     "name": "Red Tides",
     "category": "Transformations",
-    "description": "Wolf Guai form. Abilities: Moon Dance, Moon Chase.",
-    "notes": "Defeat Guangzhi in Chapter 1.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
-      "https://blackmwukong.com/transformations/"
+      "https://blackmwukong.com/transformations/",
+      "https://www.ign.com/wikis/black-myth-wukong/Red_Tides"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": true
   },
   {
     "id": "transformations-umbral-abyss",
     "name": "Umbral Abyss",
     "category": "Transformations",
-    "description": "Macaque Chief form. Abilities: Multiple slashes, Cold Heart, Cold Resolution.",
-    "notes": "Automatically unlocked after completing Chapter 3.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
-      "https://blackmwukong.com/transformations/"
+      "https://blackmwukong.com/transformations/",
+      "https://www.ign.com/wikis/black-myth-wukong/Umbral_Abyss"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": true
   },
   {
     "id": "transformations-violet-hail",
     "name": "Violet Hail",
     "category": "Transformations",
-    "description": "Worm Guai form. Abilities: Slash, Self-Torment, Hive Mind, Detonation.",
-    "notes": "Defeat Daoist Mi in the Chapter 4 secret area.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-spell-locations/",
       "https://www.ign.com/wikis/black-myth-wukong",
       "https://blackmwukong.com/transformations/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": false
   }
 ]

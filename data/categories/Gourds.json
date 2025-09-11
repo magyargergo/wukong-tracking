@@ -3,7 +3,6 @@
     "id": "gourds-trailblazer-s-scarlet-gourd",
     "name": "Trailblazer’s Scarlet Gourd",
     "category": "Gourds",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-gourd-locations/",
       "https://game8.co/games/Black-Myth-Wukong/archives/468711",
@@ -11,146 +10,168 @@
       "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/"
     ],
     "confidence": 99,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": false
   },
   {
     "id": "gourds-old-gourd",
     "name": "Old Gourd",
     "category": "Gourds",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-gourd-locations/",
       "https://game8.co/games/Black-Myth-Wukong/archives/468711",
       "https://www.gamerguides.com/black-myth-wukong/guide/items/gourd-upgrades/all-gourd-locations",
-      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/"
+      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/",
+      "https://www.ign.com/wikis/black-myth-wukong/Old_Gourd"
     ],
     "confidence": 99,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": true
   },
   {
     "id": "gourds-plaguebane-gourd",
     "name": "Plaguebane Gourd",
     "category": "Gourds",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-gourd-locations/",
       "https://game8.co/games/Black-Myth-Wukong/archives/468711",
       "https://www.gamerguides.com/black-myth-wukong/guide/items/gourd-upgrades/all-gourd-locations",
-      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/"
+      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/",
+      "https://www.ign.com/wikis/black-myth-wukong/Plaguebane_Gourd"
     ],
     "confidence": 99,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "gourds-jade-lotus-gourd",
     "name": "Jade Lotus Gourd",
     "category": "Gourds",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-gourd-locations/",
       "https://game8.co/games/Black-Myth-Wukong/archives/468711",
       "https://www.gamerguides.com/black-myth-wukong/guide/items/gourd-upgrades/all-gourd-locations",
-      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/"
+      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/",
+      "https://www.ign.com/wikis/black-myth-wukong/Jade_Lotus_Gourd"
     ],
     "confidence": 99,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": true
   },
   {
     "id": "gourds-fiery-gourd",
     "name": "Fiery Gourd",
     "category": "Gourds",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-gourd-locations/",
       "https://game8.co/games/Black-Myth-Wukong/archives/468711",
       "https://www.gamerguides.com/black-myth-wukong/guide/items/gourd-upgrades/all-gourd-locations",
-      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/"
+      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/",
+      "https://www.ign.com/wikis/black-myth-wukong/Fiery_Gourd"
     ],
     "confidence": 99,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": true
   },
   {
     "id": "gourds-xiang-river-goddess-gourd",
     "name": "Xiang River Goddess Gourd",
     "category": "Gourds",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-gourd-locations/",
       "https://game8.co/games/Black-Myth-Wukong/archives/468711",
       "https://www.gamerguides.com/black-myth-wukong/guide/items/gourd-upgrades/all-gourd-locations",
-      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/"
+      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/",
+      "https://www.ign.com/wikis/black-myth-wukong/Xiang_River_Goddess_Gourd"
     ],
     "confidence": 99,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "gourds-stained-jade-gourd",
     "name": "Stained Jade Gourd",
     "category": "Gourds",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-gourd-locations/",
       "https://game8.co/games/Black-Myth-Wukong/archives/468711",
       "https://www.gamerguides.com/black-myth-wukong/guide/items/gourd-upgrades/all-gourd-locations",
-      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/"
+      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/",
+      "https://www.ign.com/wikis/black-myth-wukong/Stained_Jade_Gourd"
     ],
     "confidence": 99,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "gourds-qing-tian-gourd",
     "name": "Qing-Tian Gourd",
     "category": "Gourds",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-gourd-locations/",
       "https://game8.co/games/Black-Myth-Wukong/archives/468711",
       "https://www.gamerguides.com/black-myth-wukong/guide/items/gourd-upgrades/all-gourd-locations",
-      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/"
+      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/",
+      "https://www.ign.com/wikis/black-myth-wukong/Qing-Tian_Gourd"
     ],
     "confidence": 99,
-    "verified": true
+    "verified": true,
+    "chapter": 6,
+    "missable": true
   },
   {
     "id": "gourds-immortal-blessing-gourd",
     "name": "Immortal Blessing Gourd",
     "category": "Gourds",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-gourd-locations/",
       "https://game8.co/games/Black-Myth-Wukong/archives/468711",
       "https://www.gamerguides.com/black-myth-wukong/guide/items/gourd-upgrades/all-gourd-locations",
-      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/"
+      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/",
+      "https://www.ign.com/wikis/black-myth-wukong/Immortal_Blessing_Gourd"
     ],
     "confidence": 99,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": true
   },
   {
     "id": "gourds-supreme-gourd",
     "name": "Supreme Gourd",
     "category": "Gourds",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-gourd-locations/",
       "https://game8.co/games/Black-Myth-Wukong/archives/468711",
       "https://www.gamerguides.com/black-myth-wukong/guide/items/gourd-upgrades/all-gourd-locations",
-      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/"
+      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/",
+      "https://www.ign.com/wikis/black-myth-wukong/Supreme_Gourd"
     ],
     "confidence": 99,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": true
   },
   {
     "id": "gourds-multi-glazed-gourd",
     "name": "Multi-Glazed Gourd",
     "category": "Gourds",
-    "description": "",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-gourd-locations/",
       "https://game8.co/games/Black-Myth-Wukong/archives/468711",
       "https://www.gamerguides.com/black-myth-wukong/guide/items/gourd-upgrades/all-gourd-locations",
-      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/"
+      "https://thegameslayer.com/guides/black-myth-wukong-all-gourds-locations-benefits/",
+      "https://www.ign.com/wikis/black-myth-wukong/Multi-Glazed_Gourd"
     ],
     "confidence": 99,
-    "verified": true
+    "verified": true,
+    "chapter": 6,
+    "missable": true
   }
 ]

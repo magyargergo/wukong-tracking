@@ -3,288 +3,312 @@
     "id": "meditationspots-the-arbor-forest-of-wolves",
     "name": "The Arbor, Forest Of Wolves",
     "category": "MeditationSpots",
-    "description": "Chapter 1: Located near the 'Outside the Forest' Shrine. After passing through a cave, you'll find this spot within a dilapidated wooden structure overlooking a cliff.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://www.gamerguides.com/black-myth-wukong/guide/meditation-spots/chapter-1/black-wind-mountain-meditation-spots-locations"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": false
   },
   {
     "id": "meditationspots-the-cavern-bamboo-grove",
     "name": "The Cavern, Bamboo Grove",
     "category": "MeditationSpots",
-    "description": "Chapter 1: Near the 'Back Hills' Shrine. Descend the stairs, turn left, and enter a cave where a non-hostile NPC resides; the Meditation Spot is inside.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://www.gamerguides.com/black-myth-wukong/guide/meditation-spots/chapter-1/black-wind-mountain-meditation-spots-locations"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": false
   },
   {
     "id": "meditationspots-the-cliff-black-wind-cave",
     "name": "The Cliff, Black Wind Cave",
     "category": "MeditationSpots",
-    "description": "Chapter 1: After defeating the Whiteclad Noble in the 'Marsh of White Mist,' exit through a cave and find this spot on a wooden platform overlooking a chasm.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://www.gamerguides.com/black-myth-wukong/guide/meditation-spots/chapter-1/black-wind-mountain-meditation-spots-locations"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": false
   },
   {
     "id": "meditationspots-the-altar-sandgate-village",
     "name": "The Altar, Sandgate Village",
     "category": "MeditationSpots",
-    "description": "Chapter 2: Near the 'Village Entrance' Shrine. Drop into a ravine, proceed through a cave, and find this spot near a dilapidated structure overlooking the Lang-Li-Guhh-Baw boss area.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-2-yellow-wind-ridge-all-6-meditation-spots-locations-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "meditationspots-the-deadwood-rockrest-flat",
     "name": "The Deadwood, Rockrest Flat",
     "category": "MeditationSpots",
-    "description": "Chapter 2: From the 'Rockrest Flat' Shrine, head left to an open area with a large tree near the cliffs; the Meditation Spot is nearby.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-2-yellow-wind-ridge-all-6-meditation-spots-locations-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "meditationspots-the-ravine-rock-clash-platform",
     "name": "The Ravine, Rock Clash Platform",
     "category": "MeditationSpots",
-    "description": "Chapter 2: From the 'Rock Clash Platform' Shrine, proceed forward to find this spot between two Buddha statues.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-2-yellow-wind-ridge-all-6-meditation-spots-locations-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "meditationspots-the-sculpture-crouching-tiger-temple",
     "name": "The Sculpture, Crouching Tiger Temple",
     "category": "MeditationSpots",
-    "description": "Chapter 2: From the 'Temple Entrance' Shrine, ascend the stairs and enter the second opening on the left to find this spot before the main temple gate.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-2-yellow-wind-ridge-all-6-meditation-spots-locations-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "meditationspots-the-grotto-yellow-wind-formation",
     "name": "The Grotto, Yellow Wind Formation",
     "category": "MeditationSpots",
-    "description": "Chapter 2: From the 'Cellar' Shrine, descend the slope, take the right path, and find this spot near an NPC carving stones.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-2-yellow-wind-ridge-all-6-meditation-spots-locations-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "meditationspots-the-rock-sandgate-bound",
     "name": "The Rock, Sandgate Bound",
     "category": "MeditationSpots",
-    "description": "Chapter 2: In the secret area 'Kingdom of Sahali,' from the 'Sandgate Bound' Shrine, head left to find this spot on a ridge overlooking the desert.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-2-yellow-wind-ridge-all-6-meditation-spots-locations-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "meditationspots-the-shade-mirrormere",
     "name": "The Shade, Mirrormere",
     "category": "MeditationSpots",
-    "description": "Chapter 3: From the 'Mirrormere' Shrine, head straight toward the frozen lake; the spot is atop a rock platform before the lake.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerant.com/black-myth-wukong-find-all-new-west-meditation-spots/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   },
   {
     "id": "meditationspots-the-bottom-pagoda-realm",
     "name": "The Bottom, Pagoda Realm",
     "category": "MeditationSpots",
-    "description": "Chapter 3: From the 'Outside the Wheel' Shrine, proceed through a cave, exit, and break a wooden fence near a golden container to find this spot.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerant.com/black-myth-wukong-find-all-new-west-meditation-spots/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   },
   {
     "id": "meditationspots-the-statue-precept-corridor",
     "name": "The Statue, Precept Corridor",
     "category": "MeditationSpots",
-    "description": "Chapter 3: From the 'Precept Corridor' Shrine, head forward; the spot is to the left after dropping from a wooden platform.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerant.com/black-myth-wukong-find-all-new-west-meditation-spots/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   },
   {
     "id": "meditationspots-the-track-mindfulness-cliff",
     "name": "The Track, Mindfulness Cliff",
     "category": "MeditationSpots",
-    "description": "Chapter 3: From the 'Mindfulness Cliff' Shrine, follow the path to the second encounter with the 'Non-White' boss; the spot is in the boss arena.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerant.com/black-myth-wukong-find-all-new-west-meditation-spots/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   },
   {
     "id": "meditationspots-the-hall-new-thunderclap-temple",
     "name": "The Hall, New Thunderclap Temple",
     "category": "MeditationSpots",
-    "description": "Chapter 3: From the 'Mahavira Hall' Shrine, descend the stairs, enter the Side Hall to the left, defeat the 'Non-Pure' boss, and find the spot inside.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerant.com/black-myth-wukong-find-all-new-west-meditation-spots/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 3,
+    "missable": false
   },
   {
     "id": "meditationspots-the-carvings-pool-of-shattered-jade",
     "name": "The Carvings, Pool Of Shattered Jade",
     "category": "MeditationSpots",
-    "description": "Chapter 4: From the 'Pool of Shattered Jade' Shrine, turn around to find the spot in the pond.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-4-all-6-meditation-spots-locations-the-webbed-hollow-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "meditationspots-the-tree-middle-hollow",
     "name": "The Tree, Middle Hollow",
     "category": "MeditationSpots",
-    "description": "Chapter 4: From the 'Middle Hollow' Shrine, turn around; the spot is opposite the shrine.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-4-all-6-meditation-spots-locations-the-webbed-hollow-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "meditationspots-cave-depths-lower-hollow",
     "name": "Cave Depths, Lower Hollow",
     "category": "MeditationSpots",
-    "description": "Chapter 4: From the 'Lower Hollow' Shrine, turn left, enter a tunnel, squeeze through a wall crack, and find the spot.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-4-all-6-meditation-spots-locations-the-webbed-hollow-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "meditationspots-the-height-forest-of-ferocity",
     "name": "The Height, Forest Of Ferocity",
     "category": "MeditationSpots",
-    "description": "Chapter 4: From the 'Forest of Ferocity' Shrine, head left to find the spot at the cliff's edge.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-4-all-6-meditation-spots-locations-the-webbed-hollow-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "meditationspots-the-pines-temple-of-yellow-flowers",
     "name": "The Pines, Temple Of Yellow Flowers",
     "category": "MeditationSpots",
-    "description": "Chapter 4: From the 'Temple Entrance' Shrine, enter the temple, proceed slightly right through the gate, and find the spot.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-4-all-6-meditation-spots-locations-the-webbed-hollow-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "meditationspots-the-ledge-purple-cloud-mountain",
     "name": "The Ledge, Purple Cloud Mountain",
     "category": "MeditationSpots",
-    "description": "Chapter 4: In the secret area 'Purple Cloud Mountain,' from the 'Valley of Blooms' Shrine, jump left into the water, proceed left through the woods to a Torii Gate, and find the spot up the hill.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-4-all-6-meditation-spots-locations-the-webbed-hollow-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "meditationspots-the-relief-camp-of-seasons",
     "name": "The Relief, Camp Of Seasons",
     "category": "MeditationSpots",
-    "description": "Chapter 5: From the 'Camp of Seasons' Shrine, cross two bridges, ascend the stairs on the right to find the spot.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-5-flaming-mountains-all-4-meditation-spots-locations-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": true
   },
   {
     "id": "meditationspots-the-buddha-the-emerald-hall",
     "name": "The Buddha, The Emerald Hall",
     "category": "MeditationSpots",
-    "description": "Chapter 5: After the 'Emerald Hall' Shrine, defeat the Yin-Yang Fish boss; the spot is at the hall's end opposite the throne.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-5-flaming-mountains-all-4-meditation-spots-locations-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": true
   },
   {
     "id": "meditationspots-the-crag-ashen-pass-iii",
     "name": "The Crag, Ashen Pass III",
     "category": "MeditationSpots",
-    "description": "Chapter 5: From the 'Ashen Pass III' Shrine, jump over rocks on the right to find the spot hidden behind.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-5-flaming-mountains-all-4-meditation-spots-locations-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": true
   },
   {
     "id": "meditationspots-the-screen-purge-pit",
     "name": "The Screen, Purge Pit",
     "category": "MeditationSpots",
-    "description": "Chapter 5: In the secret area 'Bishui Cave,' from the 'Purge Pit' Shrine, go down the path; the spot is on the left.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-meditation-spots-locations/",
       "https://gamerpillar.com/chapter-5-flaming-mountains-all-4-meditation-spots-locations-black-myth-wukong/"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": true
   }
 ]

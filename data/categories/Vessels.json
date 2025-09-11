@@ -3,52 +3,56 @@
     "id": "vessels-fireproof-mantle",
     "name": "Fireproof Mantle",
     "category": "Vessels",
-    "description": "Provides burn immunity and gradually increases Focus upon activation.",
-    "notes": "Reward for finishing the Chapter 1 Secret Area \"Ancient Guanyin Temple\". Ring all 3 Bells in Chapter 1. Ringing the third bell teleports you to the Secret Area \"Ancient Guanyin Temple\". Here you must beat the boss \"Elder Jinchi\". After beating \"Elder Jinchi\", you are teleported back to the third bell. Here interact with the body that hangs in front of the third bell to receive the Fireproof Mantle vessel.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-vessel-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.ign.com/wikis/black-myth-wukong/Fireproof_Mantle"
     ],
     "confidence": 6,
-    "verified": true
+    "verified": true,
+    "chapter": 1,
+    "missable": true
   },
   {
     "id": "vessels-weaver-s-needle",
     "name": "Weaver’s Needle",
     "category": "Vessels",
-    "description": "Upon activation, it relentlessly homes in on and attacks enemies.",
-    "notes": "Reward for finishing the Chapter 4 Secret Area \"Purple Cloud Mountain\". You must defeat a boss called \"Venom Daoist\" in two separate locations to enter the secret area. Then defeat the boss in the secret area for the Vessel. Defeat the Venom Daoist at Webbed Hollow > Pool of Shattered Jade. Defeat Venom Daoist a second time at Temple of the Yellow Flower > Court of Illumination. After the fight, interact with the wall in front of you to enter the secret area \"Purple Cloud Mountain\". In Purple Cloud Mountain defeat the boss \"The Duskveil\". After beating him you unlock the Weaver's Needle vessel.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-vessel-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.ign.com/wikis/black-myth-wukong/Weaver's_Needle"
     ],
     "confidence": 6,
-    "verified": true
+    "verified": true,
+    "chapter": 4,
+    "missable": true
   },
   {
     "id": "vessels-wind-tamer",
     "name": "Wind Tamer",
     "category": "Vessels",
-    "description": "Massively increases damage reduction and grants immunity to strong winds when activated.",
-    "notes": "Reward for finishing the Chapter 2 Secret Area \"Kingdom of Sahali\". Complete the Drunken Boar's Questline to reach the Chapter 2 Secret Area. After finishing the questline you enter the Secret Area \"Kingdom of Sahali\". Here you must defeat the boss \"Tiger Vanguard\". Then talk to the NPC standing on the cliff in front of you to trigger the boss fight against \"Fuban\". Defeat him to get the Wind Tamer vessel.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-vessel-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.ign.com/wikis/black-myth-wukong/Wind_Tamer"
     ],
     "confidence": 6,
-    "verified": true
+    "verified": true,
+    "chapter": 2,
+    "missable": true
   },
   {
     "id": "vessels-plantain-fan",
     "name": "Plantain Fan",
     "category": "Vessels",
-    "description": "Creates a hurricane that lifts enemies airborne when activated.",
-    "notes": "Automatic story-related reward for finishing Chapter 5, can't miss it. After Chapter 5 you will receive it in the rewards screen before Chapter 6 begins.",
     "sources": [
       "https://www.powerpyx.com/black-myth-wukong-all-vessel-locations/",
-      "https://www.ign.com/wikis/black-myth-wukong"
+      "https://www.ign.com/wikis/black-myth-wukong",
+      "https://www.ign.com/wikis/black-myth-wukong/Plantain_Fan"
     ],
     "confidence": 5.5,
-    "verified": true
+    "verified": true,
+    "chapter": 5,
+    "missable": true
   }
 ]
